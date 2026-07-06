@@ -1,0 +1,349 @@
+nohup: ignoring input
+/home/23bq1a4293/.local/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.0.7) or chardet (6.0.0.post1)/charset_normalizer (2.0.4) doesn't match a supported version!
+  warnings.warn(
+Device  : cuda
+Output  : /home/23bq1a4293/Personal/project/models/Segmentation/pituitary/v5
+Total cases: 50/50
+
+===========================================================================
+5-FOLD CROSS VALIDATION
+===========================================================================
+
+===========================================================================
+FOLD 1/5 — Train: 40 | Val: 10
+Val PIDs: ['sub-014', 'sub-018', 'sub-020', 'sub-026', 'sub-027', 'sub-031', 'sub-033', 'sub-040', 'sub-046', 'sub-049']
+===========================================================================
+Train slices (fg): 498 | Val: 115
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+  Ep 001/300 | LR=2.00e-04 | TrLoss=2.2984 | VaLoss=2.0591 | MeanDice=0.0144 | tumor:0.052 gland:0.000 ICA-L:0.010 ICA-R:0.006 chiasm:0.003
+  ✅ Fold 1 new best Dice=0.0144
+  ✅ Fold 1 new best Dice=0.0849
+  ✅ Fold 1 new best Dice=0.1375
+  ✅ Fold 1 new best Dice=0.2348
+  ✅ Fold 1 new best Dice=0.2578
+  Ep 010/300 | LR=1.00e-03 | TrLoss=1.1897 | VaLoss=1.2918 | MeanDice=0.2805 | tumor:0.706 gland:0.025 ICA-L:0.111 ICA-R:0.366 chiasm:0.194
+  ✅ Fold 1 new best Dice=0.2805
+  ✅ Fold 1 new best Dice=0.3233
+  ✅ Fold 1 new best Dice=0.3418
+  ✅ Fold 1 new best Dice=0.3438
+  ✅ Fold 1 new best Dice=0.3748
+  ✅ Fold 1 new best Dice=0.4130
+  Ep 020/300 | LR=9.97e-04 | TrLoss=0.9670 | VaLoss=1.1646 | MeanDice=0.4243 | tumor:0.740 gland:0.101 ICA-L:0.313 ICA-R:0.506 chiasm:0.462
+  ✅ Fold 1 new best Dice=0.4243
+  ✅ Fold 1 new best Dice=0.4491
+  ✅ Fold 1 new best Dice=0.4644
+  ✅ Fold 1 new best Dice=0.5200
+  ✅ Fold 1 new best Dice=0.5255
+  ✅ Fold 1 new best Dice=0.5559
+  Ep 030/300 | LR=9.88e-04 | TrLoss=0.8880 | VaLoss=1.0266 | MeanDice=0.5260 | tumor:0.706 gland:0.130 ICA-L:0.632 ICA-R:0.663 chiasm:0.498
+  ✅ Fold 1 new best Dice=0.5940
+  ✅ Fold 1 new best Dice=0.6145
+  Ep 040/300 | LR=9.74e-04 | TrLoss=0.8386 | VaLoss=0.9772 | MeanDice=0.6194 | tumor:0.764 gland:0.347 ICA-L:0.711 ICA-R:0.748 chiasm:0.527
+  ✅ Fold 1 new best Dice=0.6194
+  ✅ Fold 1 new best Dice=0.6236
+  Ep 050/300 | LR=9.54e-04 | TrLoss=0.8177 | VaLoss=0.9956 | MeanDice=0.6141 | tumor:0.740 gland:0.281 ICA-L:0.742 ICA-R:0.751 chiasm:0.556
+  ✅ Fold 1 new best Dice=0.6271
+  Ep 060/300 | LR=9.28e-04 | TrLoss=0.8043 | VaLoss=1.0214 | MeanDice=0.5997 | tumor:0.771 gland:0.216 ICA-L:0.718 ICA-R:0.747 chiasm:0.546
+  ✅ Fold 1 new best Dice=0.6330
+  Ep 070/300 | LR=8.98e-04 | TrLoss=0.7665 | VaLoss=1.0679 | MeanDice=0.6359 | tumor:0.708 gland:0.469 ICA-L:0.718 ICA-R:0.726 chiasm:0.559
+  ✅ Fold 1 new best Dice=0.6359
+  ✅ Fold 1 new best Dice=0.6384
+  Ep 080/300 | LR=8.63e-04 | TrLoss=0.7577 | VaLoss=1.0468 | MeanDice=0.5836 | tumor:0.770 gland:0.153 ICA-L:0.709 ICA-R:0.742 chiasm:0.545
+  Ep 090/300 | LR=8.24e-04 | TrLoss=0.7449 | VaLoss=1.0312 | MeanDice=0.6136 | tumor:0.750 gland:0.323 ICA-L:0.717 ICA-R:0.711 chiasm:0.568
+  Ep 100/300 | LR=7.81e-04 | TrLoss=0.7264 | VaLoss=1.0896 | MeanDice=0.5827 | tumor:0.756 gland:0.184 ICA-L:0.709 ICA-R:0.709 chiasm:0.555
+  Ep 110/300 | LR=7.34e-04 | TrLoss=0.7135 | VaLoss=1.0449 | MeanDice=0.6075 | tumor:0.776 gland:0.265 ICA-L:0.701 ICA-R:0.733 chiasm:0.563
+  Ep 120/300 | LR=6.85e-04 | TrLoss=0.7187 | VaLoss=1.0682 | MeanDice=0.5679 | tumor:0.759 gland:0.126 ICA-L:0.685 ICA-R:0.713 chiasm:0.557
+  Ep 130/300 | LR=6.34e-04 | TrLoss=0.7000 | VaLoss=1.0707 | MeanDice=0.5899 | tumor:0.763 gland:0.235 ICA-L:0.678 ICA-R:0.709 chiasm:0.564
+  ⏹️  Early stop fold 1 at epoch 139
+  Fold 1 best: 0.6384 @ep79
+
+===========================================================================
+FOLD 2/5 — Train: 40 | Val: 10
+Val PIDs: ['sub-004', 'sub-005', 'sub-007', 'sub-009', 'sub-013', 'sub-016', 'sub-038', 'sub-042', 'sub-047', 'sub-048']
+===========================================================================
+Train slices (fg): 488 | Val: 123
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+  Ep 001/300 | LR=2.00e-04 | TrLoss=2.2207 | VaLoss=1.9793 | MeanDice=0.0247 | tumor:0.107 gland:0.000 ICA-L:0.005 ICA-R:0.009 chiasm:0.003
+  ✅ Fold 2 new best Dice=0.0247
+  ✅ Fold 2 new best Dice=0.0878
+  ✅ Fold 2 new best Dice=0.1594
+  ✅ Fold 2 new best Dice=0.1917
+  ✅ Fold 2 new best Dice=0.2027
+  ✅ Fold 2 new best Dice=0.2288
+  ✅ Fold 2 new best Dice=0.2464
+  Ep 010/300 | LR=1.00e-03 | TrLoss=1.1730 | VaLoss=1.2529 | MeanDice=0.2359 | tumor:0.597 gland:0.000 ICA-L:0.306 ICA-R:0.076 chiasm:0.200
+  ✅ Fold 2 new best Dice=0.2790
+  ✅ Fold 2 new best Dice=0.2952
+  ✅ Fold 2 new best Dice=0.3441
+  ✅ Fold 2 new best Dice=0.3600
+  ✅ Fold 2 new best Dice=0.3771
+  Ep 020/300 | LR=9.97e-04 | TrLoss=0.9568 | VaLoss=1.2026 | MeanDice=0.3599 | tumor:0.712 gland:0.010 ICA-L:0.443 ICA-R:0.242 chiasm:0.393
+  ✅ Fold 2 new best Dice=0.3781
+  ✅ Fold 2 new best Dice=0.3860
+  ✅ Fold 2 new best Dice=0.4089
+  ✅ Fold 2 new best Dice=0.4234
+  ✅ Fold 2 new best Dice=0.4781
+  Ep 030/300 | LR=9.88e-04 | TrLoss=0.8784 | VaLoss=1.1475 | MeanDice=0.4855 | tumor:0.712 gland:0.036 ICA-L:0.660 ICA-R:0.592 chiasm:0.428
+  ✅ Fold 2 new best Dice=0.4855
+  ✅ Fold 2 new best Dice=0.4974
+  ✅ Fold 2 new best Dice=0.5003
+  ✅ Fold 2 new best Dice=0.5305
+  Ep 040/300 | LR=9.74e-04 | TrLoss=0.8208 | VaLoss=1.0613 | MeanDice=0.5249 | tumor:0.741 gland:0.050 ICA-L:0.682 ICA-R:0.686 chiasm:0.465
+  ✅ Fold 2 new best Dice=0.5313
+  Ep 050/300 | LR=9.54e-04 | TrLoss=0.8013 | VaLoss=1.0783 | MeanDice=0.5359 | tumor:0.765 gland:0.081 ICA-L:0.694 ICA-R:0.694 chiasm:0.445
+  ✅ Fold 2 new best Dice=0.5359
+  ✅ Fold 2 new best Dice=0.5400
+  ✅ Fold 2 new best Dice=0.5434
+  Ep 060/300 | LR=9.28e-04 | TrLoss=0.7837 | VaLoss=1.1498 | MeanDice=0.5427 | tumor:0.750 gland:0.185 ICA-L:0.666 ICA-R:0.668 chiasm:0.444
+  Ep 070/300 | LR=8.98e-04 | TrLoss=0.7714 | VaLoss=1.0961 | MeanDice=0.4996 | tumor:0.759 gland:0.000 ICA-L:0.623 ICA-R:0.657 chiasm:0.459
+  ✅ Fold 2 new best Dice=0.5446
+  Ep 080/300 | LR=8.63e-04 | TrLoss=0.7408 | VaLoss=1.1699 | MeanDice=0.5060 | tumor:0.749 gland:0.048 ICA-L:0.651 ICA-R:0.624 chiasm:0.458
+  Ep 090/300 | LR=8.24e-04 | TrLoss=0.7408 | VaLoss=1.1559 | MeanDice=0.5237 | tumor:0.774 gland:0.035 ICA-L:0.675 ICA-R:0.693 chiasm:0.441
+  Ep 100/300 | LR=7.81e-04 | TrLoss=0.7533 | VaLoss=1.1738 | MeanDice=0.5346 | tumor:0.751 gland:0.104 ICA-L:0.698 ICA-R:0.670 chiasm:0.450
+  Ep 110/300 | LR=7.34e-04 | TrLoss=0.7115 | VaLoss=1.1357 | MeanDice=0.5327 | tumor:0.769 gland:0.053 ICA-L:0.676 ICA-R:0.708 chiasm:0.458
+  ✅ Fold 2 new best Dice=0.5467
+  Ep 120/300 | LR=6.85e-04 | TrLoss=0.7275 | VaLoss=1.1847 | MeanDice=0.5115 | tumor:0.761 gland:0.018 ICA-L:0.656 ICA-R:0.677 chiasm:0.445
+  Ep 130/300 | LR=6.34e-04 | TrLoss=0.7163 | VaLoss=1.2192 | MeanDice=0.5216 | tumor:0.771 gland:0.067 ICA-L:0.645 ICA-R:0.690 chiasm:0.435
+  Ep 140/300 | LR=5.81e-04 | TrLoss=0.6989 | VaLoss=1.2019 | MeanDice=0.5034 | tumor:0.758 gland:0.025 ICA-L:0.622 ICA-R:0.666 chiasm:0.445
+  Ep 150/300 | LR=5.27e-04 | TrLoss=0.6939 | VaLoss=1.2126 | MeanDice=0.5176 | tumor:0.762 gland:0.005 ICA-L:0.690 ICA-R:0.703 chiasm:0.429
+  Ep 160/300 | LR=4.73e-04 | TrLoss=0.6865 | VaLoss=1.2338 | MeanDice=0.4992 | tumor:0.771 gland:0.015 ICA-L:0.611 ICA-R:0.654 chiasm:0.445
+  Ep 170/300 | LR=4.19e-04 | TrLoss=0.6775 | VaLoss=1.2927 | MeanDice=0.4700 | tumor:0.758 gland:0.040 ICA-L:0.530 ICA-R:0.573 chiasm:0.449
+  ⏹️  Early stop fold 2 at epoch 178
+  Fold 2 best: 0.5467 @ep118
+
+===========================================================================
+FOLD 3/5 — Train: 40 | Val: 10
+Val PIDs: ['sub-001', 'sub-006', 'sub-010', 'sub-017', 'sub-025', 'sub-028', 'sub-032', 'sub-034', 'sub-035', 'sub-045']
+===========================================================================
+Train slices (fg): 494 | Val: 124
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+  Ep 001/300 | LR=2.00e-04 | TrLoss=2.0585 | VaLoss=1.9312 | MeanDice=0.0332 | tumor:0.139 gland:0.000 ICA-L:0.017 ICA-R:0.009 chiasm:0.001
+  ✅ Fold 3 new best Dice=0.0332
+  ✅ Fold 3 new best Dice=0.1306
+  ✅ Fold 3 new best Dice=0.1769
+  ✅ Fold 3 new best Dice=0.2628
+  Ep 010/300 | LR=1.00e-03 | TrLoss=1.1604 | VaLoss=1.1536 | MeanDice=0.2478 | tumor:0.687 gland:0.000 ICA-L:0.311 ICA-R:0.049 chiasm:0.193
+  ✅ Fold 3 new best Dice=0.2736
+  ✅ Fold 3 new best Dice=0.3087
+  ✅ Fold 3 new best Dice=0.3223
+  ✅ Fold 3 new best Dice=0.4121
+  Ep 020/300 | LR=9.97e-04 | TrLoss=0.9812 | VaLoss=1.0304 | MeanDice=0.4669 | tumor:0.720 gland:0.364 ICA-L:0.473 ICA-R:0.345 chiasm:0.432
+  ✅ Fold 3 new best Dice=0.4669
+  ✅ Fold 3 new best Dice=0.4866
+  ✅ Fold 3 new best Dice=0.5050
+  ✅ Fold 3 new best Dice=0.5159
+  ✅ Fold 3 new best Dice=0.5312
+  ✅ Fold 3 new best Dice=0.5525
+  ✅ Fold 3 new best Dice=0.5649
+  ✅ Fold 3 new best Dice=0.5725
+  Ep 030/300 | LR=9.88e-04 | TrLoss=0.8705 | VaLoss=0.9000 | MeanDice=0.5492 | tumor:0.686 gland:0.358 ICA-L:0.661 ICA-R:0.625 chiasm:0.416
+  ✅ Fold 3 new best Dice=0.5864
+  Ep 040/300 | LR=9.74e-04 | TrLoss=0.8341 | VaLoss=0.8626 | MeanDice=0.5774 | tumor:0.713 gland:0.347 ICA-L:0.704 ICA-R:0.646 chiasm:0.477
+  ✅ Fold 3 new best Dice=0.5889
+  Ep 050/300 | LR=9.54e-04 | TrLoss=0.8134 | VaLoss=0.8963 | MeanDice=0.5790 | tumor:0.716 gland:0.297 ICA-L:0.718 ICA-R:0.708 chiasm:0.456
+  ✅ Fold 3 new best Dice=0.5895
+  Ep 060/300 | LR=9.28e-04 | TrLoss=0.8013 | VaLoss=0.8891 | MeanDice=0.5663 | tumor:0.717 gland:0.301 ICA-L:0.684 ICA-R:0.679 chiasm:0.449
+  ✅ Fold 3 new best Dice=0.5937
+  Ep 070/300 | LR=8.98e-04 | TrLoss=0.7757 | VaLoss=0.8937 | MeanDice=0.5485 | tumor:0.708 gland:0.194 ICA-L:0.701 ICA-R:0.671 chiasm:0.468
+  Ep 080/300 | LR=8.63e-04 | TrLoss=0.7700 | VaLoss=0.8910 | MeanDice=0.5837 | tumor:0.720 gland:0.292 ICA-L:0.709 ICA-R:0.714 chiasm:0.484
+  ✅ Fold 3 new best Dice=0.6021
+  Ep 090/300 | LR=8.24e-04 | TrLoss=0.7492 | VaLoss=0.9101 | MeanDice=0.5781 | tumor:0.724 gland:0.291 ICA-L:0.709 ICA-R:0.687 chiasm:0.480
+  Ep 100/300 | LR=7.81e-04 | TrLoss=0.7387 | VaLoss=0.9170 | MeanDice=0.5799 | tumor:0.732 gland:0.269 ICA-L:0.718 ICA-R:0.706 chiasm:0.475
+  Ep 110/300 | LR=7.34e-04 | TrLoss=0.7350 | VaLoss=0.9154 | MeanDice=0.5712 | tumor:0.730 gland:0.192 ICA-L:0.720 ICA-R:0.727 chiasm:0.487
+  Ep 120/300 | LR=6.85e-04 | TrLoss=0.7293 | VaLoss=0.9399 | MeanDice=0.5867 | tumor:0.740 gland:0.278 ICA-L:0.726 ICA-R:0.710 chiasm:0.479
+  Ep 130/300 | LR=6.34e-04 | TrLoss=0.7220 | VaLoss=0.9044 | MeanDice=0.5774 | tumor:0.742 gland:0.229 ICA-L:0.725 ICA-R:0.710 chiasm:0.481
+  Ep 140/300 | LR=5.81e-04 | TrLoss=0.7086 | VaLoss=0.9161 | MeanDice=0.5633 | tumor:0.726 gland:0.240 ICA-L:0.707 ICA-R:0.668 chiasm:0.474
+  ⏹️  Early stop fold 3 at epoch 149
+  Fold 3 best: 0.6021 @ep89
+
+===========================================================================
+FOLD 4/5 — Train: 40 | Val: 10
+Val PIDs: ['sub-002', 'sub-003', 'sub-012', 'sub-022', 'sub-024', 'sub-030', 'sub-036', 'sub-037', 'sub-041', 'sub-044']
+===========================================================================
+Train slices (fg): 483 | Val: 129
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+  Ep 001/300 | LR=2.00e-04 | TrLoss=2.2425 | VaLoss=2.1582 | MeanDice=0.0203 | tumor:0.088 gland:0.000 ICA-L:0.004 ICA-R:0.002 chiasm:0.007
+  ✅ Fold 4 new best Dice=0.0203
+  ✅ Fold 4 new best Dice=0.0283
+  ✅ Fold 4 new best Dice=0.0854
+  ✅ Fold 4 new best Dice=0.1503
+  ✅ Fold 4 new best Dice=0.1944
+  ✅ Fold 4 new best Dice=0.2039
+  ✅ Fold 4 new best Dice=0.2182
+  Ep 010/300 | LR=1.00e-03 | TrLoss=1.1941 | VaLoss=1.1652 | MeanDice=0.1988 | tumor:0.564 gland:0.000 ICA-L:0.247 ICA-R:0.017 chiasm:0.166
+  ✅ Fold 4 new best Dice=0.2213
+  ✅ Fold 4 new best Dice=0.2363
+  ✅ Fold 4 new best Dice=0.2803
+  ✅ Fold 4 new best Dice=0.3407
+  ✅ Fold 4 new best Dice=0.3737
+  ✅ Fold 4 new best Dice=0.3770
+  Ep 020/300 | LR=9.97e-04 | TrLoss=0.9844 | VaLoss=0.9697 | MeanDice=0.4051 | tumor:0.631 gland:0.177 ICA-L:0.520 ICA-R:0.263 chiasm:0.434
+  ✅ Fold 4 new best Dice=0.4051
+  ✅ Fold 4 new best Dice=0.4164
+  ✅ Fold 4 new best Dice=0.4404
+  ✅ Fold 4 new best Dice=0.4642
+  ✅ Fold 4 new best Dice=0.5218
+  Ep 030/300 | LR=9.88e-04 | TrLoss=0.9032 | VaLoss=0.8714 | MeanDice=0.5091 | tumor:0.633 gland:0.163 ICA-L:0.652 ICA-R:0.609 chiasm:0.489
+  ✅ Fold 4 new best Dice=0.5787
+  Ep 040/300 | LR=9.74e-04 | TrLoss=0.8433 | VaLoss=0.8553 | MeanDice=0.5544 | tumor:0.663 gland:0.235 ICA-L:0.682 ICA-R:0.658 chiasm:0.534
+  ✅ Fold 4 new best Dice=0.5924
+  Ep 050/300 | LR=9.54e-04 | TrLoss=0.8324 | VaLoss=0.8689 | MeanDice=0.5340 | tumor:0.638 gland:0.144 ICA-L:0.693 ICA-R:0.653 chiasm:0.543
+  ✅ Fold 4 new best Dice=0.5941
+  Ep 060/300 | LR=9.28e-04 | TrLoss=0.8056 | VaLoss=0.8629 | MeanDice=0.5398 | tumor:0.656 gland:0.172 ICA-L:0.668 ICA-R:0.652 chiasm:0.551
+  Ep 070/300 | LR=8.98e-04 | TrLoss=0.8005 | VaLoss=0.8358 | MeanDice=0.5870 | tumor:0.685 gland:0.302 ICA-L:0.720 ICA-R:0.682 chiasm:0.546
+  ✅ Fold 4 new best Dice=0.5986
+  ✅ Fold 4 new best Dice=0.6038
+  Ep 080/300 | LR=8.63e-04 | TrLoss=0.7766 | VaLoss=0.8451 | MeanDice=0.5707 | tumor:0.685 gland:0.254 ICA-L:0.659 ICA-R:0.695 chiasm:0.560
+  Ep 090/300 | LR=8.24e-04 | TrLoss=0.7494 | VaLoss=0.8360 | MeanDice=0.6056 | tumor:0.706 gland:0.293 ICA-L:0.739 ICA-R:0.733 chiasm:0.556
+  ✅ Fold 4 new best Dice=0.6056
+  Ep 100/300 | LR=7.81e-04 | TrLoss=0.7435 | VaLoss=0.8645 | MeanDice=0.5686 | tumor:0.688 gland:0.128 ICA-L:0.727 ICA-R:0.736 chiasm:0.563
+  Ep 110/300 | LR=7.34e-04 | TrLoss=0.7237 | VaLoss=0.9057 | MeanDice=0.5208 | tumor:0.707 gland:0.216 ICA-L:0.577 ICA-R:0.544 chiasm:0.559
+  Ep 120/300 | LR=6.85e-04 | TrLoss=0.7192 | VaLoss=0.8814 | MeanDice=0.5538 | tumor:0.679 gland:0.163 ICA-L:0.698 ICA-R:0.676 chiasm:0.553
+  Ep 130/300 | LR=6.34e-04 | TrLoss=0.7138 | VaLoss=0.8652 | MeanDice=0.5556 | tumor:0.678 gland:0.216 ICA-L:0.679 ICA-R:0.653 chiasm:0.552
+  Ep 140/300 | LR=5.81e-04 | TrLoss=0.6946 | VaLoss=0.9209 | MeanDice=0.5114 | tumor:0.667 gland:0.115 ICA-L:0.662 ICA-R:0.561 chiasm:0.551
+  Ep 150/300 | LR=5.27e-04 | TrLoss=0.7042 | VaLoss=0.8841 | MeanDice=0.5562 | tumor:0.696 gland:0.233 ICA-L:0.686 ICA-R:0.618 chiasm:0.547
+  ⏹️  Early stop fold 4 at epoch 150
+  Fold 4 best: 0.6056 @ep90
+
+===========================================================================
+FOLD 5/5 — Train: 40 | Val: 10
+Val PIDs: ['sub-008', 'sub-011', 'sub-015', 'sub-019', 'sub-021', 'sub-023', 'sub-029', 'sub-039', 'sub-043', 'sub-050']
+===========================================================================
+Train slices (fg): 481 | Val: 133
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+  Ep 001/300 | LR=2.00e-04 | TrLoss=2.2566 | VaLoss=2.1019 | MeanDice=0.0218 | tumor:0.105 gland:0.000 ICA-L:0.003 ICA-R:0.001 chiasm:0.000
+  ✅ Fold 5 new best Dice=0.0218
+  ✅ Fold 5 new best Dice=0.0550
+  ✅ Fold 5 new best Dice=0.1026
+  ✅ Fold 5 new best Dice=0.1420
+  ✅ Fold 5 new best Dice=0.2077
+  ✅ Fold 5 new best Dice=0.2290
+  Ep 010/300 | LR=1.00e-03 | TrLoss=1.2015 | VaLoss=1.3157 | MeanDice=0.2280 | tumor:0.647 gland:0.006 ICA-L:0.042 ICA-R:0.226 chiasm:0.218
+  ✅ Fold 5 new best Dice=0.2436
+  ✅ Fold 5 new best Dice=0.2897
+  ✅ Fold 5 new best Dice=0.3823
+  ✅ Fold 5 new best Dice=0.3903
+  ✅ Fold 5 new best Dice=0.4018
+  Ep 020/300 | LR=9.97e-04 | TrLoss=0.9929 | VaLoss=1.2827 | MeanDice=0.3942 | tumor:0.653 gland:0.300 ICA-L:0.345 ICA-R:0.251 chiasm:0.422
+  ✅ Fold 5 new best Dice=0.4241
+  ✅ Fold 5 new best Dice=0.4532
+  ✅ Fold 5 new best Dice=0.5138
+  ✅ Fold 5 new best Dice=0.5285
+  ✅ Fold 5 new best Dice=0.5456
+  ✅ Fold 5 new best Dice=0.5490
+  Ep 030/300 | LR=9.88e-04 | TrLoss=0.8818 | VaLoss=1.0486 | MeanDice=0.5400 | tumor:0.683 gland:0.295 ICA-L:0.622 ICA-R:0.644 chiasm:0.456
+  ✅ Fold 5 new best Dice=0.5675
+  Ep 040/300 | LR=9.74e-04 | TrLoss=0.8447 | VaLoss=1.1197 | MeanDice=0.5515 | tumor:0.657 gland:0.341 ICA-L:0.631 ICA-R:0.666 chiasm:0.463
+  ✅ Fold 5 new best Dice=0.5713
+  ✅ Fold 5 new best Dice=0.5775
+  ✅ Fold 5 new best Dice=0.5781
+  ✅ Fold 5 new best Dice=0.5821
+  ✅ Fold 5 new best Dice=0.5837
+  ✅ Fold 5 new best Dice=0.5907
+  Ep 050/300 | LR=9.54e-04 | TrLoss=0.8135 | VaLoss=1.1022 | MeanDice=0.5962 | tumor:0.680 gland:0.406 ICA-L:0.700 ICA-R:0.691 chiasm:0.503
+  ✅ Fold 5 new best Dice=0.5962
+  ✅ Fold 5 new best Dice=0.5971
+  ✅ Fold 5 new best Dice=0.5988
+  ✅ Fold 5 new best Dice=0.6046
+  Ep 060/300 | LR=9.28e-04 | TrLoss=0.8040 | VaLoss=1.1449 | MeanDice=0.5887 | tumor:0.690 gland:0.391 ICA-L:0.672 ICA-R:0.653 chiasm:0.537
+  ✅ Fold 5 new best Dice=0.6071
+  Ep 070/300 | LR=8.98e-04 | TrLoss=0.7741 | VaLoss=1.1393 | MeanDice=0.5908 | tumor:0.681 gland:0.356 ICA-L:0.685 ICA-R:0.703 chiasm:0.528
+  Ep 080/300 | LR=8.63e-04 | TrLoss=0.7724 | VaLoss=1.2148 | MeanDice=0.5651 | tumor:0.671 gland:0.308 ICA-L:0.656 ICA-R:0.665 chiasm:0.525
+  Ep 090/300 | LR=8.24e-04 | TrLoss=0.7558 | VaLoss=1.2596 | MeanDice=0.5454 | tumor:0.645 gland:0.324 ICA-L:0.636 ICA-R:0.630 chiasm:0.491
+  Ep 100/300 | LR=7.81e-04 | TrLoss=0.7523 | VaLoss=1.0602 | MeanDice=0.6015 | tumor:0.714 gland:0.364 ICA-L:0.682 ICA-R:0.697 chiasm:0.550
+  Ep 110/300 | LR=7.34e-04 | TrLoss=0.7310 | VaLoss=1.1514 | MeanDice=0.5753 | tumor:0.698 gland:0.348 ICA-L:0.651 ICA-R:0.649 chiasm:0.531
+  Ep 120/300 | LR=6.85e-04 | TrLoss=0.7151 | VaLoss=1.1207 | MeanDice=0.5764 | tumor:0.711 gland:0.405 ICA-L:0.581 ICA-R:0.643 chiasm:0.542
+  ⏹️  Early stop fold 5 at epoch 121
+  Fold 5 best: 0.6071 @ep61
+
+===========================================================================
+ALL FOLDS COMPLETE
+===========================================================================
+  Fold 1: best val Dice = 0.6384
+  Fold 2: best val Dice = 0.5467
+  Fold 3: best val Dice = 0.6021
+  Fold 4: best val Dice = 0.6056
+  Fold 5: best val Dice = 0.6071
+  Mean across folds: 0.6000 ± 0.0297
+
+===========================================================================
+PER-PATIENT TTA EVALUATION (each patient evaluated on its val fold)
+===========================================================================
+
+PID            Tumor   Gland   ICA-L   ICA-R  Chiasm    Mean
+----------------------------------------------------------
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+sub-001        0.593    0.000    0.386    0.384    0.676    0.408
+sub-002        0.540    0.190    0.464    0.438    0.604    0.447
+sub-003        0.895    0.030    0.026    0.301    0.699    0.390
+sub-004        0.860    0.000    0.235    0.287    0.627    0.402
+sub-005        0.838    0.000    0.262    0.355    0.409    0.373
+sub-006        0.891    0.418    0.321    0.237    0.263    0.426
+sub-007        0.886    0.000    0.324    0.413    0.528    0.430
+sub-008        0.468    0.165    0.180    0.364    0.533    0.342
+sub-009        0.844    0.006    0.354    0.487    0.319    0.402
+sub-010        0.903    0.000    0.418    0.357    0.249    0.385
+sub-011        0.746    0.000    0.436    0.227    0.643    0.410
+sub-012        0.784    0.562    0.429    0.416    0.691    0.576
+sub-013        0.456    0.000    0.258    0.396    0.327    0.287
+sub-014        0.848    0.000    0.243    0.533    0.509    0.426
+sub-015        0.887    0.071    0.134    0.237    0.642    0.394
+sub-016        0.844    0.302    0.390    0.454    0.428    0.484
+sub-017        0.915    0.000    0.407    0.435    0.618    0.475
+sub-018        0.879    0.535    0.202    0.490    0.676    0.557
+sub-019        0.653    0.671    0.166    0.504    0.647    0.528
+sub-020        0.711    0.000    0.260    0.526    0.642    0.428
+sub-021        0.825    0.154    0.159    0.309    0.029    0.295
+sub-022        0.804    0.252    0.307    0.426    0.561    0.470
+sub-023        0.849    0.000    0.154    0.465    0.440    0.382
+sub-024        0.770    0.470    0.430    0.449    0.545    0.533
+sub-025        0.561    0.305    0.411    0.233    0.421    0.386
+sub-026        0.824    0.401    0.164    0.467    0.613    0.494
+sub-027        0.771    0.000    0.219    0.448    0.671    0.422
+sub-028        0.856    0.129    0.373    0.312    0.472    0.429
+sub-029        0.847    0.000    0.287    0.537    0.630    0.460
+sub-030        0.913    0.000    0.400    0.535    0.549    0.479
+sub-031        0.803    0.000    0.133    0.544    0.390    0.374
+sub-032        0.876    0.000    0.376    0.288    0.442    0.396
+sub-033        0.683    0.000    0.193    0.463    0.572    0.382
+sub-034        0.817    0.458    0.491    0.259    0.597    0.524
+sub-035        0.913    0.114    0.320    0.497    0.384    0.446
+sub-036        0.786    0.000    0.342    0.503    0.694    0.465
+sub-037        0.551    0.301    0.371    0.402    0.440    0.413
+sub-038        0.896    0.000    0.321    0.229    0.397    0.369
+sub-039        0.907    0.372    0.094    0.401    0.524    0.459
+sub-040        0.769    0.000    0.138    0.563    0.678    0.430
+sub-041        0.578    0.157    0.451    0.584    0.594    0.473
+sub-042        0.806    0.000    0.201    0.462    0.673    0.428
+sub-043        0.746    0.677    0.245    0.414    0.499    0.516
+sub-044        0.864    0.423    0.549    0.473    0.433    0.548
+sub-045        0.858    0.000    0.404    0.287    0.582    0.426
+sub-046        0.716    0.207    0.329    0.517    0.562    0.466
+sub-047        0.923    0.130    0.506    0.150    0.589    0.459
+sub-048        0.871    0.177    0.419    0.426    0.610    0.501
+sub-049        0.845    0.000    0.252    0.441    0.517    0.411
+sub-050        0.718    0.000    0.039    0.355    0.519    0.326
+----------------------------------------------------------
+Mean          0.788    0.153    0.299    0.406    0.527    0.435
+Std           0.121    0.200    0.124    0.104    0.136
+
+===========================================================================
+COMPARISON: V1 vs V5 (5-fold+gland fix+TTA)
+===========================================================================
+
+Class              V1       V5    Delta
+-----------------------------------
+tumor           0.814    0.788   -0.026 ❌
+gland           0.179    0.153   -0.026 ❌
+ICA-L           0.747    0.299   -0.448 ❌
+ICA-R           0.770    0.406   -0.364 ❌
+chiasm          0.532    0.527   -0.005 ❌
+mean            0.609    0.435   -0.174 ❌
+
+✅ All done! Results saved to: /home/23bq1a4293/Personal/project/models/Segmentation/pituitary/v5
+   5 fold models: fold1_best.pth ... fold5_best.pth
+   Final results: final_results.json

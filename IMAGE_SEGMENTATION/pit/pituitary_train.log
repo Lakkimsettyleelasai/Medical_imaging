@@ -1,0 +1,79 @@
+nohup: ignoring input
+/home/23bq1a4293/.local/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.0.7) or chardet (6.0.0.post1)/charset_normalizer (2.0.4) doesn't match a supported version!
+  warnings.warn(
+Device  : cuda
+Output  : /home/23bq1a4293/Personal/project/models/Segmentation/pituitary
+Valid cases : 50/50
+Train: 40 | Val: 10
+Val PIDs: ['sub-026', 'sub-024', 'sub-020', 'sub-012', 'sub-005', 'sub-046', 'sub-027', 'sub-010', 'sub-030', 'sub-017']
+
+Extracting slices...
+Train slices (all/fg): 502/490
+Val   slices         : 122
+Train batches: 61 | Val batches: 16
+BasicUNet features: (32, 32, 64, 128, 256, 32).
+Model params: 1,975,832
+
+===========================================================================
+TRAINING START
+===========================================================================
+Ep 001/300 | LR=2.00e-04 | TrLoss=1.8865 | VaLoss=1.7951 | MeanDice=0.0121 | tumor:0.057 gland:0.000 ICA-L:0.000 ICA-R:0.001 chiasm:0.003
+  ✅ New best Dice=0.0121 saved.
+  ✅ New best Dice=0.0189 saved.
+  ✅ New best Dice=0.0758 saved.
+  ✅ New best Dice=0.1040 saved.
+  ✅ New best Dice=0.1444 saved.
+  ✅ New best Dice=0.1934 saved.
+  ✅ New best Dice=0.1987 saved.
+  ✅ New best Dice=0.2487 saved.
+  ✅ New best Dice=0.2520 saved.
+Ep 010/300 | LR=1.00e-03 | TrLoss=1.0846 | VaLoss=1.0480 | MeanDice=0.2573 | tumor:0.711 gland:0.000 ICA-L:0.285 ICA-R:0.036 chiasm:0.254
+  ✅ New best Dice=0.2573 saved.
+  ✅ New best Dice=0.2721 saved.
+  ✅ New best Dice=0.2822 saved.
+  ✅ New best Dice=0.3530 saved.
+  ✅ New best Dice=0.4262 saved.
+  ✅ New best Dice=0.4880 saved.
+  ✅ New best Dice=0.5458 saved.
+Ep 020/300 | LR=9.97e-04 | TrLoss=0.8315 | VaLoss=0.7687 | MeanDice=0.5586 | tumor:0.725 gland:0.207 ICA-L:0.670 ICA-R:0.714 chiasm:0.477
+  ✅ New best Dice=0.5586 saved.
+  ✅ New best Dice=0.5633 saved.
+  ✅ New best Dice=0.5950 saved.
+  ✅ New best Dice=0.6065 saved.
+Ep 030/300 | LR=9.88e-04 | TrLoss=0.7739 | VaLoss=0.7541 | MeanDice=0.5762 | tumor:0.716 gland:0.284 ICA-L:0.613 ICA-R:0.754 chiasm:0.514
+  ✅ New best Dice=0.6094 saved.
+  ✅ New best Dice=0.6129 saved.
+  ✅ New best Dice=0.6173 saved.
+  ✅ New best Dice=0.6278 saved.
+Ep 040/300 | LR=9.74e-04 | TrLoss=0.7363 | VaLoss=0.7386 | MeanDice=0.5970 | tumor:0.734 gland:0.268 ICA-L:0.714 ICA-R:0.741 chiasm:0.527
+  ✅ New best Dice=0.6374 saved.
+Ep 050/300 | LR=9.54e-04 | TrLoss=0.7231 | VaLoss=0.7293 | MeanDice=0.6121 | tumor:0.738 gland:0.308 ICA-L:0.728 ICA-R:0.741 chiasm:0.545
+  ✅ New best Dice=0.6401 saved.
+Ep 060/300 | LR=9.28e-04 | TrLoss=0.7042 | VaLoss=0.7251 | MeanDice=0.6273 | tumor:0.754 gland:0.382 ICA-L:0.726 ICA-R:0.725 chiasm:0.548
+  ✅ New best Dice=0.6442 saved.
+Ep 070/300 | LR=8.98e-04 | TrLoss=0.6948 | VaLoss=0.7316 | MeanDice=0.6180 | tumor:0.696 gland:0.358 ICA-L:0.719 ICA-R:0.770 chiasm:0.546
+Ep 080/300 | LR=8.63e-04 | TrLoss=0.6834 | VaLoss=0.7234 | MeanDice=0.6188 | tumor:0.745 gland:0.314 ICA-L:0.724 ICA-R:0.757 chiasm:0.554
+Ep 090/300 | LR=8.24e-04 | TrLoss=0.6853 | VaLoss=0.7388 | MeanDice=0.5861 | tumor:0.752 gland:0.160 ICA-L:0.705 ICA-R:0.758 chiasm:0.555
+Ep 100/300 | LR=7.81e-04 | TrLoss=0.6662 | VaLoss=0.7311 | MeanDice=0.5926 | tumor:0.760 gland:0.158 ICA-L:0.738 ICA-R:0.750 chiasm:0.557
+Ep 110/300 | LR=7.34e-04 | TrLoss=0.6582 | VaLoss=0.7296 | MeanDice=0.6029 | tumor:0.771 gland:0.196 ICA-L:0.732 ICA-R:0.760 chiasm:0.555
+Ep 120/300 | LR=6.85e-04 | TrLoss=0.6533 | VaLoss=0.7319 | MeanDice=0.6009 | tumor:0.747 gland:0.208 ICA-L:0.723 ICA-R:0.764 chiasm:0.563
+
+⏹️  Early stop at epoch 123
+
+✅ Best Mean Dice: 0.6442 at epoch 63
+
+===========================================================================
+FINAL PER-PATIENT EVALUATION (best model)
+===========================================================================
+Traceback (most recent call last):
+  File "/home/23bq1a4293/Personal/project/IMAGE_SEGMENTATION/pit/train_pituitary.py", line 393, in <module>
+    ckpt = torch.load(os.path.join(CFG["output_dir"], "best_model.pth"),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/23bq1a4293/.local/lib/python3.11/site-packages/torch/serialization.py", line 1548, in load
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

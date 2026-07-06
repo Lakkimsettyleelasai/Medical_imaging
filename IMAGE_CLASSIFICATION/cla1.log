@@ -1,0 +1,1993 @@
+nohup: ignoring input
+/home/23bq1a4293/.local/lib/python3.11/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+  Model loaded : ./radiomic_output/brain_tumor_classifier.pkl
+  Classes      : ['glioma', 'healthy', 'meningioma', 'pituitary']
+  Feature cols : 53
+
+=======================================================
+  BATCH INFERENCE : MENINGIOMA
+  Patients        : 1000
+  True label      : meningioma
+  Output          : meningioma_inference_20260528_0914.csv
+=======================================================
+
+
+meningioma:   0%|          | 0/1000 [00:00<?, ?it/s]
+meningioma:   0%|          | 1/1000 [00:32<9:06:37, 32.83s/it]
+meningioma:   0%|          | 2/1000 [00:46<5:53:56, 21.28s/it]
+meningioma:   0%|          | 3/1000 [01:15<6:53:53, 24.91s/it]
+meningioma:   0%|          | 4/1000 [01:39<6:46:15, 24.47s/it]
+meningioma:   0%|          | 5/1000 [02:18<8:16:59, 29.97s/it]
+meningioma:   1%|          | 6/1000 [02:42<7:42:36, 27.92s/it]
+meningioma:   1%|          | 7/1000 [02:57<6:31:26, 23.65s/it]
+meningioma:   1%|          | 8/1000 [03:32<7:30:24, 27.24s/it]
+meningioma:   1%|          | 9/1000 [03:49<6:35:59, 23.98s/it]
+meningioma:   1%|          | 10/1000 [04:20<7:13:23, 26.27s/it]
+meningioma:   1%|          | 11/1000 [04:45<7:07:53, 25.96s/it]
+meningioma:   1%|          | 12/1000 [05:05<6:37:16, 24.13s/it]
+meningioma:   1%|▏         | 13/1000 [05:17<5:35:01, 20.37s/it]
+meningioma:   1%|▏         | 14/1000 [05:35<5:21:26, 19.56s/it]
+meningioma:   2%|▏         | 15/1000 [05:46<4:37:28, 16.90s/it]
+meningioma:   2%|▏         | 16/1000 [06:58<9:11:12, 33.61s/it]
+meningioma:   2%|▏         | 17/1000 [07:20<8:13:47, 30.14s/it]
+meningioma:   2%|▏         | 18/1000 [07:44<7:44:33, 28.38s/it]
+meningioma:   2%|▏         | 19/1000 [07:51<5:57:42, 21.88s/it]
+meningioma:   2%|▏         | 20/1000 [08:13<5:56:43, 21.84s/it]
+meningioma:   2%|▏         | 21/1000 [08:40<6:22:37, 23.45s/it]
+meningioma:   2%|▏         | 22/1000 [08:59<5:58:27, 21.99s/it]
+meningioma:   2%|▏         | 23/1000 [09:20<5:56:26, 21.89s/it]
+meningioma:   2%|▏         | 24/1000 [09:56<7:05:07, 26.14s/it]
+meningioma:   2%|▎         | 25/1000 [10:06<5:42:43, 21.09s/it]
+meningioma:   3%|▎         | 26/1000 [11:18<9:53:53, 36.58s/it]
+meningioma:   3%|▎         | 27/1000 [11:27<7:37:33, 28.22s/it]
+meningioma:   3%|▎         | 28/1000 [11:38<6:13:02, 23.03s/it]
+meningioma:   3%|▎         | 29/1000 [11:50<5:17:07, 19.60s/it]
+meningioma:   3%|▎         | 30/1000 [12:05<4:56:07, 18.32s/it]
+meningioma:   3%|▎         | 31/1000 [12:18<4:29:27, 16.68s/it]
+meningioma:   3%|▎         | 32/1000 [13:13<7:37:31, 28.36s/it]
+meningioma:   3%|▎         | 33/1000 [13:22<6:01:41, 22.44s/it]
+meningioma:   3%|▎         | 34/1000 [14:23<9:07:33, 34.01s/it]
+meningioma:   4%|▎         | 35/1000 [15:28<11:38:48, 43.45s/it]
+meningioma:   4%|▎         | 36/1000 [15:33<8:29:20, 31.70s/it] 
+meningioma:   4%|▎         | 37/1000 [15:56<7:46:29, 29.06s/it]
+meningioma:   4%|▍         | 38/1000 [16:23<7:39:41, 28.67s/it]
+meningioma:   4%|▍         | 39/1000 [16:42<6:50:54, 25.65s/it]
+meningioma:   4%|▍         | 40/1000 [17:35<9:03:55, 34.00s/it]
+meningioma:   4%|▍         | 41/1000 [18:06<8:44:54, 32.84s/it]
+meningioma:   4%|▍         | 42/1000 [18:40<8:49:30, 33.16s/it]
+meningioma:   4%|▍         | 43/1000 [19:04<8:04:55, 30.40s/it]
+meningioma:   4%|▍         | 44/1000 [19:19<6:53:14, 25.94s/it]
+meningioma:   4%|▍         | 45/1000 [19:40<6:27:40, 24.36s/it]
+meningioma:   5%|▍         | 46/1000 [20:03<6:22:26, 24.05s/it]
+meningioma:   5%|▍         | 47/1000 [20:27<6:23:15, 24.13s/it]
+meningioma:   5%|▍         | 48/1000 [21:09<7:45:08, 29.32s/it]
+meningioma:   5%|▍         | 49/1000 [22:36<12:19:32, 46.66s/it]
+meningioma:   5%|▌         | 50/1000 [22:45<9:20:13, 35.38s/it] 
+meningioma:   5%|▌         | 51/1000 [22:55<7:18:57, 27.75s/it]
+meningioma:   5%|▌         | 52/1000 [23:43<8:55:47, 33.91s/it]
+meningioma:   5%|▌         | 53/1000 [24:04<7:52:21, 29.93s/it]
+meningioma:   5%|▌         | 54/1000 [24:20<6:46:45, 25.80s/it]
+meningioma:   6%|▌         | 55/1000 [24:49<7:02:15, 26.81s/it]
+meningioma:   6%|▌         | 56/1000 [25:05<6:11:56, 23.64s/it]
+meningioma:   6%|▌         | 57/1000 [25:44<7:20:51, 28.05s/it]
+meningioma:   6%|▌         | 58/1000 [26:39<9:30:29, 36.34s/it]
+meningioma:   6%|▌         | 59/1000 [26:58<8:04:57, 30.92s/it]
+meningioma:   6%|▌         | 60/1000 [27:05<6:15:40, 23.98s/it]
+meningioma:   6%|▌         | 61/1000 [27:59<8:33:54, 32.84s/it]
+meningioma:   6%|▌         | 62/1000 [28:30<8:22:35, 32.15s/it]
+meningioma:   6%|▋         | 63/1000 [29:09<8:56:22, 34.35s/it]
+meningioma:   6%|▋         | 64/1000 [29:46<9:08:56, 35.19s/it]
+meningioma:   6%|▋         | 65/1000 [30:11<8:20:13, 32.10s/it]
+meningioma:   7%|▋         | 66/1000 [31:05<10:02:29, 38.70s/it]
+meningioma:   7%|▋         | 67/1000 [31:47<10:18:40, 39.79s/it]
+meningioma:   7%|▋         | 68/1000 [32:19<9:37:54, 37.20s/it] 
+meningioma:   7%|▋         | 69/1000 [32:37<8:10:01, 31.58s/it]
+meningioma:   7%|▋         | 70/1000 [33:26<9:30:16, 36.79s/it]
+meningioma:   7%|▋         | 71/1000 [33:54<8:49:12, 34.18s/it]
+meningioma:   7%|▋         | 72/1000 [34:18<8:01:18, 31.12s/it]
+meningioma:   7%|▋         | 73/1000 [35:15<10:02:15, 38.98s/it]
+meningioma:   7%|▋         | 74/1000 [35:41<9:01:15, 35.07s/it] 
+meningioma:   8%|▊         | 75/1000 [35:56<7:24:45, 28.85s/it]
+meningioma:   8%|▊         | 76/1000 [36:21<7:09:43, 27.90s/it]
+meningioma:   8%|▊         | 77/1000 [36:52<7:20:41, 28.65s/it]
+meningioma:   8%|▊         | 78/1000 [37:09<6:28:11, 25.26s/it]
+meningioma:   8%|▊         | 79/1000 [38:00<8:26:57, 33.03s/it]
+meningioma:   8%|▊         | 80/1000 [38:22<7:35:10, 29.68s/it]
+meningioma:   8%|▊         | 81/1000 [39:02<8:22:40, 32.82s/it]
+meningioma:   8%|▊         | 82/1000 [39:46<9:11:04, 36.02s/it]
+meningioma:   8%|▊         | 83/1000 [39:55<7:07:49, 27.99s/it]
+meningioma:   8%|▊         | 84/1000 [40:16<6:34:50, 25.86s/it]
+meningioma:   8%|▊         | 85/1000 [40:54<7:30:04, 29.51s/it]
+meningioma:   9%|▊         | 86/1000 [41:04<5:58:34, 23.54s/it]
+meningioma:   9%|▊         | 87/1000 [41:13<4:51:23, 19.15s/it]
+meningioma:   9%|▉         | 88/1000 [41:31<4:49:08, 19.02s/it]
+meningioma:   9%|▉         | 89/1000 [42:07<6:05:53, 24.10s/it]
+meningioma:   9%|▉         | 90/1000 [42:42<6:53:48, 27.28s/it]
+meningioma:   9%|▉         | 91/1000 [43:06<6:38:34, 26.31s/it]
+meningioma:   9%|▉         | 92/1000 [43:42<7:22:20, 29.23s/it]
+meningioma:   9%|▉         | 93/1000 [44:03<6:44:00, 26.73s/it]
+meningioma:   9%|▉         | 94/1000 [44:31<6:51:06, 27.23s/it]
+meningioma:  10%|▉         | 95/1000 [45:10<7:42:01, 30.63s/it]
+meningioma:  10%|▉         | 96/1000 [45:41<7:44:41, 30.84s/it]
+meningioma:  10%|▉         | 97/1000 [46:18<8:09:39, 32.53s/it]
+meningioma:  10%|▉         | 98/1000 [47:08<9:30:34, 37.95s/it]
+meningioma:  10%|▉         | 99/1000 [48:11<11:21:08, 45.36s/it]
+meningioma:  10%|█         | 100/1000 [48:47<10:39:46, 42.65s/it]
+meningioma:  10%|█         | 101/1000 [48:59<8:20:36, 33.41s/it] 
+meningioma:  10%|█         | 102/1000 [49:20<7:22:33, 29.57s/it]
+meningioma:  10%|█         | 103/1000 [49:43<6:52:04, 27.56s/it]  [  1/1000] BraTS-MEN-00004-000                      MENINGIOMA   [high]  ✓
+  [  2/1000] BraTS-MEN-00008-000                      MENINGIOMA   [high]  ✓
+  [  3/1000] BraTS-MEN-00010-000                      MENINGIOMA   [high]  ✓
+  [  4/1000] BraTS-MEN-00012-000                      MENINGIOMA   [high]  ✓
+  [  5/1000] BraTS-MEN-00016-000                      MENINGIOMA   [high]  ✓
+  [  6/1000] BraTS-MEN-00017-000                      MENINGIOMA   [high]  ✓
+  [  7/1000] BraTS-MEN-00018-000                      MENINGIOMA   [high]  ✓
+  [  8/1000] BraTS-MEN-00020-000                      MENINGIOMA   [high]  ✓
+  [  9/1000] BraTS-MEN-00021-000                      MENINGIOMA   [high]  ✓
+  [ 10/1000] BraTS-MEN-00022-000                      MENINGIOMA   [high]  ✓
+  [ 11/1000] BraTS-MEN-00023-000                      MENINGIOMA   [medium]  ✓
+  [ 12/1000] BraTS-MEN-00024-000                      MENINGIOMA   [high]  ✓
+  [ 13/1000] BraTS-MEN-00025-000                      MENINGIOMA   [high]  ✓
+  [ 14/1000] BraTS-MEN-00026-000                      MENINGIOMA   [high]  ✓
+  [ 15/1000] BraTS-MEN-00027-000                      MENINGIOMA   [high]  ✓
+  [ 16/1000] BraTS-MEN-00028-000                      MENINGIOMA   [high]  ✓
+  [ 17/1000] BraTS-MEN-00031-000                      MENINGIOMA   [high]  ✓
+  [ 18/1000] BraTS-MEN-00032-000                      MENINGIOMA   [high]  ✓
+  [ 19/1000] BraTS-MEN-00033-000                      MENINGIOMA   [high]  ✓
+  [ 20/1000] BraTS-MEN-00034-000                      MENINGIOMA   [high]  ✓
+  [ 21/1000] BraTS-MEN-00037-000                      MENINGIOMA   [high]  ✓
+  [ 22/1000] BraTS-MEN-00040-000                      MENINGIOMA   [high]  ✓
+  [ 23/1000] BraTS-MEN-00041-000                      MENINGIOMA   [high]  ✓
+  [ 24/1000] BraTS-MEN-00042-000                      MENINGIOMA   [high]  ✓
+  [ 25/1000] BraTS-MEN-00043-000                      MENINGIOMA   [high]  ✓
+  [ 26/1000] BraTS-MEN-00045-000                      MENINGIOMA   [high]  ✓
+  [ 27/1000] BraTS-MEN-00047-000                      MENINGIOMA   [high]  ✓
+  [ 28/1000] BraTS-MEN-00048-000                      MENINGIOMA   [high]  ✓
+  [ 29/1000] BraTS-MEN-00052-000                      MENINGIOMA   [high]  ✓
+  [ 30/1000] BraTS-MEN-00053-000                      MENINGIOMA   [high]  ✓
+  [ 31/1000] BraTS-MEN-00054-000                      MENINGIOMA   [high]  ✓
+  [ 32/1000] BraTS-MEN-00056-000                      MENINGIOMA   [high]  ✓
+  [ 33/1000] BraTS-MEN-00057-000                      MENINGIOMA   [high]  ✓
+  [ 34/1000] BraTS-MEN-00059-000                      MENINGIOMA   [high]  ✓
+  [ 35/1000] BraTS-MEN-00060-000                      MENINGIOMA   [high]  ✓
+  [ 36/1000] BraTS-MEN-00061-000                      MENINGIOMA   [high]  ✓
+  [ 37/1000] BraTS-MEN-00062-000                      MENINGIOMA   [high]  ✓
+  [ 38/1000] BraTS-MEN-00065-000                      MENINGIOMA   [high]  ✓
+  [ 39/1000] BraTS-MEN-00066-000                      MENINGIOMA   [high]  ✓
+  [ 40/1000] BraTS-MEN-00067-000                      MENINGIOMA   [high]  ✓
+  [ 41/1000] BraTS-MEN-00069-000                      MENINGIOMA   [high]  ✓
+  [ 42/1000] BraTS-MEN-00070-000                      MENINGIOMA   [high]  ✓
+  [ 43/1000] BraTS-MEN-00071-000                      MENINGIOMA   [high]  ✓
+  [ 44/1000] BraTS-MEN-00073-000                      MENINGIOMA   [high]  ✓
+  [ 45/1000] BraTS-MEN-00074-000                      MENINGIOMA   [high]  ✓
+  [ 46/1000] BraTS-MEN-00074-003                      MENINGIOMA   [high]  ✓
+  [ 47/1000] BraTS-MEN-00074-004                      MENINGIOMA   [high]  ✓
+  [ 48/1000] BraTS-MEN-00074-005                      MENINGIOMA   [high]  ✓
+  [ 49/1000] BraTS-MEN-00074-006                      MENINGIOMA   [high]  ✓
+  [ 50/1000] BraTS-MEN-00074-007                      MENINGIOMA   [high]  ✓
+  [ 51/1000] BraTS-MEN-00074-008                      MENINGIOMA   [high]  ✓
+  [ 52/1000] BraTS-MEN-00074-009                      MENINGIOMA   [high]  ✓
+  [ 53/1000] BraTS-MEN-00075-000                      MENINGIOMA   [high]  ✓
+  [ 54/1000] BraTS-MEN-00076-000                      MENINGIOMA   [high]  ✓
+  [ 55/1000] BraTS-MEN-00077-000                      MENINGIOMA   [high]  ✓
+  [ 56/1000] BraTS-MEN-00078-000                      MENINGIOMA   [high]  ✓
+  [ 57/1000] BraTS-MEN-00081-000                      MENINGIOMA   [high]  ✓
+  [ 58/1000] BraTS-MEN-00083-000                      MENINGIOMA   [high]  ✓
+  [ 59/1000] BraTS-MEN-00084-000                      MENINGIOMA   [high]  ✓
+  [ 60/1000] BraTS-MEN-00085-000                      MENINGIOMA   [high]  ✓
+  [ 61/1000] BraTS-MEN-00086-000                      MENINGIOMA   [high]  ✓
+  [ 62/1000] BraTS-MEN-00087-000                      MENINGIOMA   [high]  ✓
+  [ 63/1000] BraTS-MEN-00088-000                      MENINGIOMA   [high]  ✓
+  [ 64/1000] BraTS-MEN-00090-000                      MENINGIOMA   [high]  ✓
+  [ 65/1000] BraTS-MEN-00093-000                      MENINGIOMA   [high]  ✓
+  [ 66/1000] BraTS-MEN-00094-000                      MENINGIOMA   [high]  ✓
+  [ 67/1000] BraTS-MEN-00096-000                      MENINGIOMA   [high]  ✓
+  [ 68/1000] BraTS-MEN-00101-000                      MENINGIOMA   [high]  ✓
+  [ 69/1000] BraTS-MEN-00102-000                      MENINGIOMA   [high]  ✓
+  [ 70/1000] BraTS-MEN-00103-000                      MENINGIOMA   [high]  ✓
+  [ 71/1000] BraTS-MEN-00104-000                      MENINGIOMA   [high]  ✓
+  [ 72/1000] BraTS-MEN-00105-000                      MENINGIOMA   [high]  ✓
+  [ 73/1000] BraTS-MEN-00106-000                      MENINGIOMA   [high]  ✓
+  [ 74/1000] BraTS-MEN-00108-004                      MENINGIOMA   [high]  ✓
+  [ 75/1000] BraTS-MEN-00108-005                      MENINGIOMA   [high]  ✓
+  [ 76/1000] BraTS-MEN-00109-000                      MENINGIOMA   [high]  ✓
+  [ 77/1000] BraTS-MEN-00110-000                      MENINGIOMA   [high]  ✓
+  [ 78/1000] BraTS-MEN-00111-000                      MENINGIOMA   [high]  ✓
+  [ 79/1000] BraTS-MEN-00112-000                      MENINGIOMA   [high]  ✓
+  [ 80/1000] BraTS-MEN-00113-000                      MENINGIOMA   [high]  ✓
+  [ 81/1000] BraTS-MEN-00114-000                      MENINGIOMA   [medium]  ✓
+  [ 82/1000] BraTS-MEN-00119-000                      MENINGIOMA   [high]  ✓
+  [ 83/1000] BraTS-MEN-00122-000                      MENINGIOMA   [high]  ✓
+  [ 84/1000] BraTS-MEN-00123-000                      MENINGIOMA   [high]  ✓
+  [ 85/1000] BraTS-MEN-00125-000                      MENINGIOMA   [high]  ✓
+  [ 86/1000] BraTS-MEN-00129-000                      MENINGIOMA   [high]  ✓
+  [ 87/1000] BraTS-MEN-00131-000                      MENINGIOMA   [high]  ✓
+  [ 88/1000] BraTS-MEN-00132-000                      MENINGIOMA   [high]  ✓
+  [ 89/1000] BraTS-MEN-00133-000                      MENINGIOMA   [high]  ✓
+  [ 90/1000] BraTS-MEN-00136-000                      MENINGIOMA   [high]  ✓
+  [ 91/1000] BraTS-MEN-00138-000                      MENINGIOMA   [high]  ✓
+  [ 92/1000] BraTS-MEN-00140-000                      MENINGIOMA   [high]  ✓
+  [ 93/1000] BraTS-MEN-00141-000                      MENINGIOMA   [high]  ✓
+  [ 94/1000] BraTS-MEN-00144-000                      MENINGIOMA   [high]  ✓
+  [ 95/1000] BraTS-MEN-00146-000                      MENINGIOMA   [high]  ✓
+  [ 96/1000] BraTS-MEN-00147-000                      MENINGIOMA   [high]  ✓
+  [ 97/1000] BraTS-MEN-00150-000                      GLIOMA       [high]  ✗ → glioma
+  [ 98/1000] BraTS-MEN-00152-000                      MENINGIOMA   [high]  ✓
+  [ 99/1000] BraTS-MEN-00153-000                      MENINGIOMA   [high]  ✓
+  [100/1000] BraTS-MEN-00154-000                      GLIOMA       [high]  ✗ → glioma
+  [101/1000] BraTS-MEN-00155-000                      MENINGIOMA   [high]  ✓
+  [102/1000] BraTS-MEN-00156-000                      MENINGIOMA   [medium]  ✓
+  [103/1000] BraTS-MEN-00157-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  10%|█         | 104/1000 [50:15<7:13:44, 29.05s/it]
+meningioma:  10%|█         | 105/1000 [50:22<5:36:13, 22.54s/it]
+meningioma:  11%|█         | 106/1000 [50:33<4:41:24, 18.89s/it]
+meningioma:  11%|█         | 107/1000 [50:52<4:43:12, 19.03s/it]
+meningioma:  11%|█         | 108/1000 [51:10<4:38:39, 18.74s/it]
+meningioma:  11%|█         | 109/1000 [51:16<3:38:42, 14.73s/it]
+meningioma:  11%|█         | 110/1000 [51:23<3:07:53, 12.67s/it]
+meningioma:  11%|█         | 111/1000 [51:40<3:24:31, 13.80s/it]
+meningioma:  11%|█         | 112/1000 [51:48<2:58:51, 12.09s/it]
+meningioma:  11%|█▏        | 113/1000 [52:13<3:56:25, 15.99s/it]
+meningioma:  11%|█▏        | 114/1000 [52:31<4:04:12, 16.54s/it]
+meningioma:  12%|█▏        | 115/1000 [52:39<3:28:34, 14.14s/it]
+meningioma:  12%|█▏        | 116/1000 [52:47<2:58:13, 12.10s/it]
+meningioma:  12%|█▏        | 117/1000 [53:00<3:04:41, 12.55s/it]
+meningioma:  12%|█▏        | 118/1000 [53:06<2:33:15, 10.43s/it]
+meningioma:  12%|█▏        | 119/1000 [53:26<3:16:47, 13.40s/it]
+meningioma:  12%|█▏        | 120/1000 [53:55<4:26:13, 18.15s/it]
+meningioma:  12%|█▏        | 121/1000 [54:44<6:40:27, 27.33s/it]
+meningioma:  12%|█▏        | 122/1000 [55:07<6:18:05, 25.84s/it]
+meningioma:  12%|█▏        | 123/1000 [55:40<6:50:26, 28.08s/it]
+meningioma:  12%|█▏        | 124/1000 [56:29<8:22:29, 34.42s/it]
+meningioma:  12%|█▎        | 125/1000 [57:28<10:08:54, 41.75s/it]
+meningioma:  13%|█▎        | 126/1000 [57:59<9:23:01, 38.65s/it] 
+meningioma:  13%|█▎        | 127/1000 [58:51<10:20:09, 42.62s/it]
+meningioma:  13%|█▎        | 128/1000 [59:17<9:07:17, 37.66s/it] 
+meningioma:  13%|█▎        | 129/1000 [59:31<7:21:27, 30.41s/it]
+meningioma:  13%|█▎        | 130/1000 [59:49<6:25:46, 26.60s/it]
+meningioma:  13%|█▎        | 131/1000 [1:00:57<9:25:21, 39.04s/it]
+meningioma:  13%|█▎        | 132/1000 [1:01:08<7:25:25, 30.79s/it]
+meningioma:  13%|█▎        | 133/1000 [1:01:52<8:22:39, 34.79s/it]
+meningioma:  13%|█▎        | 134/1000 [1:02:36<8:58:54, 37.34s/it]
+meningioma:  14%|█▎        | 135/1000 [1:02:47<7:06:14, 29.57s/it]
+meningioma:  14%|█▎        | 136/1000 [1:03:07<6:25:19, 26.76s/it]
+meningioma:  14%|█▎        | 137/1000 [1:03:37<6:40:03, 27.81s/it]
+meningioma:  14%|█▍        | 138/1000 [1:04:18<7:33:01, 31.53s/it]
+meningioma:  14%|█▍        | 139/1000 [1:05:00<8:18:15, 34.72s/it]
+meningioma:  14%|█▍        | 140/1000 [1:05:24<7:30:16, 31.42s/it]
+meningioma:  14%|█▍        | 141/1000 [1:05:47<6:54:49, 28.97s/it]
+meningioma:  14%|█▍        | 142/1000 [1:06:19<7:10:07, 30.08s/it]
+meningioma:  14%|█▍        | 143/1000 [1:07:01<7:59:11, 33.55s/it]
+meningioma:  14%|█▍        | 144/1000 [1:07:46<8:46:53, 36.93s/it]
+meningioma:  14%|█▍        | 145/1000 [1:08:33<9:31:43, 40.12s/it]
+meningioma:  15%|█▍        | 146/1000 [1:08:54<8:05:36, 34.12s/it]
+meningioma:  15%|█▍        | 147/1000 [1:09:11<6:54:05, 29.13s/it]
+meningioma:  15%|█▍        | 148/1000 [1:09:30<6:10:19, 26.08s/it]
+meningioma:  15%|█▍        | 149/1000 [1:10:07<6:56:14, 29.35s/it]
+meningioma:  15%|█▌        | 150/1000 [1:10:20<5:47:43, 24.55s/it]
+meningioma:  15%|█▌        | 151/1000 [1:11:12<7:42:11, 32.66s/it]
+meningioma:  15%|█▌        | 152/1000 [1:11:35<7:00:59, 29.79s/it]
+meningioma:  15%|█▌        | 153/1000 [1:11:43<5:26:27, 23.13s/it]
+meningioma:  15%|█▌        | 154/1000 [1:12:05<5:23:59, 22.98s/it]
+meningioma:  16%|█▌        | 155/1000 [1:12:14<4:22:26, 18.63s/it]
+meningioma:  16%|█▌        | 156/1000 [1:12:32<4:18:30, 18.38s/it]
+meningioma:  16%|█▌        | 157/1000 [1:12:59<4:56:57, 21.14s/it]
+meningioma:  16%|█▌        | 158/1000 [1:13:10<4:12:10, 17.97s/it]
+meningioma:  16%|█▌        | 159/1000 [1:13:28<4:14:09, 18.13s/it]
+meningioma:  16%|█▌        | 160/1000 [1:14:22<6:43:59, 28.86s/it]
+meningioma:  16%|█▌        | 161/1000 [1:14:31<5:20:05, 22.89s/it]
+meningioma:  16%|█▌        | 162/1000 [1:14:41<4:26:04, 19.05s/it]
+meningioma:  16%|█▋        | 163/1000 [1:15:29<6:27:29, 27.78s/it]
+meningioma:  16%|█▋        | 164/1000 [1:16:03<6:52:57, 29.64s/it]
+meningioma:  16%|█▋        | 165/1000 [1:16:38<7:13:35, 31.16s/it]
+meningioma:  17%|█▋        | 166/1000 [1:17:10<7:15:14, 31.31s/it]
+meningioma:  17%|█▋        | 167/1000 [1:17:27<6:17:02, 27.16s/it]
+meningioma:  17%|█▋        | 168/1000 [1:17:50<5:59:41, 25.94s/it]
+meningioma:  17%|█▋        | 169/1000 [1:18:03<5:03:49, 21.94s/it]
+meningioma:  17%|█▋        | 170/1000 [1:19:06<7:56:22, 34.44s/it]
+meningioma:  17%|█▋        | 171/1000 [1:19:22<6:38:58, 28.88s/it]
+meningioma:  17%|█▋        | 172/1000 [1:19:35<5:30:12, 23.93s/it]
+meningioma:  17%|█▋        | 173/1000 [1:19:40<4:11:58, 18.28s/it]
+meningioma:  17%|█▋        | 174/1000 [1:19:55<4:00:02, 17.44s/it]
+meningioma:  18%|█▊        | 175/1000 [1:20:10<3:48:15, 16.60s/it]
+meningioma:  18%|█▊        | 176/1000 [1:20:40<4:44:42, 20.73s/it]
+meningioma:  18%|█▊        | 177/1000 [1:21:11<5:27:29, 23.88s/it]
+meningioma:  18%|█▊        | 178/1000 [1:21:48<6:18:50, 27.65s/it]
+meningioma:  18%|█▊        | 179/1000 [1:22:02<5:21:17, 23.48s/it]
+meningioma:  18%|█▊        | 180/1000 [1:22:39<6:16:46, 27.57s/it]
+meningioma:  18%|█▊        | 181/1000 [1:22:53<5:21:10, 23.53s/it]
+meningioma:  18%|█▊        | 182/1000 [1:23:37<6:44:27, 29.67s/it]
+meningioma:  18%|█▊        | 183/1000 [1:23:50<5:35:50, 24.66s/it]
+meningioma:  18%|█▊        | 184/1000 [1:24:12<5:23:00, 23.75s/it]
+meningioma:  18%|█▊        | 185/1000 [1:24:36<5:24:56, 23.92s/it]
+meningioma:  19%|█▊        | 186/1000 [1:24:54<5:00:31, 22.15s/it]
+meningioma:  19%|█▊        | 187/1000 [1:25:12<4:45:15, 21.05s/it]
+meningioma:  19%|█▉        | 188/1000 [1:25:47<5:40:23, 25.15s/it]
+meningioma:  19%|█▉        | 189/1000 [1:26:03<5:04:40, 22.54s/it]
+meningioma:  19%|█▉        | 190/1000 [1:26:37<5:47:47, 25.76s/it]
+meningioma:  19%|█▉        | 191/1000 [1:26:52<5:04:36, 22.59s/it]
+meningioma:  19%|█▉        | 192/1000 [1:27:05<4:25:57, 19.75s/it]
+meningioma:  19%|█▉        | 193/1000 [1:27:51<6:13:08, 27.74s/it]
+meningioma:  19%|█▉        | 194/1000 [1:28:04<5:13:03, 23.30s/it]
+meningioma:  20%|█▉        | 195/1000 [1:28:14<4:17:59, 19.23s/it]
+meningioma:  20%|█▉        | 196/1000 [1:29:03<6:17:23, 28.16s/it]
+meningioma:  20%|█▉        | 197/1000 [1:29:38<6:43:23, 30.14s/it]
+meningioma:  20%|█▉        | 198/1000 [1:30:16<7:13:26, 32.43s/it]
+meningioma:  20%|█▉        | 199/1000 [1:30:46<7:06:16, 31.93s/it]
+meningioma:  20%|██        | 200/1000 [1:31:09<6:28:22, 29.13s/it]
+meningioma:  20%|██        | 201/1000 [1:31:42<6:43:19, 30.29s/it]
+meningioma:  20%|██        | 202/1000 [1:31:54<5:30:59, 24.89s/it]
+meningioma:  20%|██        | 203/1000 [1:32:19<5:28:35, 24.74s/it]
+meningioma:  20%|██        | 204/1000 [1:32:32<4:43:37, 21.38s/it]
+meningioma:  20%|██        | 205/1000 [1:32:52<4:35:35, 20.80s/it]  [104/1000] BraTS-MEN-00159-000                      MENINGIOMA   [high]  ✓
+  [105/1000] BraTS-MEN-00161-000                      MENINGIOMA   [high]  ✓
+  [106/1000] BraTS-MEN-00163-000                      MENINGIOMA   [high]  ✓
+  [107/1000] BraTS-MEN-00164-000                      MENINGIOMA   [high]  ✓
+  [108/1000] BraTS-MEN-00165-000                      MENINGIOMA   [high]  ✓
+  [109/1000] BraTS-MEN-00166-000                      MENINGIOMA   [high]  ✓
+  [110/1000] BraTS-MEN-00167-000                      MENINGIOMA   [high]  ✓
+  [111/1000] BraTS-MEN-00168-000                      MENINGIOMA   [high]  ✓
+  [112/1000] BraTS-MEN-00169-000                      MENINGIOMA   [medium]  ✓
+  [113/1000] BraTS-MEN-00170-000                      MENINGIOMA   [high]  ✓
+  [114/1000] BraTS-MEN-00172-000                      GLIOMA       [medium]  ✗ → glioma
+  [115/1000] BraTS-MEN-00173-000                      MENINGIOMA   [high]  ✓
+  [116/1000] BraTS-MEN-00174-000                      MENINGIOMA   [high]  ✓
+  [117/1000] BraTS-MEN-00175-000                      MENINGIOMA   [high]  ✓
+  [118/1000] BraTS-MEN-00176-000                      MENINGIOMA   [high]  ✓
+  [119/1000] BraTS-MEN-00177-000                      MENINGIOMA   [medium]  ✓
+  [120/1000] BraTS-MEN-00178-000                      MENINGIOMA   [high]  ✓
+  [121/1000] BraTS-MEN-00179-000                      MENINGIOMA   [high]  ✓
+  [122/1000] BraTS-MEN-00181-000                      MENINGIOMA   [medium]  ✓
+  [123/1000] BraTS-MEN-00183-000                      MENINGIOMA   [high]  ✓
+  [124/1000] BraTS-MEN-00187-000                      MENINGIOMA   [high]  ✓
+  [125/1000] BraTS-MEN-00191-000                      MENINGIOMA   [high]  ✓
+  [126/1000] BraTS-MEN-00192-000                      MENINGIOMA   [high]  ✓
+  [127/1000] BraTS-MEN-00194-000                      MENINGIOMA   [high]  ✓
+  [128/1000] BraTS-MEN-00195-000                      MENINGIOMA   [high]  ✓
+  [129/1000] BraTS-MEN-00196-000                      MENINGIOMA   [high]  ✓
+  [130/1000] BraTS-MEN-00198-000                      MENINGIOMA   [high]  ✓
+  [131/1000] BraTS-MEN-00199-000                      MENINGIOMA   [medium]  ✓
+  [132/1000] BraTS-MEN-00200-000                      MENINGIOMA   [high]  ✓
+  [133/1000] BraTS-MEN-00202-000                      MENINGIOMA   [high]  ✓
+  [134/1000] BraTS-MEN-00204-000                      MENINGIOMA   [high]  ✓
+  [135/1000] BraTS-MEN-00206-000                      MENINGIOMA   [high]  ✓
+  [136/1000] BraTS-MEN-00207-000                      MENINGIOMA   [high]  ✓
+  [137/1000] BraTS-MEN-00208-000                      MENINGIOMA   [high]  ✓
+  [138/1000] BraTS-MEN-00209-000                      GLIOMA       [medium]  ✗ → glioma
+  [139/1000] BraTS-MEN-00210-000                      GLIOMA       [medium]  ✗ → glioma
+  [140/1000] BraTS-MEN-00212-000                      MENINGIOMA   [high]  ✓
+  [141/1000] BraTS-MEN-00213-000                      MENINGIOMA   [high]  ✓
+  [142/1000] BraTS-MEN-00215-000                      MENINGIOMA   [medium]  ✓
+  [143/1000] BraTS-MEN-00216-000                      MENINGIOMA   [high]  ✓
+  [144/1000] BraTS-MEN-00217-000                      MENINGIOMA   [high]  ✓
+  [145/1000] BraTS-MEN-00219-000                      MENINGIOMA   [high]  ✓
+  [146/1000] BraTS-MEN-00220-000                      MENINGIOMA   [high]  ✓
+  [147/1000] BraTS-MEN-00221-000                      MENINGIOMA   [high]  ✓
+  [148/1000] BraTS-MEN-00223-000                      GLIOMA       [medium]  ✗ → glioma
+  [149/1000] BraTS-MEN-00224-000                      MENINGIOMA   [high]  ✓
+  [150/1000] BraTS-MEN-00225-000                      MENINGIOMA   [high]  ✓
+  [151/1000] BraTS-MEN-00226-000                      MENINGIOMA   [high]  ✓
+  [152/1000] BraTS-MEN-00227-000                      MENINGIOMA   [high]  ✓
+  [153/1000] BraTS-MEN-00229-000                      MENINGIOMA   [high]  ✓
+  [154/1000] BraTS-MEN-00230-000                      MENINGIOMA   [high]  ✓
+  [155/1000] BraTS-MEN-00231-000                      MENINGIOMA   [high]  ✓
+  [156/1000] BraTS-MEN-00232-000                      MENINGIOMA   [high]  ✓
+  [157/1000] BraTS-MEN-00233-000                      MENINGIOMA   [high]  ✓
+  [158/1000] BraTS-MEN-00235-000                      MENINGIOMA   [high]  ✓
+  [159/1000] BraTS-MEN-00236-000                      GLIOMA       [medium]  ✗ → glioma
+  [160/1000] BraTS-MEN-00237-000                      MENINGIOMA   [medium]  ✓
+  [161/1000] BraTS-MEN-00238-000                      MENINGIOMA   [medium]  ✓
+  [162/1000] BraTS-MEN-00239-000                      MENINGIOMA   [high]  ✓
+  [163/1000] BraTS-MEN-00243-000                      MENINGIOMA   [high]  ✓
+  [164/1000] BraTS-MEN-00244-000                      MENINGIOMA   [high]  ✓
+  [165/1000] BraTS-MEN-00245-000                      MENINGIOMA   [high]  ✓
+  [166/1000] BraTS-MEN-00246-000                      MENINGIOMA   [high]  ✓
+  [167/1000] BraTS-MEN-00247-000                      MENINGIOMA   [high]  ✓
+  [168/1000] BraTS-MEN-00253-000                      MENINGIOMA   [high]  ✓
+  [169/1000] BraTS-MEN-00255-000                      MENINGIOMA   [high]  ✓
+  [170/1000] BraTS-MEN-00256-000                      MENINGIOMA   [high]  ✓
+  [171/1000] BraTS-MEN-00258-000                      MENINGIOMA   [high]  ✓
+  [172/1000] BraTS-MEN-00259-000                      MENINGIOMA   [high]  ✓
+  [173/1000] BraTS-MEN-00260-000                      MENINGIOMA   [high]  ✓
+  [174/1000] BraTS-MEN-00263-000                      MENINGIOMA   [high]  ✓
+  [175/1000] BraTS-MEN-00266-000                      MENINGIOMA   [high]  ✓
+  [176/1000] BraTS-MEN-00267-000                      MENINGIOMA   [high]  ✓
+  [177/1000] BraTS-MEN-00268-000                      MENINGIOMA   [high]  ✓
+  [178/1000] BraTS-MEN-00269-000                      MENINGIOMA   [high]  ✓
+  [179/1000] BraTS-MEN-00270-000                      MENINGIOMA   [high]  ✓
+  [180/1000] BraTS-MEN-00271-000                      MENINGIOMA   [high]  ✓
+  [181/1000] BraTS-MEN-00276-000                      MENINGIOMA   [high]  ✓
+  [182/1000] BraTS-MEN-00278-000                      MENINGIOMA   [high]  ✓
+  [183/1000] BraTS-MEN-00279-000                      MENINGIOMA   [high]  ✓
+  [184/1000] BraTS-MEN-00281-000                      MENINGIOMA   [high]  ✓
+  [185/1000] BraTS-MEN-00284-000                      MENINGIOMA   [medium]  ✓
+  [186/1000] BraTS-MEN-00285-000                      MENINGIOMA   [high]  ✓
+  [187/1000] BraTS-MEN-00286-000                      MENINGIOMA   [high]  ✓
+  [188/1000] BraTS-MEN-00288-000                      MENINGIOMA   [high]  ✓
+  [189/1000] BraTS-MEN-00289-000                      MENINGIOMA   [high]  ✓
+  [190/1000] BraTS-MEN-00290-000                      MENINGIOMA   [high]  ✓
+  [191/1000] BraTS-MEN-00293-000                      GLIOMA       [high]  ✗ → glioma
+  [192/1000] BraTS-MEN-00298-000                      MENINGIOMA   [high]  ✓
+  [193/1000] BraTS-MEN-00299-000                      MENINGIOMA   [high]  ✓
+  [194/1000] BraTS-MEN-00302-000                      MENINGIOMA   [high]  ✓
+  [195/1000] BraTS-MEN-00303-000                      MENINGIOMA   [high]  ✓
+  [196/1000] BraTS-MEN-00304-000                      GLIOMA       [medium]  ✗ → glioma
+  [197/1000] BraTS-MEN-00305-000                      MENINGIOMA   [high]  ✓
+  [198/1000] BraTS-MEN-00306-000                      MENINGIOMA   [high]  ✓
+  [199/1000] BraTS-MEN-00307-000                      MENINGIOMA   [high]  ✓
+  [200/1000] BraTS-MEN-00308-000                      MENINGIOMA   [high]  ✓
+  [201/1000] BraTS-MEN-00311-000                      MENINGIOMA   [high]  ✓
+  [202/1000] BraTS-MEN-00312-000                      MENINGIOMA   [medium]  ✓
+  [203/1000] BraTS-MEN-00313-000                      MENINGIOMA   [medium]  ✓
+  [204/1000] BraTS-MEN-00315-000                      MENINGIOMA   [high]  ✓
+  [205/1000] BraTS-MEN-00318-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  21%|██        | 206/1000 [1:33:41<6:26:33, 29.21s/it]
+meningioma:  21%|██        | 207/1000 [1:33:52<5:15:06, 23.84s/it]
+meningioma:  21%|██        | 208/1000 [1:35:14<9:07:15, 41.46s/it]
+meningioma:  21%|██        | 209/1000 [1:35:32<7:33:50, 34.43s/it]
+meningioma:  21%|██        | 210/1000 [1:35:55<6:47:41, 30.96s/it]
+meningioma:  21%|██        | 211/1000 [1:36:24<6:39:48, 30.40s/it]
+meningioma:  21%|██        | 212/1000 [1:36:56<6:44:08, 30.77s/it]
+meningioma:  21%|██▏       | 213/1000 [1:37:26<6:42:15, 30.67s/it]
+meningioma:  21%|██▏       | 214/1000 [1:37:45<5:53:09, 26.96s/it]
+meningioma:  22%|██▏       | 215/1000 [1:37:59<5:03:58, 23.23s/it]
+meningioma:  22%|██▏       | 216/1000 [1:39:03<7:41:54, 35.35s/it]
+meningioma:  22%|██▏       | 217/1000 [1:39:43<8:00:21, 36.81s/it]
+meningioma:  22%|██▏       | 218/1000 [1:40:05<7:02:45, 32.44s/it]
+meningioma:  22%|██▏       | 219/1000 [1:40:38<7:03:15, 32.52s/it]
+meningioma:  22%|██▏       | 220/1000 [1:41:17<7:28:54, 34.53s/it]
+meningioma:  22%|██▏       | 221/1000 [1:41:31<6:06:22, 28.22s/it]
+meningioma:  22%|██▏       | 222/1000 [1:41:55<5:49:23, 26.95s/it]
+meningioma:  22%|██▏       | 223/1000 [1:42:19<5:38:59, 26.18s/it]
+meningioma:  22%|██▏       | 224/1000 [1:42:56<6:21:42, 29.51s/it]
+meningioma:  22%|██▎       | 225/1000 [1:43:26<6:20:06, 29.43s/it]
+meningioma:  23%|██▎       | 226/1000 [1:43:41<5:26:29, 25.31s/it]
+meningioma:  23%|██▎       | 227/1000 [1:43:45<4:01:22, 18.74s/it]
+meningioma:  23%|██▎       | 228/1000 [1:43:52<3:18:05, 15.40s/it]
+meningioma:  23%|██▎       | 229/1000 [1:44:03<2:59:01, 13.93s/it]
+meningioma:  23%|██▎       | 230/1000 [1:44:32<3:57:23, 18.50s/it]
+meningioma:  23%|██▎       | 231/1000 [1:45:00<4:33:04, 21.31s/it]
+meningioma:  23%|██▎       | 232/1000 [1:45:16<4:11:33, 19.65s/it]
+meningioma:  23%|██▎       | 233/1000 [1:45:33<4:02:16, 18.95s/it]
+meningioma:  23%|██▎       | 234/1000 [1:45:49<3:52:07, 18.18s/it]
+meningioma:  24%|██▎       | 235/1000 [1:46:41<6:00:01, 28.24s/it]
+meningioma:  24%|██▎       | 236/1000 [1:46:59<5:19:56, 25.13s/it]
+meningioma:  24%|██▎       | 237/1000 [1:47:22<5:12:10, 24.55s/it]
+meningioma:  24%|██▍       | 238/1000 [1:47:49<5:22:02, 25.36s/it]
+meningioma:  24%|██▍       | 239/1000 [1:48:07<4:51:47, 23.01s/it]
+meningioma:  24%|██▍       | 240/1000 [1:48:20<4:14:18, 20.08s/it]
+meningioma:  24%|██▍       | 241/1000 [1:48:35<3:54:00, 18.50s/it]
+meningioma:  24%|██▍       | 242/1000 [1:48:52<3:48:41, 18.10s/it]
+meningioma:  24%|██▍       | 243/1000 [1:49:12<3:56:13, 18.72s/it]
+meningioma:  24%|██▍       | 244/1000 [1:49:27<3:40:10, 17.47s/it]
+meningioma:  24%|██▍       | 245/1000 [1:50:00<4:40:08, 22.26s/it]
+meningioma:  25%|██▍       | 246/1000 [1:50:30<5:07:25, 24.46s/it]
+meningioma:  25%|██▍       | 247/1000 [1:50:50<4:50:03, 23.11s/it]
+meningioma:  25%|██▍       | 248/1000 [1:51:01<4:05:36, 19.60s/it]
+meningioma:  25%|██▍       | 249/1000 [1:51:27<4:26:35, 21.30s/it]
+meningioma:  25%|██▌       | 250/1000 [1:51:52<4:42:49, 22.63s/it]
+meningioma:  25%|██▌       | 251/1000 [1:52:56<7:17:23, 35.04s/it]
+meningioma:  25%|██▌       | 252/1000 [1:53:15<6:14:39, 30.05s/it]
+meningioma:  25%|██▌       | 253/1000 [1:53:39<5:51:48, 28.26s/it]
+meningioma:  25%|██▌       | 254/1000 [1:53:59<5:22:48, 25.96s/it]
+meningioma:  26%|██▌       | 255/1000 [1:54:22<5:09:01, 24.89s/it]
+meningioma:  26%|██▌       | 256/1000 [1:54:42<4:51:55, 23.54s/it]
+meningioma:  26%|██▌       | 257/1000 [1:54:54<4:08:10, 20.04s/it]
+meningioma:  26%|██▌       | 258/1000 [1:55:37<5:32:23, 26.88s/it]
+meningioma:  26%|██▌       | 259/1000 [1:56:14<6:10:36, 30.01s/it]
+meningioma:  26%|██▌       | 260/1000 [1:56:54<6:46:07, 32.93s/it]
+meningioma:  26%|██▌       | 261/1000 [1:57:20<6:21:32, 30.98s/it]
+meningioma:  26%|██▌       | 262/1000 [1:57:58<6:44:36, 32.89s/it]
+meningioma:  26%|██▋       | 263/1000 [1:58:36<7:02:42, 34.41s/it]
+meningioma:  26%|██▋       | 264/1000 [1:59:07<6:50:36, 33.47s/it]
+meningioma:  26%|██▋       | 265/1000 [1:59:28<6:03:46, 29.70s/it]
+meningioma:  27%|██▋       | 266/1000 [1:59:40<5:00:14, 24.54s/it]
+meningioma:  27%|██▋       | 267/1000 [2:00:20<5:53:51, 28.97s/it]
+meningioma:  27%|██▋       | 268/1000 [2:00:55<6:15:36, 30.79s/it]
+meningioma:  27%|██▋       | 269/1000 [2:01:27<6:20:26, 31.23s/it]
+meningioma:  27%|██▋       | 270/1000 [2:01:44<5:26:52, 26.87s/it]
+meningioma:  27%|██▋       | 271/1000 [2:02:10<5:23:32, 26.63s/it]
+meningioma:  27%|██▋       | 272/1000 [2:02:18<4:17:56, 21.26s/it]
+meningioma:  27%|██▋       | 273/1000 [2:02:46<4:39:36, 23.08s/it]
+meningioma:  27%|██▋       | 274/1000 [2:02:59<4:03:46, 20.15s/it]
+meningioma:  28%|██▊       | 275/1000 [2:03:15<3:47:59, 18.87s/it]
+meningioma:  28%|██▊       | 276/1000 [2:03:23<3:09:28, 15.70s/it]
+meningioma:  28%|██▊       | 277/1000 [2:03:45<3:31:08, 17.52s/it]
+meningioma:  28%|██▊       | 278/1000 [2:03:56<3:06:28, 15.50s/it]
+meningioma:  28%|██▊       | 279/1000 [2:04:10<3:00:46, 15.04s/it]
+meningioma:  28%|██▊       | 280/1000 [2:04:30<3:17:39, 16.47s/it]
+meningioma:  28%|██▊       | 281/1000 [2:04:51<3:33:42, 17.83s/it]
+meningioma:  28%|██▊       | 282/1000 [2:05:23<4:25:41, 22.20s/it]
+meningioma:  28%|██▊       | 283/1000 [2:05:43<4:18:32, 21.64s/it]
+meningioma:  28%|██▊       | 284/1000 [2:06:15<4:55:06, 24.73s/it]
+meningioma:  28%|██▊       | 285/1000 [2:06:32<4:26:47, 22.39s/it]
+meningioma:  29%|██▊       | 286/1000 [2:06:45<3:52:15, 19.52s/it]
+meningioma:  29%|██▊       | 287/1000 [2:06:53<3:11:02, 16.08s/it]
+meningioma:  29%|██▉       | 288/1000 [2:07:56<5:58:41, 30.23s/it]
+meningioma:  29%|██▉       | 289/1000 [2:08:16<5:22:15, 27.20s/it]
+meningioma:  29%|██▉       | 290/1000 [2:08:36<4:56:32, 25.06s/it]
+meningioma:  29%|██▉       | 291/1000 [2:08:57<4:40:25, 23.73s/it]
+meningioma:  29%|██▉       | 292/1000 [2:09:08<3:54:13, 19.85s/it]
+meningioma:  29%|██▉       | 293/1000 [2:09:33<4:12:17, 21.41s/it]
+meningioma:  29%|██▉       | 294/1000 [2:10:02<4:40:22, 23.83s/it]
+meningioma:  30%|██▉       | 295/1000 [2:10:33<5:04:52, 25.95s/it]
+meningioma:  30%|██▉       | 296/1000 [2:11:15<6:01:18, 30.79s/it]
+meningioma:  30%|██▉       | 297/1000 [2:12:03<6:59:58, 35.84s/it]
+meningioma:  30%|██▉       | 298/1000 [2:12:28<6:21:50, 32.64s/it]
+meningioma:  30%|██▉       | 299/1000 [2:12:53<5:52:53, 30.21s/it]
+meningioma:  30%|███       | 300/1000 [2:13:22<5:48:06, 29.84s/it]
+meningioma:  30%|███       | 301/1000 [2:13:57<6:05:22, 31.36s/it]
+meningioma:  30%|███       | 302/1000 [2:14:04<4:42:05, 24.25s/it]
+meningioma:  30%|███       | 303/1000 [2:14:16<3:56:32, 20.36s/it]
+meningioma:  30%|███       | 304/1000 [2:14:31<3:40:20, 18.99s/it]
+meningioma:  30%|███       | 305/1000 [2:15:22<5:30:17, 28.51s/it]
+meningioma:  31%|███       | 306/1000 [2:16:11<6:38:56, 34.49s/it]  [206/1000] BraTS-MEN-00319-000                      MENINGIOMA   [high]  ✓
+  [207/1000] BraTS-MEN-00320-000                      MENINGIOMA   [high]  ✓
+  [208/1000] BraTS-MEN-00321-000                      MENINGIOMA   [high]  ✓
+  [209/1000] BraTS-MEN-00322-000                      MENINGIOMA   [high]  ✓
+  [210/1000] BraTS-MEN-00324-000                      MENINGIOMA   [high]  ✓
+  [211/1000] BraTS-MEN-00326-000                      GLIOMA       [medium]  ✗ → glioma
+  [212/1000] BraTS-MEN-00327-000                      MENINGIOMA   [high]  ✓
+  [213/1000] BraTS-MEN-00330-000                      MENINGIOMA   [high]  ✓
+  [214/1000] BraTS-MEN-00332-000                      MENINGIOMA   [high]  ✓
+  [215/1000] BraTS-MEN-00334-000                      MENINGIOMA   [high]  ✓
+  [216/1000] BraTS-MEN-00335-000                      MENINGIOMA   [high]  ✓
+  [217/1000] BraTS-MEN-00336-000                      MENINGIOMA   [high]  ✓
+  [218/1000] BraTS-MEN-00338-000                      MENINGIOMA   [high]  ✓
+  [219/1000] BraTS-MEN-00341-000                      MENINGIOMA   [high]  ✓
+  [220/1000] BraTS-MEN-00342-000                      MENINGIOMA   [high]  ✓
+  [221/1000] BraTS-MEN-00344-000                      GLIOMA       [medium]  ✗ → glioma
+  [222/1000] BraTS-MEN-00345-000                      MENINGIOMA   [high]  ✓
+  [223/1000] BraTS-MEN-00346-000                      MENINGIOMA   [high]  ✓
+  [224/1000] BraTS-MEN-00349-000                      MENINGIOMA   [high]  ✓
+  [225/1000] BraTS-MEN-00350-000                      MENINGIOMA   [high]  ✓
+  [226/1000] BraTS-MEN-00351-000                      MENINGIOMA   [high]  ✓
+  [227/1000] BraTS-MEN-00352-000                      MENINGIOMA   [high]  ✓
+  [228/1000] BraTS-MEN-00353-000                      MENINGIOMA   [high]  ✓
+  [229/1000] BraTS-MEN-00354-000                      MENINGIOMA   [high]  ✓
+  [230/1000] BraTS-MEN-00356-000                      MENINGIOMA   [high]  ✓
+  [231/1000] BraTS-MEN-00357-000                      MENINGIOMA   [high]  ✓
+  [232/1000] BraTS-MEN-00358-000                      MENINGIOMA   [high]  ✓
+  [233/1000] BraTS-MEN-00359-000                      GLIOMA       [medium]  ✗ → glioma
+  [234/1000] BraTS-MEN-00362-000                      MENINGIOMA   [high]  ✓
+  [235/1000] BraTS-MEN-00363-000                      MENINGIOMA   [high]  ✓
+  [236/1000] BraTS-MEN-00364-000                      MENINGIOMA   [high]  ✓
+  [237/1000] BraTS-MEN-00366-000                      MENINGIOMA   [high]  ✓
+  [238/1000] BraTS-MEN-00367-000                      MENINGIOMA   [high]  ✓
+  [239/1000] BraTS-MEN-00369-000                      MENINGIOMA   [high]  ✓
+  [240/1000] BraTS-MEN-00370-000                      MENINGIOMA   [medium]  ✓
+  [241/1000] BraTS-MEN-00371-000                      MENINGIOMA   [high]  ✓
+  [242/1000] BraTS-MEN-00372-000                      GLIOMA       [medium]  ✗ → glioma
+  [243/1000] BraTS-MEN-00375-000                      MENINGIOMA   [high]  ✓
+  [244/1000] BraTS-MEN-00378-000                      MENINGIOMA   [high]  ✓
+  [245/1000] BraTS-MEN-00379-000                      MENINGIOMA   [high]  ✓
+  [246/1000] BraTS-MEN-00380-000                      MENINGIOMA   [high]  ✓
+  [247/1000] BraTS-MEN-00381-000                      GLIOMA       [high]  ✗ → glioma
+  [248/1000] BraTS-MEN-00382-000                      MENINGIOMA   [high]  ✓
+  [249/1000] BraTS-MEN-00383-000                      MENINGIOMA   [high]  ✓
+  [250/1000] BraTS-MEN-00385-000                      MENINGIOMA   [high]  ✓
+  [251/1000] BraTS-MEN-00387-000                      MENINGIOMA   [high]  ✓
+  [252/1000] BraTS-MEN-00388-000                      MENINGIOMA   [high]  ✓
+  [253/1000] BraTS-MEN-00389-000                      MENINGIOMA   [high]  ✓
+  [254/1000] BraTS-MEN-00390-000                      GLIOMA       [medium]  ✗ → glioma
+  [255/1000] BraTS-MEN-00393-000                      GLIOMA       [medium]  ✗ → glioma
+  [256/1000] BraTS-MEN-00396-000                      MENINGIOMA   [high]  ✓
+  [257/1000] BraTS-MEN-00397-000                      GLIOMA       [medium]  ✗ → glioma
+  [258/1000] BraTS-MEN-00398-000                      MENINGIOMA   [high]  ✓
+  [259/1000] BraTS-MEN-00399-000                      MENINGIOMA   [high]  ✓
+  [260/1000] BraTS-MEN-00400-000                      MENINGIOMA   [high]  ✓
+  [261/1000] BraTS-MEN-00401-000                      MENINGIOMA   [high]  ✓
+  [262/1000] BraTS-MEN-00402-000                      MENINGIOMA   [high]  ✓
+  [263/1000] BraTS-MEN-00403-000                      MENINGIOMA   [high]  ✓
+  [264/1000] BraTS-MEN-00404-000                      MENINGIOMA   [high]  ✓
+  [265/1000] BraTS-MEN-00405-000                      MENINGIOMA   [high]  ✓
+  [266/1000] BraTS-MEN-00406-000                      MENINGIOMA   [high]  ✓
+  [267/1000] BraTS-MEN-00408-000                      MENINGIOMA   [high]  ✓
+  [268/1000] BraTS-MEN-00409-000                      MENINGIOMA   [high]  ✓
+  [269/1000] BraTS-MEN-00410-000                      MENINGIOMA   [high]  ✓
+  [270/1000] BraTS-MEN-00412-000                      MENINGIOMA   [high]  ✓
+  [271/1000] BraTS-MEN-00414-000                      GLIOMA       [medium]  ✗ → glioma
+  [272/1000] BraTS-MEN-00415-000                      MENINGIOMA   [high]  ✓
+  [273/1000] BraTS-MEN-00416-000                      MENINGIOMA   [high]  ✓
+  [274/1000] BraTS-MEN-00417-000                      MENINGIOMA   [high]  ✓
+  [275/1000] BraTS-MEN-00418-000                      MENINGIOMA   [medium]  ✓
+  [276/1000] BraTS-MEN-00419-000                      MENINGIOMA   [high]  ✓
+  [277/1000] BraTS-MEN-00420-000                      MENINGIOMA   [high]  ✓
+  [278/1000] BraTS-MEN-00421-000                      MENINGIOMA   [high]  ✓
+  [279/1000] BraTS-MEN-00423-000                      GLIOMA       [high]  ✗ → glioma
+  [280/1000] BraTS-MEN-00424-000                      MENINGIOMA   [high]  ✓
+  [281/1000] BraTS-MEN-00425-000                      MENINGIOMA   [high]  ✓
+  [282/1000] BraTS-MEN-00426-000                      MENINGIOMA   [medium]  ✓
+  [283/1000] BraTS-MEN-00428-000                      MENINGIOMA   [high]  ✓
+  [284/1000] BraTS-MEN-00429-000                      MENINGIOMA   [high]  ✓
+  [285/1000] BraTS-MEN-00431-000                      MENINGIOMA   [high]  ✓
+  [286/1000] BraTS-MEN-00433-000                      MENINGIOMA   [high]  ✓
+  [287/1000] BraTS-MEN-00434-000                      MENINGIOMA   [high]  ✓
+  [288/1000] BraTS-MEN-00435-000                      MENINGIOMA   [high]  ✓
+  [289/1000] BraTS-MEN-00437-000                      MENINGIOMA   [high]  ✓
+  [290/1000] BraTS-MEN-00438-000                      MENINGIOMA   [high]  ✓
+  [291/1000] BraTS-MEN-00440-000                      MENINGIOMA   [high]  ✓
+  [292/1000] BraTS-MEN-00441-000                      MENINGIOMA   [high]  ✓
+  [293/1000] BraTS-MEN-00443-000                      MENINGIOMA   [high]  ✓
+  [294/1000] BraTS-MEN-00444-000                      MENINGIOMA   [high]  ✓
+  [295/1000] BraTS-MEN-00445-000                      GLIOMA       [medium]  ✗ → glioma
+  [296/1000] BraTS-MEN-00446-000                      MENINGIOMA   [high]  ✓
+  [297/1000] BraTS-MEN-00451-000                      MENINGIOMA   [high]  ✓
+  [298/1000] BraTS-MEN-00455-000                      MENINGIOMA   [high]  ✓
+  [299/1000] BraTS-MEN-00457-000                      MENINGIOMA   [high]  ✓
+  [300/1000] BraTS-MEN-00459-000                      MENINGIOMA   [high]  ✓
+  [301/1000] BraTS-MEN-00461-000                      MENINGIOMA   [high]  ✓
+  [302/1000] BraTS-MEN-00462-000                      MENINGIOMA   [high]  ✓
+  [303/1000] BraTS-MEN-00465-000                      MENINGIOMA   [high]  ✓
+  [304/1000] BraTS-MEN-00466-000                      GLIOMA       [medium]  ✗ → glioma
+  [305/1000] BraTS-MEN-00467-000                      MENINGIOMA   [high]  ✓
+  [306/1000] BraTS-MEN-00468-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  31%|███       | 307/1000 [2:16:50<6:53:50, 35.83s/it]
+meningioma:  31%|███       | 308/1000 [2:17:02<5:33:42, 28.93s/it]
+meningioma:  31%|███       | 309/1000 [2:17:48<6:31:36, 34.00s/it]
+meningioma:  31%|███       | 310/1000 [2:18:29<6:55:17, 36.11s/it]
+meningioma:  31%|███       | 311/1000 [2:19:04<6:50:53, 35.78s/it]
+meningioma:  31%|███       | 312/1000 [2:19:50<7:24:05, 38.73s/it]
+meningioma:  31%|███▏      | 313/1000 [2:20:26<7:13:48, 37.89s/it]
+meningioma:  31%|███▏      | 314/1000 [2:20:40<5:52:14, 30.81s/it]
+meningioma:  32%|███▏      | 315/1000 [2:20:58<5:08:24, 27.01s/it]
+meningioma:  32%|███▏      | 316/1000 [2:21:13<4:25:36, 23.30s/it]
+meningioma:  32%|███▏      | 317/1000 [2:21:50<5:12:15, 27.43s/it]
+meningioma:  32%|███▏      | 318/1000 [2:22:08<4:38:26, 24.50s/it]
+meningioma:  32%|███▏      | 319/1000 [2:22:21<4:01:17, 21.26s/it]
+meningioma:  32%|███▏      | 320/1000 [2:23:13<5:42:59, 30.26s/it]
+meningioma:  32%|███▏      | 321/1000 [2:23:24<4:39:54, 24.73s/it]
+meningioma:  32%|███▏      | 322/1000 [2:23:39<4:06:54, 21.85s/it]
+meningioma:  32%|███▏      | 323/1000 [2:23:54<3:43:11, 19.78s/it]
+meningioma:  32%|███▏      | 324/1000 [2:24:18<3:56:46, 21.02s/it]
+meningioma:  32%|███▎      | 325/1000 [2:24:50<4:33:35, 24.32s/it]
+meningioma:  33%|███▎      | 326/1000 [2:25:26<5:12:36, 27.83s/it]
+meningioma:  33%|███▎      | 327/1000 [2:25:38<4:16:58, 22.91s/it]
+meningioma:  33%|███▎      | 328/1000 [2:26:16<5:07:04, 27.42s/it]
+meningioma:  33%|███▎      | 329/1000 [2:26:46<5:17:04, 28.35s/it]
+meningioma:  33%|███▎      | 330/1000 [2:27:45<6:58:25, 37.47s/it]
+meningioma:  33%|███▎      | 331/1000 [2:28:36<7:43:25, 41.56s/it]
+meningioma:  33%|███▎      | 332/1000 [2:29:11<7:19:05, 39.44s/it]
+meningioma:  33%|███▎      | 333/1000 [2:29:36<6:32:23, 35.30s/it]
+meningioma:  33%|███▎      | 334/1000 [2:29:43<4:57:39, 26.82s/it]
+meningioma:  34%|███▎      | 335/1000 [2:30:13<5:08:25, 27.83s/it]
+meningioma:  34%|███▎      | 336/1000 [2:30:55<5:53:22, 31.93s/it]
+meningioma:  34%|███▎      | 337/1000 [2:31:14<5:09:28, 28.01s/it]
+meningioma:  34%|███▍      | 338/1000 [2:31:31<4:34:43, 24.90s/it]
+meningioma:  34%|███▍      | 339/1000 [2:31:45<3:56:43, 21.49s/it]
+meningioma:  34%|███▍      | 340/1000 [2:32:07<3:58:44, 21.70s/it]
+meningioma:  34%|███▍      | 341/1000 [2:32:19<3:25:47, 18.74s/it]
+meningioma:  34%|███▍      | 342/1000 [2:33:01<4:41:20, 25.65s/it]
+meningioma:  34%|███▍      | 343/1000 [2:33:36<5:11:37, 28.46s/it]
+meningioma:  34%|███▍      | 344/1000 [2:33:57<4:46:59, 26.25s/it]
+meningioma:  34%|███▍      | 345/1000 [2:34:24<4:48:06, 26.39s/it]
+meningioma:  35%|███▍      | 346/1000 [2:34:58<5:14:00, 28.81s/it]
+meningioma:  35%|███▍      | 347/1000 [2:35:31<5:25:43, 29.93s/it]
+meningioma:  35%|███▍      | 348/1000 [2:35:54<5:04:59, 28.07s/it]
+meningioma:  35%|███▍      | 349/1000 [2:36:33<5:37:31, 31.11s/it]
+meningioma:  35%|███▌      | 350/1000 [2:37:01<5:28:04, 30.28s/it]
+meningioma:  35%|███▌      | 351/1000 [2:38:02<7:06:01, 39.39s/it]
+meningioma:  35%|███▌      | 352/1000 [2:39:09<8:34:58, 47.68s/it]
+meningioma:  35%|███▌      | 353/1000 [2:39:51<8:16:01, 46.00s/it]
+meningioma:  35%|███▌      | 354/1000 [2:40:22<7:26:56, 41.51s/it]
+meningioma:  36%|███▌      | 355/1000 [2:40:28<5:34:01, 31.07s/it]
+meningioma:  36%|███▌      | 356/1000 [2:41:35<7:29:01, 41.83s/it]
+meningioma:  36%|███▌      | 357/1000 [2:41:59<6:30:49, 36.47s/it]
+meningioma:  36%|███▌      | 358/1000 [2:42:16<5:28:11, 30.67s/it]
+meningioma:  36%|███▌      | 359/1000 [2:42:39<5:01:53, 28.26s/it]
+meningioma:  36%|███▌      | 360/1000 [2:43:10<5:10:33, 29.12s/it]
+meningioma:  36%|███▌      | 361/1000 [2:43:22<4:15:30, 23.99s/it]
+meningioma:  36%|███▌      | 362/1000 [2:43:40<3:56:17, 22.22s/it]
+meningioma:  36%|███▋      | 363/1000 [2:43:54<3:29:24, 19.73s/it]
+meningioma:  36%|███▋      | 364/1000 [2:44:17<3:39:29, 20.71s/it]
+meningioma:  36%|███▋      | 365/1000 [2:44:50<4:18:01, 24.38s/it]
+meningioma:  37%|███▋      | 366/1000 [2:45:09<4:00:31, 22.76s/it]
+meningioma:  37%|███▋      | 367/1000 [2:45:39<4:22:14, 24.86s/it]
+meningioma:  37%|███▋      | 368/1000 [2:45:50<3:38:03, 20.70s/it]
+meningioma:  37%|███▋      | 369/1000 [2:46:13<3:45:12, 21.42s/it]
+meningioma:  37%|███▋      | 370/1000 [2:46:36<3:50:49, 21.98s/it]
+meningioma:  37%|███▋      | 371/1000 [2:46:46<3:13:15, 18.43s/it]
+meningioma:  37%|███▋      | 372/1000 [2:46:56<2:44:27, 15.71s/it]
+meningioma:  37%|███▋      | 373/1000 [2:47:19<3:07:54, 17.98s/it]
+meningioma:  37%|███▋      | 374/1000 [2:47:58<4:14:23, 24.38s/it]
+meningioma:  38%|███▊      | 375/1000 [2:48:19<4:02:08, 23.25s/it]
+meningioma:  38%|███▊      | 376/1000 [2:48:58<4:49:33, 27.84s/it]
+meningioma:  38%|███▊      | 377/1000 [2:49:15<4:15:46, 24.63s/it]
+meningioma:  38%|███▊      | 378/1000 [2:49:53<4:57:12, 28.67s/it]
+meningioma:  38%|███▊      | 379/1000 [2:50:49<6:23:17, 37.03s/it]
+meningioma:  38%|███▊      | 380/1000 [2:51:09<5:28:08, 31.76s/it]
+meningioma:  38%|███▊      | 381/1000 [2:51:28<4:49:25, 28.05s/it]
+meningioma:  38%|███▊      | 382/1000 [2:52:27<6:24:11, 37.30s/it]
+meningioma:  38%|███▊      | 383/1000 [2:53:28<7:37:04, 44.45s/it]
+meningioma:  38%|███▊      | 384/1000 [2:54:10<7:27:05, 43.55s/it]
+meningioma:  38%|███▊      | 385/1000 [2:54:44<6:58:20, 40.81s/it]
+meningioma:  39%|███▊      | 386/1000 [2:55:31<7:15:05, 42.52s/it]
+meningioma:  39%|███▊      | 387/1000 [2:56:14<7:18:09, 42.89s/it]
+meningioma:  39%|███▉      | 388/1000 [2:57:21<8:29:44, 49.98s/it]
+meningioma:  39%|███▉      | 389/1000 [2:57:38<6:49:40, 40.23s/it]
+meningioma:  39%|███▉      | 390/1000 [2:57:51<5:25:01, 31.97s/it]
+meningioma:  39%|███▉      | 391/1000 [2:58:46<6:33:28, 38.77s/it]
+meningioma:  39%|███▉      | 392/1000 [2:59:26<6:37:15, 39.20s/it]
+meningioma:  39%|███▉      | 393/1000 [2:59:45<5:34:59, 33.11s/it]
+meningioma:  39%|███▉      | 394/1000 [3:00:36<6:29:08, 38.53s/it]
+meningioma:  40%|███▉      | 395/1000 [3:01:23<6:54:39, 41.12s/it]
+meningioma:  40%|███▉      | 396/1000 [3:01:35<5:25:23, 32.32s/it]
+meningioma:  40%|███▉      | 397/1000 [3:01:48<4:27:40, 26.63s/it]
+meningioma:  40%|███▉      | 398/1000 [3:02:43<5:51:43, 35.06s/it]
+meningioma:  40%|███▉      | 399/1000 [3:02:52<4:33:52, 27.34s/it]
+meningioma:  40%|████      | 400/1000 [3:03:04<3:47:20, 22.73s/it]
+meningioma:  40%|████      | 401/1000 [3:03:23<3:35:55, 21.63s/it]
+meningioma:  40%|████      | 402/1000 [3:04:01<4:23:47, 26.47s/it]
+meningioma:  40%|████      | 403/1000 [3:04:39<4:58:51, 30.04s/it]
+meningioma:  40%|████      | 404/1000 [3:05:32<6:04:51, 36.73s/it]
+meningioma:  40%|████      | 405/1000 [3:05:54<5:21:57, 32.47s/it]
+meningioma:  41%|████      | 406/1000 [3:06:06<4:20:06, 26.27s/it]
+meningioma:  41%|████      | 407/1000 [3:06:58<5:35:35, 33.96s/it]
+meningioma:  41%|████      | 408/1000 [3:07:18<4:53:50, 29.78s/it]  [307/1000] BraTS-MEN-00470-000                      MENINGIOMA   [high]  ✓
+  [308/1000] BraTS-MEN-00471-000                      MENINGIOMA   [high]  ✓
+  [309/1000] BraTS-MEN-00472-000                      MENINGIOMA   [high]  ✓
+  [310/1000] BraTS-MEN-00474-000                      MENINGIOMA   [high]  ✓
+  [311/1000] BraTS-MEN-00475-000                      MENINGIOMA   [high]  ✓
+  [312/1000] BraTS-MEN-00476-000                      MENINGIOMA   [high]  ✓
+  [313/1000] BraTS-MEN-00478-000                      MENINGIOMA   [high]  ✓
+  [314/1000] BraTS-MEN-00481-000                      MENINGIOMA   [high]  ✓
+  [315/1000] BraTS-MEN-00482-000                      MENINGIOMA   [high]  ✓
+  [316/1000] BraTS-MEN-00484-000                      MENINGIOMA   [high]  ✓
+  [317/1000] BraTS-MEN-00487-000                      MENINGIOMA   [medium]  ✓
+  [318/1000] BraTS-MEN-00488-000                      MENINGIOMA   [high]  ✓
+  [319/1000] BraTS-MEN-00490-000                      MENINGIOMA   [medium]  ✓
+  [320/1000] BraTS-MEN-00491-000                      MENINGIOMA   [high]  ✓
+  [321/1000] BraTS-MEN-00492-000                      MENINGIOMA   [high]  ✓
+  [322/1000] BraTS-MEN-00493-000                      MENINGIOMA   [high]  ✓
+  [323/1000] BraTS-MEN-00495-000                      MENINGIOMA   [high]  ✓
+  [324/1000] BraTS-MEN-00496-000                      MENINGIOMA   [high]  ✓
+  [325/1000] BraTS-MEN-00497-000                      GLIOMA       [medium]  ✗ → glioma
+  [326/1000] BraTS-MEN-00498-000                      MENINGIOMA   [medium]  ✓
+  [327/1000] BraTS-MEN-00501-000                      MENINGIOMA   [high]  ✓
+  [328/1000] BraTS-MEN-00502-000                      MENINGIOMA   [high]  ✓
+  [329/1000] BraTS-MEN-00503-000                      MENINGIOMA   [high]  ✓
+  [330/1000] BraTS-MEN-00504-000                      MENINGIOMA   [high]  ✓
+  [331/1000] BraTS-MEN-00505-000                      MENINGIOMA   [high]  ✓
+  [332/1000] BraTS-MEN-00506-000                      MENINGIOMA   [high]  ✓
+  [333/1000] BraTS-MEN-00508-000                      MENINGIOMA   [high]  ✓
+  [334/1000] BraTS-MEN-00509-000                      MENINGIOMA   [high]  ✓
+  [335/1000] BraTS-MEN-00510-000                      MENINGIOMA   [high]  ✓
+  [336/1000] BraTS-MEN-00511-000                      MENINGIOMA   [medium]  ✓
+  [337/1000] BraTS-MEN-00512-000                      MENINGIOMA   [high]  ✓
+  [338/1000] BraTS-MEN-00514-000                      MENINGIOMA   [high]  ✓
+  [339/1000] BraTS-MEN-00515-000                      MENINGIOMA   [high]  ✓
+  [340/1000] BraTS-MEN-00516-000                      MENINGIOMA   [medium]  ✓
+  [341/1000] BraTS-MEN-00517-000                      GLIOMA       [medium]  ✗ → glioma
+  [342/1000] BraTS-MEN-00518-000                      GLIOMA       [medium]  ✗ → glioma
+  [343/1000] BraTS-MEN-00520-000                      MENINGIOMA   [high]  ✓
+  [344/1000] BraTS-MEN-00521-000                      MENINGIOMA   [high]  ✓
+  [345/1000] BraTS-MEN-00523-000                      MENINGIOMA   [high]  ✓
+  [346/1000] BraTS-MEN-00524-000                      MENINGIOMA   [high]  ✓
+  [347/1000] BraTS-MEN-00525-000                      MENINGIOMA   [high]  ✓
+  [348/1000] BraTS-MEN-00527-000                      GLIOMA       [medium]  ✗ → glioma
+  [349/1000] BraTS-MEN-00529-000                      MENINGIOMA   [high]  ✓
+  [350/1000] BraTS-MEN-00530-000                      MENINGIOMA   [high]  ✓
+  [351/1000] BraTS-MEN-00532-000                      MENINGIOMA   [high]  ✓
+  [352/1000] BraTS-MEN-00533-000                      GLIOMA       [high]  ✗ → glioma
+  [353/1000] BraTS-MEN-00534-000                      MENINGIOMA   [high]  ✓
+  [354/1000] BraTS-MEN-00535-000                      GLIOMA       [medium]  ✗ → glioma
+  [355/1000] BraTS-MEN-00540-000                      MENINGIOMA   [high]  ✓
+  [356/1000] BraTS-MEN-00541-000                      MENINGIOMA   [high]  ✓
+  [357/1000] BraTS-MEN-00542-000                      MENINGIOMA   [high]  ✓
+  [358/1000] BraTS-MEN-00544-000                      MENINGIOMA   [high]  ✓
+  [359/1000] BraTS-MEN-00545-000                      MENINGIOMA   [high]  ✓
+  [360/1000] BraTS-MEN-00547-000                      MENINGIOMA   [high]  ✓
+  [361/1000] BraTS-MEN-00548-000                      MENINGIOMA   [high]  ✓
+  [362/1000] BraTS-MEN-00549-000                      MENINGIOMA   [high]  ✓
+  [363/1000] BraTS-MEN-00551-000                      MENINGIOMA   [high]  ✓
+  [364/1000] BraTS-MEN-00552-000                      MENINGIOMA   [high]  ✓
+  [365/1000] BraTS-MEN-00553-000                      MENINGIOMA   [high]  ✓
+  [366/1000] BraTS-MEN-00554-000                      MENINGIOMA   [high]  ✓
+  [367/1000] BraTS-MEN-00555-000                      MENINGIOMA   [high]  ✓
+  [368/1000] BraTS-MEN-00557-000                      MENINGIOMA   [high]  ✓
+  [369/1000] BraTS-MEN-00558-000                      MENINGIOMA   [high]  ✓
+  [370/1000] BraTS-MEN-00559-000                      MENINGIOMA   [high]  ✓
+  [371/1000] BraTS-MEN-00561-000                      MENINGIOMA   [high]  ✓
+  [372/1000] BraTS-MEN-00562-000                      MENINGIOMA   [high]  ✓
+  [373/1000] BraTS-MEN-00563-000                      MENINGIOMA   [medium]  ✓
+  [374/1000] BraTS-MEN-00564-000                      MENINGIOMA   [high]  ✓
+  [375/1000] BraTS-MEN-00566-000                      MENINGIOMA   [medium]  ✓
+  [376/1000] BraTS-MEN-00571-000                      MENINGIOMA   [high]  ✓
+  [377/1000] BraTS-MEN-00572-000                      MENINGIOMA   [high]  ✓
+  [378/1000] BraTS-MEN-00573-000                      MENINGIOMA   [high]  ✓
+  [379/1000] BraTS-MEN-00574-000                      MENINGIOMA   [medium]  ✓
+  [380/1000] BraTS-MEN-00575-000                      MENINGIOMA   [high]  ✓
+  [381/1000] BraTS-MEN-00576-000                      MENINGIOMA   [medium]  ✓
+  [382/1000] BraTS-MEN-00576-005                      MENINGIOMA   [high]  ✓
+  [383/1000] BraTS-MEN-00576-006                      MENINGIOMA   [high]  ✓
+  [384/1000] BraTS-MEN-00576-007                      MENINGIOMA   [medium]  ✓
+  [385/1000] BraTS-MEN-00576-009                      MENINGIOMA   [high]  ✓
+  [386/1000] BraTS-MEN-00578-000                      GLIOMA       [medium]  ✗ → glioma
+  [387/1000] BraTS-MEN-00579-000                      MENINGIOMA   [medium]  ✓
+  [388/1000] BraTS-MEN-00580-000                      MENINGIOMA   [high]  ✓
+  [389/1000] BraTS-MEN-00583-000                      MENINGIOMA   [high]  ✓
+  [390/1000] BraTS-MEN-00584-000                      MENINGIOMA   [high]  ✓
+  [391/1000] BraTS-MEN-00587-000                      MENINGIOMA   [high]  ✓
+  [392/1000] BraTS-MEN-00588-000                      MENINGIOMA   [high]  ✓
+  [393/1000] BraTS-MEN-00589-000                      GLIOMA       [medium]  ✗ → glioma
+  [394/1000] BraTS-MEN-00590-000                      MENINGIOMA   [high]  ✓
+  [395/1000] BraTS-MEN-00594-000                      MENINGIOMA   [high]  ✓
+  [396/1000] BraTS-MEN-00596-000                      MENINGIOMA   [high]  ✓
+  [397/1000] BraTS-MEN-00596-001                      MENINGIOMA   [high]  ✓
+  [398/1000] BraTS-MEN-00598-000                      MENINGIOMA   [high]  ✓
+  [399/1000] BraTS-MEN-00599-000                      MENINGIOMA   [high]  ✓
+  [400/1000] BraTS-MEN-00601-000                      MENINGIOMA   [high]  ✓
+  [401/1000] BraTS-MEN-00602-000                      MENINGIOMA   [high]  ✓
+  [402/1000] BraTS-MEN-00603-000                      MENINGIOMA   [high]  ✓
+  [403/1000] BraTS-MEN-00604-000                      MENINGIOMA   [high]  ✓
+  [404/1000] BraTS-MEN-00606-000                      MENINGIOMA   [high]  ✓
+  [405/1000] BraTS-MEN-00607-000                      MENINGIOMA   [high]  ✓
+  [406/1000] BraTS-MEN-00608-000                      MENINGIOMA   [high]  ✓
+  [407/1000] BraTS-MEN-00609-000                      MENINGIOMA   [high]  ✓
+  [408/1000] BraTS-MEN-00610-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  41%|████      | 409/1000 [3:07:46<4:48:25, 29.28s/it]
+meningioma:  41%|████      | 410/1000 [3:08:20<5:01:18, 30.64s/it]
+meningioma:  41%|████      | 411/1000 [3:08:41<4:33:19, 27.84s/it]
+meningioma:  41%|████      | 412/1000 [3:08:59<4:03:48, 24.88s/it]
+meningioma:  41%|████▏     | 413/1000 [3:09:51<5:22:50, 33.00s/it]
+meningioma:  41%|████▏     | 414/1000 [3:10:07<4:31:18, 27.78s/it]
+meningioma:  42%|████▏     | 415/1000 [3:10:32<4:24:26, 27.12s/it]
+meningioma:  42%|████▏     | 416/1000 [3:10:54<4:08:06, 25.49s/it]
+meningioma:  42%|████▏     | 417/1000 [3:11:15<3:53:36, 24.04s/it]
+meningioma:  42%|████▏     | 418/1000 [3:11:25<3:13:35, 19.96s/it]
+meningioma:  42%|████▏     | 419/1000 [3:12:44<6:04:05, 37.60s/it]
+meningioma:  42%|████▏     | 420/1000 [3:12:57<4:52:15, 30.23s/it]
+meningioma:  42%|████▏     | 421/1000 [3:13:09<3:57:49, 24.65s/it]
+meningioma:  42%|████▏     | 422/1000 [3:13:18<3:11:58, 19.93s/it]
+meningioma:  42%|████▏     | 423/1000 [3:13:30<2:49:43, 17.65s/it]
+meningioma:  42%|████▏     | 424/1000 [3:13:52<3:03:26, 19.11s/it]
+meningioma:  42%|████▎     | 425/1000 [3:14:04<2:40:49, 16.78s/it]
+meningioma:  43%|████▎     | 426/1000 [3:14:22<2:45:37, 17.31s/it]
+meningioma:  43%|████▎     | 427/1000 [3:14:54<3:26:29, 21.62s/it]
+meningioma:  43%|████▎     | 428/1000 [3:15:18<3:34:08, 22.46s/it]
+meningioma:  43%|████▎     | 429/1000 [3:16:00<4:28:43, 28.24s/it]
+meningioma:  43%|████▎     | 430/1000 [3:16:30<4:32:53, 28.73s/it]
+meningioma:  43%|████▎     | 431/1000 [3:16:41<3:43:17, 23.55s/it]
+meningioma:  43%|████▎     | 432/1000 [3:16:59<3:24:55, 21.65s/it]
+meningioma:  43%|████▎     | 433/1000 [3:17:35<4:05:05, 25.94s/it]
+meningioma:  43%|████▎     | 434/1000 [3:17:48<3:27:56, 22.04s/it]
+meningioma:  44%|████▎     | 435/1000 [3:17:56<2:48:26, 17.89s/it]
+meningioma:  44%|████▎     | 436/1000 [3:18:09<2:34:14, 16.41s/it]
+meningioma:  44%|████▎     | 437/1000 [3:18:46<3:33:19, 22.73s/it]
+meningioma:  44%|████▍     | 438/1000 [3:20:00<5:57:43, 38.19s/it]
+meningioma:  44%|████▍     | 439/1000 [3:20:15<4:49:28, 30.96s/it]
+meningioma:  44%|████▍     | 440/1000 [3:20:27<3:56:11, 25.31s/it]
+meningioma:  44%|████▍     | 441/1000 [3:20:58<4:11:27, 26.99s/it]
+meningioma:  44%|████▍     | 442/1000 [3:21:06<3:18:03, 21.30s/it]
+meningioma:  44%|████▍     | 443/1000 [3:21:45<4:09:15, 26.85s/it]
+meningioma:  44%|████▍     | 444/1000 [3:21:58<3:29:10, 22.57s/it]
+meningioma:  44%|████▍     | 445/1000 [3:22:02<2:38:01, 17.08s/it]
+meningioma:  45%|████▍     | 446/1000 [3:22:34<3:19:09, 21.57s/it]
+meningioma:  45%|████▍     | 447/1000 [3:23:07<3:50:44, 25.03s/it]
+meningioma:  45%|████▍     | 448/1000 [3:23:30<3:43:31, 24.30s/it]
+meningioma:  45%|████▍     | 449/1000 [3:24:10<4:25:05, 28.87s/it]
+meningioma:  45%|████▌     | 450/1000 [3:24:25<3:47:47, 24.85s/it]
+meningioma:  45%|████▌     | 451/1000 [3:24:38<3:13:38, 21.16s/it]
+meningioma:  45%|████▌     | 452/1000 [3:25:25<4:25:13, 29.04s/it]
+meningioma:  45%|████▌     | 453/1000 [3:26:00<4:39:50, 30.69s/it]
+meningioma:  45%|████▌     | 454/1000 [3:27:17<6:47:07, 44.74s/it]
+meningioma:  46%|████▌     | 455/1000 [3:27:32<5:24:07, 35.68s/it]
+meningioma:  46%|████▌     | 456/1000 [3:27:42<4:14:22, 28.06s/it]
+meningioma:  46%|████▌     | 457/1000 [3:28:25<4:56:08, 32.72s/it]
+meningioma:  46%|████▌     | 458/1000 [3:28:48<4:28:53, 29.77s/it]
+meningioma:  46%|████▌     | 459/1000 [3:29:02<3:44:37, 24.91s/it]
+meningioma:  46%|████▌     | 460/1000 [3:29:34<4:04:31, 27.17s/it]
+meningioma:  46%|████▌     | 461/1000 [3:29:59<3:56:36, 26.34s/it]
+meningioma:  46%|████▌     | 462/1000 [3:30:36<4:25:32, 29.61s/it]
+meningioma:  46%|████▋     | 463/1000 [3:30:50<3:43:19, 24.95s/it]
+meningioma:  46%|████▋     | 464/1000 [3:30:59<2:59:04, 20.05s/it]
+meningioma:  46%|████▋     | 465/1000 [3:31:11<2:39:21, 17.87s/it]
+meningioma:  47%|████▋     | 466/1000 [3:31:47<3:25:01, 23.04s/it]
+meningioma:  47%|████▋     | 467/1000 [3:32:04<3:10:19, 21.42s/it]
+meningioma:  47%|████▋     | 468/1000 [3:32:17<2:46:18, 18.76s/it]
+meningioma:  47%|████▋     | 469/1000 [3:32:58<3:45:49, 25.52s/it]
+meningioma:  47%|████▋     | 470/1000 [3:33:21<3:39:30, 24.85s/it]
+meningioma:  47%|████▋     | 471/1000 [3:33:42<3:28:03, 23.60s/it]
+meningioma:  47%|████▋     | 472/1000 [3:34:04<3:23:37, 23.14s/it]
+meningioma:  47%|████▋     | 473/1000 [3:34:22<3:10:37, 21.70s/it]
+meningioma:  47%|████▋     | 474/1000 [3:34:38<2:54:11, 19.87s/it]
+meningioma:  48%|████▊     | 475/1000 [3:35:18<3:46:40, 25.91s/it]
+meningioma:  48%|████▊     | 476/1000 [3:35:59<4:24:27, 30.28s/it]
+meningioma:  48%|████▊     | 477/1000 [3:36:29<4:25:15, 30.43s/it]
+meningioma:  48%|████▊     | 478/1000 [3:37:07<4:44:05, 32.65s/it]
+meningioma:  48%|████▊     | 479/1000 [3:37:39<4:41:28, 32.42s/it]
+meningioma:  48%|████▊     | 480/1000 [3:38:07<4:29:45, 31.13s/it]
+meningioma:  48%|████▊     | 481/1000 [3:38:38<4:28:33, 31.05s/it]
+meningioma:  48%|████▊     | 482/1000 [3:38:50<3:37:44, 25.22s/it]
+meningioma:  48%|████▊     | 483/1000 [3:39:33<4:23:35, 30.59s/it]
+meningioma:  48%|████▊     | 484/1000 [3:39:42<3:28:51, 24.29s/it]
+meningioma:  48%|████▊     | 485/1000 [3:40:00<3:10:30, 22.20s/it]
+meningioma:  49%|████▊     | 486/1000 [3:40:13<2:46:33, 19.44s/it]
+meningioma:  49%|████▊     | 487/1000 [3:40:26<2:30:08, 17.56s/it]
+meningioma:  49%|████▉     | 488/1000 [3:40:55<2:59:52, 21.08s/it]
+meningioma:  49%|████▉     | 489/1000 [3:41:14<2:54:09, 20.45s/it]
+meningioma:  49%|████▉     | 490/1000 [3:42:20<4:50:00, 34.12s/it]
+meningioma:  49%|████▉     | 491/1000 [3:43:46<7:00:31, 49.57s/it]
+meningioma:  49%|████▉     | 492/1000 [3:44:11<5:58:05, 42.29s/it]
+meningioma:  49%|████▉     | 493/1000 [3:44:26<4:46:55, 33.96s/it]
+meningioma:  49%|████▉     | 494/1000 [3:44:41<3:58:40, 28.30s/it]
+meningioma:  50%|████▉     | 495/1000 [3:45:07<3:54:01, 27.81s/it]
+meningioma:  50%|████▉     | 496/1000 [3:45:20<3:14:49, 23.19s/it]
+meningioma:  50%|████▉     | 497/1000 [3:45:33<2:50:13, 20.31s/it]
+meningioma:  50%|████▉     | 498/1000 [3:45:59<3:03:28, 21.93s/it]
+meningioma:  50%|████▉     | 499/1000 [3:46:05<2:23:56, 17.24s/it]
+meningioma:  50%|█████     | 500/1000 [3:46:21<2:19:20, 16.72s/it]
+meningioma:  50%|█████     | 501/1000 [3:46:53<2:57:09, 21.30s/it]
+meningioma:  50%|█████     | 502/1000 [3:47:14<2:55:29, 21.14s/it]
+meningioma:  50%|█████     | 503/1000 [3:47:25<2:31:23, 18.28s/it]
+meningioma:  50%|█████     | 504/1000 [3:47:38<2:17:10, 16.59s/it]
+meningioma:  50%|█████     | 505/1000 [3:47:41<1:43:16, 12.52s/it]
+meningioma:  51%|█████     | 506/1000 [3:48:16<2:38:09, 19.21s/it]
+meningioma:  51%|█████     | 507/1000 [3:48:50<3:15:26, 23.79s/it]
+meningioma:  51%|█████     | 508/1000 [3:49:14<3:16:15, 23.93s/it]
+meningioma:  51%|█████     | 509/1000 [3:49:39<3:17:35, 24.14s/it]  [409/1000] BraTS-MEN-00611-000                      GLIOMA       [high]  ✗ → glioma
+  [410/1000] BraTS-MEN-00612-000                      MENINGIOMA   [high]  ✓
+  [411/1000] BraTS-MEN-00613-000                      MENINGIOMA   [high]  ✓
+  [412/1000] BraTS-MEN-00614-000                      MENINGIOMA   [high]  ✓
+  [413/1000] BraTS-MEN-00615-000                      MENINGIOMA   [high]  ✓
+  [414/1000] BraTS-MEN-00616-000                      MENINGIOMA   [high]  ✓
+  [415/1000] BraTS-MEN-00618-000                      MENINGIOMA   [high]  ✓
+  [416/1000] BraTS-MEN-00619-000                      GLIOMA       [high]  ✗ → glioma
+  [417/1000] BraTS-MEN-00620-000                      MENINGIOMA   [high]  ✓
+  [418/1000] BraTS-MEN-00621-000                      MENINGIOMA   [high]  ✓
+  [419/1000] BraTS-MEN-00622-000                      MENINGIOMA   [high]  ✓
+  [420/1000] BraTS-MEN-00623-000                      MENINGIOMA   [high]  ✓
+  [421/1000] BraTS-MEN-00625-000                      MENINGIOMA   [high]  ✓
+  [422/1000] BraTS-MEN-00626-000                      MENINGIOMA   [high]  ✓
+  [423/1000] BraTS-MEN-00627-000                      MENINGIOMA   [high]  ✓
+  [424/1000] BraTS-MEN-00628-000                      MENINGIOMA   [high]  ✓
+  [425/1000] BraTS-MEN-00629-000                      MENINGIOMA   [high]  ✓
+  [426/1000] BraTS-MEN-00630-000                      MENINGIOMA   [high]  ✓
+  [427/1000] BraTS-MEN-00631-000                      MENINGIOMA   [high]  ✓
+  [428/1000] BraTS-MEN-00632-000                      MENINGIOMA   [medium]  ✓
+  [429/1000] BraTS-MEN-00633-000                      MENINGIOMA   [high]  ✓
+  [430/1000] BraTS-MEN-00634-000                      MENINGIOMA   [high]  ✓
+  [431/1000] BraTS-MEN-00636-000                      MENINGIOMA   [high]  ✓
+  [432/1000] BraTS-MEN-00637-000                      MENINGIOMA   [high]  ✓
+  [433/1000] BraTS-MEN-00638-000                      GLIOMA       [medium]  ✗ → glioma
+  [434/1000] BraTS-MEN-00639-000                      GLIOMA       [high]  ✗ → glioma
+  [435/1000] BraTS-MEN-00640-000                      MENINGIOMA   [high]  ✓
+  [436/1000] BraTS-MEN-00641-000                      MENINGIOMA   [high]  ✓
+  [437/1000] BraTS-MEN-00643-000                      MENINGIOMA   [high]  ✓
+  [438/1000] BraTS-MEN-00644-000                      MENINGIOMA   [high]  ✓
+  [439/1000] BraTS-MEN-00645-000                      MENINGIOMA   [high]  ✓
+  [440/1000] BraTS-MEN-00646-000                      MENINGIOMA   [medium]  ✓
+  [441/1000] BraTS-MEN-00648-000                      MENINGIOMA   [high]  ✓
+  [442/1000] BraTS-MEN-00650-000                      MENINGIOMA   [high]  ✓
+  [443/1000] BraTS-MEN-00653-000                      MENINGIOMA   [high]  ✓
+  [444/1000] BraTS-MEN-00655-000                      MENINGIOMA   [high]  ✓
+  [445/1000] BraTS-MEN-00656-000                      MENINGIOMA   [high]  ✓
+  [446/1000] BraTS-MEN-00658-000                      MENINGIOMA   [high]  ✓
+  [447/1000] BraTS-MEN-00659-000                      MENINGIOMA   [medium]  ✓
+  [448/1000] BraTS-MEN-00662-000                      MENINGIOMA   [high]  ✓
+  [449/1000] BraTS-MEN-00663-000                      MENINGIOMA   [medium]  ✓
+  [450/1000] BraTS-MEN-00664-000                      MENINGIOMA   [high]  ✓
+  [451/1000] BraTS-MEN-00665-000                      GLIOMA       [medium]  ✗ → glioma
+  [452/1000] BraTS-MEN-00666-000                      MENINGIOMA   [medium]  ✓
+  [453/1000] BraTS-MEN-00667-000                      MENINGIOMA   [high]  ✓
+  [454/1000] BraTS-MEN-00668-000                      MENINGIOMA   [high]  ✓
+  [455/1000] BraTS-MEN-00669-000                      MENINGIOMA   [high]  ✓
+  [456/1000] BraTS-MEN-00670-000                      MENINGIOMA   [high]  ✓
+  [457/1000] BraTS-MEN-00671-000                      MENINGIOMA   [high]  ✓
+  [458/1000] BraTS-MEN-00672-000                      MENINGIOMA   [medium]  ✓
+  [459/1000] BraTS-MEN-00673-000                      MENINGIOMA   [high]  ✓
+  [460/1000] BraTS-MEN-00674-000                      MENINGIOMA   [high]  ✓
+  [461/1000] BraTS-MEN-00676-000                      MENINGIOMA   [high]  ✓
+  [462/1000] BraTS-MEN-00677-000                      MENINGIOMA   [high]  ✓
+  [463/1000] BraTS-MEN-00681-000                      MENINGIOMA   [high]  ✓
+  [464/1000] BraTS-MEN-00682-000                      MENINGIOMA   [medium]  ✓
+  [465/1000] BraTS-MEN-00683-000                      MENINGIOMA   [high]  ✓
+  [466/1000] BraTS-MEN-00684-000                      MENINGIOMA   [high]  ✓
+  [467/1000] BraTS-MEN-00685-000                      MENINGIOMA   [high]  ✓
+  [468/1000] BraTS-MEN-00686-000                      MENINGIOMA   [high]  ✓
+  [469/1000] BraTS-MEN-00687-000                      MENINGIOMA   [high]  ✓
+  [470/1000] BraTS-MEN-00688-000                      MENINGIOMA   [high]  ✓
+  [471/1000] BraTS-MEN-00689-000                      MENINGIOMA   [high]  ✓
+  [472/1000] BraTS-MEN-00690-000                      MENINGIOMA   [high]  ✓
+  [473/1000] BraTS-MEN-00691-000                      MENINGIOMA   [high]  ✓
+  [474/1000] BraTS-MEN-00693-000                      MENINGIOMA   [high]  ✓
+  [475/1000] BraTS-MEN-00696-000                      MENINGIOMA   [high]  ✓
+  [476/1000] BraTS-MEN-00697-000                      GLIOMA       [low]  ✗ → glioma
+  [477/1000] BraTS-MEN-00698-000                      MENINGIOMA   [high]  ✓
+  [478/1000] BraTS-MEN-00702-000                      MENINGIOMA   [high]  ✓
+  [479/1000] BraTS-MEN-00703-000                      MENINGIOMA   [high]  ✓
+  [480/1000] BraTS-MEN-00704-000                      MENINGIOMA   [high]  ✓
+  [481/1000] BraTS-MEN-00705-000                      GLIOMA       [high]  ✗ → glioma
+  [482/1000] BraTS-MEN-00706-000                      MENINGIOMA   [high]  ✓
+  [483/1000] BraTS-MEN-00708-000                      MENINGIOMA   [high]  ✓
+  [484/1000] BraTS-MEN-00709-000                      MENINGIOMA   [high]  ✓
+  [485/1000] BraTS-MEN-00711-000                      MENINGIOMA   [high]  ✓
+  [486/1000] BraTS-MEN-00712-000                      MENINGIOMA   [high]  ✓
+  [487/1000] BraTS-MEN-00713-000                      MENINGIOMA   [high]  ✓
+  [488/1000] BraTS-MEN-00714-000                      MENINGIOMA   [high]  ✓
+  [489/1000] BraTS-MEN-00717-003                      MENINGIOMA   [high]  ✓
+  [490/1000] BraTS-MEN-00717-005                      MENINGIOMA   [high]  ✓
+  [491/1000] BraTS-MEN-00717-006                      MENINGIOMA   [high]  ✓
+  [492/1000] BraTS-MEN-00717-007                      GLIOMA       [medium]  ✗ → glioma
+  [493/1000] BraTS-MEN-00717-008                      GLIOMA       [medium]  ✗ → glioma
+  [494/1000] BraTS-MEN-00717-009                      MENINGIOMA   [high]  ✓
+  [495/1000] BraTS-MEN-00717-010                      MENINGIOMA   [high]  ✓
+  [496/1000] BraTS-MEN-00717-012                      GLIOMA       [low]  ✗ → glioma
+  [497/1000] BraTS-MEN-00719-000                      MENINGIOMA   [high]  ✓
+  [498/1000] BraTS-MEN-00720-000                      MENINGIOMA   [high]  ✓
+  [499/1000] BraTS-MEN-00721-000                      MENINGIOMA   [high]  ✓
+  [500/1000] BraTS-MEN-00722-000                      MENINGIOMA   [high]  ✓
+  [501/1000] BraTS-MEN-00725-000                      GLIOMA       [medium]  ✗ → glioma
+  [502/1000] BraTS-MEN-00726-000                      MENINGIOMA   [high]  ✓
+  [503/1000] BraTS-MEN-00728-000                      MENINGIOMA   [high]  ✓
+  [504/1000] BraTS-MEN-00729-000                      MENINGIOMA   [high]  ✓
+  [505/1000] BraTS-MEN-00730-000                      MENINGIOMA   [high]  ✓
+  [506/1000] BraTS-MEN-00731-000                      MENINGIOMA   [high]  ✓
+  [507/1000] BraTS-MEN-00734-000                      MENINGIOMA   [high]  ✓
+  [508/1000] BraTS-MEN-00735-000                      MENINGIOMA   [high]  ✓
+  [509/1000] BraTS-MEN-00737-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  51%|█████     | 510/1000 [3:49:54<2:54:43, 21.40s/it]
+meningioma:  51%|█████     | 511/1000 [3:50:10<2:42:13, 19.90s/it]
+meningioma:  51%|█████     | 512/1000 [3:50:24<2:26:07, 17.97s/it]
+meningioma:  51%|█████▏    | 513/1000 [3:50:45<2:32:47, 18.82s/it]
+meningioma:  51%|█████▏    | 514/1000 [3:51:07<2:41:34, 19.95s/it]
+meningioma:  52%|█████▏    | 515/1000 [3:52:05<4:12:35, 31.25s/it]
+meningioma:  52%|█████▏    | 516/1000 [3:52:14<3:19:07, 24.69s/it]
+meningioma:  52%|█████▏    | 517/1000 [3:52:40<3:21:49, 25.07s/it]
+meningioma:  52%|█████▏    | 518/1000 [3:53:09<3:29:52, 26.12s/it]
+meningioma:  52%|█████▏    | 519/1000 [3:54:12<4:58:18, 37.21s/it]
+meningioma:  52%|█████▏    | 520/1000 [3:54:43<4:43:42, 35.46s/it]
+meningioma:  52%|█████▏    | 521/1000 [3:55:22<4:50:05, 36.34s/it]
+meningioma:  52%|█████▏    | 522/1000 [3:55:42<4:10:14, 31.41s/it]
+meningioma:  52%|█████▏    | 523/1000 [3:55:50<3:14:50, 24.51s/it]
+meningioma:  52%|█████▏    | 524/1000 [3:56:06<2:53:53, 21.92s/it]
+meningioma:  52%|█████▎    | 525/1000 [3:56:21<2:36:14, 19.74s/it]
+meningioma:  53%|█████▎    | 526/1000 [3:56:46<2:50:03, 21.53s/it]
+meningioma:  53%|█████▎    | 527/1000 [3:57:18<3:13:18, 24.52s/it]
+meningioma:  53%|█████▎    | 528/1000 [3:57:32<2:47:55, 21.35s/it]
+meningioma:  53%|█████▎    | 529/1000 [3:57:59<3:02:36, 23.26s/it]
+meningioma:  53%|█████▎    | 530/1000 [3:58:20<2:56:33, 22.54s/it]
+meningioma:  53%|█████▎    | 531/1000 [3:58:52<3:16:55, 25.19s/it]
+meningioma:  53%|█████▎    | 532/1000 [3:59:23<3:30:37, 27.00s/it]
+meningioma:  53%|█████▎    | 533/1000 [3:59:59<3:51:11, 29.70s/it]
+meningioma:  53%|█████▎    | 534/1000 [4:00:24<3:39:05, 28.21s/it]
+meningioma:  54%|█████▎    | 535/1000 [4:01:04<4:07:36, 31.95s/it]
+meningioma:  54%|█████▎    | 536/1000 [4:01:34<4:01:57, 31.29s/it]
+meningioma:  54%|█████▎    | 537/1000 [4:01:57<3:41:33, 28.71s/it]
+meningioma:  54%|█████▍    | 538/1000 [4:02:15<3:16:51, 25.57s/it]
+meningioma:  54%|█████▍    | 539/1000 [4:02:54<3:48:06, 29.69s/it]
+meningioma:  54%|█████▍    | 540/1000 [4:03:07<3:08:05, 24.53s/it]
+meningioma:  54%|█████▍    | 541/1000 [4:03:27<2:56:50, 23.12s/it]
+meningioma:  54%|█████▍    | 542/1000 [4:04:28<4:24:55, 34.71s/it]
+meningioma:  54%|█████▍    | 543/1000 [4:04:51<3:56:20, 31.03s/it]
+meningioma:  54%|█████▍    | 544/1000 [4:05:30<4:13:29, 33.35s/it]
+meningioma:  55%|█████▍    | 545/1000 [4:05:57<3:59:26, 31.58s/it]
+meningioma:  55%|█████▍    | 546/1000 [4:06:12<3:20:21, 26.48s/it]
+meningioma:  55%|█████▍    | 547/1000 [4:06:29<2:58:59, 23.71s/it]
+meningioma:  55%|█████▍    | 548/1000 [4:06:36<2:21:36, 18.80s/it]
+meningioma:  55%|█████▍    | 549/1000 [4:07:04<2:41:56, 21.55s/it]
+meningioma:  55%|█████▌    | 550/1000 [4:07:28<2:47:34, 22.34s/it]
+meningioma:  55%|█████▌    | 551/1000 [4:07:57<3:01:20, 24.23s/it]
+meningioma:  55%|█████▌    | 552/1000 [4:08:34<3:30:00, 28.13s/it]
+meningioma:  55%|█████▌    | 553/1000 [4:08:47<2:56:11, 23.65s/it]
+meningioma:  55%|█████▌    | 554/1000 [4:09:34<3:47:22, 30.59s/it]
+meningioma:  56%|█████▌    | 555/1000 [4:10:15<4:09:30, 33.64s/it]
+meningioma:  56%|█████▌    | 556/1000 [4:10:36<3:40:46, 29.83s/it]
+meningioma:  56%|█████▌    | 557/1000 [4:10:45<2:55:28, 23.77s/it]
+meningioma:  56%|█████▌    | 558/1000 [4:10:59<2:32:26, 20.69s/it]
+meningioma:  56%|█████▌    | 559/1000 [4:11:17<2:27:17, 20.04s/it]
+meningioma:  56%|█████▌    | 560/1000 [4:11:39<2:29:07, 20.33s/it]
+meningioma:  56%|█████▌    | 561/1000 [4:12:05<2:41:43, 22.10s/it]
+meningioma:  56%|█████▌    | 562/1000 [4:12:50<3:32:14, 29.07s/it]
+meningioma:  56%|█████▋    | 563/1000 [4:13:25<3:44:59, 30.89s/it]
+meningioma:  56%|█████▋    | 564/1000 [4:13:35<2:57:33, 24.43s/it]
+meningioma:  56%|█████▋    | 565/1000 [4:13:45<2:27:30, 20.35s/it]
+meningioma:  57%|█████▋    | 566/1000 [4:14:26<3:10:12, 26.30s/it]
+meningioma:  57%|█████▋    | 567/1000 [4:14:33<2:29:17, 20.69s/it]
+meningioma:  57%|█████▋    | 568/1000 [4:14:54<2:28:50, 20.67s/it]
+meningioma:  57%|█████▋    | 569/1000 [4:15:15<2:28:54, 20.73s/it]
+meningioma:  57%|█████▋    | 570/1000 [4:15:50<2:59:46, 25.08s/it]
+meningioma:  57%|█████▋    | 571/1000 [4:16:15<2:59:59, 25.17s/it]
+meningioma:  57%|█████▋    | 572/1000 [4:16:41<3:00:36, 25.32s/it]
+meningioma:  57%|█████▋    | 573/1000 [4:17:09<3:05:28, 26.06s/it]
+meningioma:  57%|█████▋    | 574/1000 [4:18:11<4:21:38, 36.85s/it]
+meningioma:  57%|█████▊    | 575/1000 [4:18:33<3:50:53, 32.60s/it]
+meningioma:  58%|█████▊    | 576/1000 [4:18:48<3:11:12, 27.06s/it]
+meningioma:  58%|█████▊    | 577/1000 [4:18:59<2:38:42, 22.51s/it]
+meningioma:  58%|█████▊    | 578/1000 [4:19:13<2:20:02, 19.91s/it]
+meningioma:  58%|█████▊    | 579/1000 [4:19:22<1:56:14, 16.57s/it]
+meningioma:  58%|█████▊    | 580/1000 [4:19:35<1:47:53, 15.41s/it]
+meningioma:  58%|█████▊    | 581/1000 [4:19:49<1:45:21, 15.09s/it]
+meningioma:  58%|█████▊    | 582/1000 [4:20:18<2:13:18, 19.13s/it]
+meningioma:  58%|█████▊    | 583/1000 [4:20:32<2:02:32, 17.63s/it]
+meningioma:  58%|█████▊    | 584/1000 [4:20:45<1:52:29, 16.22s/it]
+meningioma:  58%|█████▊    | 585/1000 [4:21:31<2:53:49, 25.13s/it]
+meningioma:  59%|█████▊    | 586/1000 [4:21:57<2:56:10, 25.53s/it]
+meningioma:  59%|█████▊    | 587/1000 [4:22:23<2:57:11, 25.74s/it]
+meningioma:  59%|█████▉    | 588/1000 [4:22:56<3:11:14, 27.85s/it]
+meningioma:  59%|█████▉    | 589/1000 [4:23:09<2:40:25, 23.42s/it]
+meningioma:  59%|█████▉    | 590/1000 [4:23:51<3:17:13, 28.86s/it]
+meningioma:  59%|█████▉    | 591/1000 [4:24:00<2:35:59, 22.88s/it]
+meningioma:  59%|█████▉    | 592/1000 [4:25:39<5:12:13, 45.92s/it]
+meningioma:  59%|█████▉    | 593/1000 [4:25:58<4:15:05, 37.61s/it]
+meningioma:  59%|█████▉    | 594/1000 [4:26:11<3:25:17, 30.34s/it]
+meningioma:  60%|█████▉    | 595/1000 [4:27:13<4:27:59, 39.70s/it]
+meningioma:  60%|█████▉    | 596/1000 [4:27:44<4:10:07, 37.15s/it]
+meningioma:  60%|█████▉    | 597/1000 [4:28:08<3:43:10, 33.23s/it]
+meningioma:  60%|█████▉    | 598/1000 [4:28:43<3:46:01, 33.74s/it]
+meningioma:  60%|█████▉    | 599/1000 [4:29:08<3:28:18, 31.17s/it]
+meningioma:  60%|██████    | 600/1000 [4:30:18<4:44:54, 42.74s/it]
+meningioma:  60%|██████    | 601/1000 [4:31:08<4:59:02, 44.97s/it]
+meningioma:  60%|██████    | 602/1000 [4:31:18<3:49:51, 34.65s/it]
+meningioma:  60%|██████    | 603/1000 [4:31:35<3:14:06, 29.34s/it]
+meningioma:  60%|██████    | 604/1000 [4:31:56<2:56:54, 26.80s/it]
+meningioma:  60%|██████    | 605/1000 [4:32:04<2:17:54, 20.95s/it]
+meningioma:  61%|██████    | 606/1000 [4:32:55<3:18:38, 30.25s/it]
+meningioma:  61%|██████    | 607/1000 [4:33:27<3:20:12, 30.57s/it]
+meningioma:  61%|██████    | 608/1000 [4:33:45<2:56:10, 26.97s/it]
+meningioma:  61%|██████    | 609/1000 [4:34:22<3:15:16, 29.96s/it]
+meningioma:  61%|██████    | 610/1000 [4:34:42<2:54:45, 26.89s/it]  [510/1000] BraTS-MEN-00738-000                      MENINGIOMA   [high]  ✓
+  [511/1000] BraTS-MEN-00739-000                      MENINGIOMA   [high]  ✓
+  [512/1000] BraTS-MEN-00741-000                      MENINGIOMA   [high]  ✓
+  [513/1000] BraTS-MEN-00743-001                      MENINGIOMA   [high]  ✓
+  [514/1000] BraTS-MEN-00744-000                      MENINGIOMA   [high]  ✓
+  [515/1000] BraTS-MEN-00745-000                      MENINGIOMA   [high]  ✓
+  [516/1000] BraTS-MEN-00746-000                      MENINGIOMA   [high]  ✓
+  [517/1000] BraTS-MEN-00747-000                      MENINGIOMA   [high]  ✓
+  [518/1000] BraTS-MEN-00748-000                      GLIOMA       [medium]  ✗ → glioma
+  [519/1000] BraTS-MEN-00750-000                      MENINGIOMA   [high]  ✓
+  [520/1000] BraTS-MEN-00751-000                      MENINGIOMA   [high]  ✓
+  [521/1000] BraTS-MEN-00752-000                      MENINGIOMA   [high]  ✓
+  [522/1000] BraTS-MEN-00754-000                      MENINGIOMA   [high]  ✓
+  [523/1000] BraTS-MEN-00755-000                      MENINGIOMA   [high]  ✓
+  [524/1000] BraTS-MEN-00757-000                      MENINGIOMA   [high]  ✓
+  [525/1000] BraTS-MEN-00758-000                      GLIOMA       [medium]  ✗ → glioma
+  [526/1000] BraTS-MEN-00759-000                      GLIOMA       [medium]  ✗ → glioma
+  [527/1000] BraTS-MEN-00762-000                      MENINGIOMA   [high]  ✓
+  [528/1000] BraTS-MEN-00763-000                      GLIOMA       [medium]  ✗ → glioma
+  [529/1000] BraTS-MEN-00764-000                      GLIOMA       [medium]  ✗ → glioma
+  [530/1000] BraTS-MEN-00765-000                      MENINGIOMA   [high]  ✓
+  [531/1000] BraTS-MEN-00766-000                      MENINGIOMA   [high]  ✓
+  [532/1000] BraTS-MEN-00768-000                      MENINGIOMA   [high]  ✓
+  [533/1000] BraTS-MEN-00770-000                      MENINGIOMA   [high]  ✓
+  [534/1000] BraTS-MEN-00771-000                      MENINGIOMA   [high]  ✓
+  [535/1000] BraTS-MEN-00772-000                      MENINGIOMA   [high]  ✓
+  [536/1000] BraTS-MEN-00773-000                      MENINGIOMA   [high]  ✓
+  [537/1000] BraTS-MEN-00774-000                      GLIOMA       [medium]  ✗ → glioma
+  [538/1000] BraTS-MEN-00776-000                      MENINGIOMA   [high]  ✓
+  [539/1000] BraTS-MEN-00777-000                      MENINGIOMA   [medium]  ✓
+  [540/1000] BraTS-MEN-00779-000                      MENINGIOMA   [high]  ✓
+  [541/1000] BraTS-MEN-00780-000                      MENINGIOMA   [high]  ✓
+  [542/1000] BraTS-MEN-00781-005                      MENINGIOMA   [high]  ✓
+  [543/1000] BraTS-MEN-00781-007                      MENINGIOMA   [high]  ✓
+  [544/1000] BraTS-MEN-00781-008                      MENINGIOMA   [high]  ✓
+  [545/1000] BraTS-MEN-00781-009                      MENINGIOMA   [high]  ✓
+  [546/1000] BraTS-MEN-00781-010                      GLIOMA       [medium]  ✗ → glioma
+  [547/1000] BraTS-MEN-00782-000                      MENINGIOMA   [high]  ✓
+  [548/1000] BraTS-MEN-00786-000                      MENINGIOMA   [high]  ✓
+  [549/1000] BraTS-MEN-00787-000                      MENINGIOMA   [high]  ✓
+  [550/1000] BraTS-MEN-00788-000                      MENINGIOMA   [high]  ✓
+  [551/1000] BraTS-MEN-00789-000                      MENINGIOMA   [high]  ✓
+  [552/1000] BraTS-MEN-00790-000                      MENINGIOMA   [medium]  ✓
+  [553/1000] BraTS-MEN-00792-000                      MENINGIOMA   [high]  ✓
+  [554/1000] BraTS-MEN-00794-000                      MENINGIOMA   [high]  ✓
+  [555/1000] BraTS-MEN-00795-000                      MENINGIOMA   [high]  ✓
+  [556/1000] BraTS-MEN-00797-000                      GLIOMA       [high]  ✗ → glioma
+  [557/1000] BraTS-MEN-00798-000                      MENINGIOMA   [high]  ✓
+  [558/1000] BraTS-MEN-00804-000                      MENINGIOMA   [high]  ✓
+  [559/1000] BraTS-MEN-00805-000                      MENINGIOMA   [high]  ✓
+  [560/1000] BraTS-MEN-00807-000                      MENINGIOMA   [high]  ✓
+  [561/1000] BraTS-MEN-00808-000                      MENINGIOMA   [high]  ✓
+  [562/1000] BraTS-MEN-00809-000                      MENINGIOMA   [high]  ✓
+  [563/1000] BraTS-MEN-00810-000                      MENINGIOMA   [high]  ✓
+  [564/1000] BraTS-MEN-00811-000                      MENINGIOMA   [high]  ✓
+  [565/1000] BraTS-MEN-00813-000                      MENINGIOMA   [high]  ✓
+  [566/1000] BraTS-MEN-00817-000                      MENINGIOMA   [high]  ✓
+  [567/1000] BraTS-MEN-00818-000                      MENINGIOMA   [high]  ✓
+  [568/1000] BraTS-MEN-00819-000                      MENINGIOMA   [high]  ✓
+  [569/1000] BraTS-MEN-00820-000                      MENINGIOMA   [high]  ✓
+  [570/1000] BraTS-MEN-00821-000                      MENINGIOMA   [high]  ✓
+  [571/1000] BraTS-MEN-00823-000                      MENINGIOMA   [high]  ✓
+  [572/1000] BraTS-MEN-00824-000                      MENINGIOMA   [high]  ✓
+  [573/1000] BraTS-MEN-00825-000                      MENINGIOMA   [high]  ✓
+  [574/1000] BraTS-MEN-00826-000                      MENINGIOMA   [high]  ✓
+  [575/1000] BraTS-MEN-00828-000                      MENINGIOMA   [high]  ✓
+  [576/1000] BraTS-MEN-00829-000                      MENINGIOMA   [high]  ✓
+  [577/1000] BraTS-MEN-00831-000                      MENINGIOMA   [high]  ✓
+  [578/1000] BraTS-MEN-00832-000                      MENINGIOMA   [high]  ✓
+  [579/1000] BraTS-MEN-00833-000                      MENINGIOMA   [high]  ✓
+  [580/1000] BraTS-MEN-00835-000                      MENINGIOMA   [high]  ✓
+  [581/1000] BraTS-MEN-00837-000                      MENINGIOMA   [high]  ✓
+  [582/1000] BraTS-MEN-00840-000                      MENINGIOMA   [high]  ✓
+  [583/1000] BraTS-MEN-00841-000                      MENINGIOMA   [medium]  ✓
+  [584/1000] BraTS-MEN-00842-000                      MENINGIOMA   [high]  ✓
+  [585/1000] BraTS-MEN-00843-000                      MENINGIOMA   [high]  ✓
+  [586/1000] BraTS-MEN-00844-000                      GLIOMA       [medium]  ✗ → glioma
+  [587/1000] BraTS-MEN-00846-000                      MENINGIOMA   [medium]  ✓
+  [588/1000] BraTS-MEN-00848-000                      MENINGIOMA   [high]  ✓
+  [589/1000] BraTS-MEN-00851-000                      MENINGIOMA   [high]  ✓
+  [590/1000] BraTS-MEN-00852-000                      MENINGIOMA   [high]  ✓
+  [591/1000] BraTS-MEN-00854-000                      MENINGIOMA   [high]  ✓
+  [592/1000] BraTS-MEN-00857-000                      MENINGIOMA   [high]  ✓
+  [593/1000] BraTS-MEN-00858-000                      MENINGIOMA   [high]  ✓
+  [594/1000] BraTS-MEN-00859-000                      MENINGIOMA   [medium]  ✓
+  [595/1000] BraTS-MEN-00861-000                      MENINGIOMA   [high]  ✓
+  [596/1000] BraTS-MEN-00868-000                      MENINGIOMA   [high]  ✓
+  [597/1000] BraTS-MEN-00873-000                      MENINGIOMA   [high]  ✓
+  [598/1000] BraTS-MEN-00875-000                      GLIOMA       [high]  ✗ → glioma
+  [599/1000] BraTS-MEN-00876-000                      MENINGIOMA   [high]  ✓
+  [600/1000] BraTS-MEN-00877-000                      MENINGIOMA   [high]  ✓
+  [601/1000] BraTS-MEN-00878-000                      MENINGIOMA   [high]  ✓
+  [602/1000] BraTS-MEN-00879-000                      MENINGIOMA   [high]  ✓
+  [603/1000] BraTS-MEN-00880-000                      MENINGIOMA   [medium]  ✓
+  [604/1000] BraTS-MEN-00883-000                      MENINGIOMA   [high]  ✓
+  [605/1000] BraTS-MEN-00884-000                      MENINGIOMA   [high]  ✓
+  [606/1000] BraTS-MEN-00885-000                      MENINGIOMA   [medium]  ✓
+  [607/1000] BraTS-MEN-00886-000                      MENINGIOMA   [high]  ✓
+  [608/1000] BraTS-MEN-00887-000                      MENINGIOMA   [high]  ✓
+  [609/1000] BraTS-MEN-00889-000                      MENINGIOMA   [high]  ✓
+  [610/1000] BraTS-MEN-00890-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  61%|██████    | 611/1000 [4:34:50<2:18:00, 21.29s/it]
+meningioma:  61%|██████    | 612/1000 [4:35:15<2:24:19, 22.32s/it]
+meningioma:  61%|██████▏   | 613/1000 [4:36:07<3:21:07, 31.18s/it]
+meningioma:  61%|██████▏   | 614/1000 [4:36:55<3:52:54, 36.20s/it]
+meningioma:  62%|██████▏   | 615/1000 [4:37:00<2:52:14, 26.84s/it]
+meningioma:  62%|██████▏   | 616/1000 [4:37:13<2:25:25, 22.72s/it]
+meningioma:  62%|██████▏   | 617/1000 [4:37:23<2:01:46, 19.08s/it]
+meningioma:  62%|██████▏   | 618/1000 [4:38:15<3:03:38, 28.85s/it]
+meningioma:  62%|██████▏   | 619/1000 [4:38:41<2:58:17, 28.08s/it]
+meningioma:  62%|██████▏   | 620/1000 [4:39:13<3:04:33, 29.14s/it]
+meningioma:  62%|██████▏   | 621/1000 [4:39:17<2:15:37, 21.47s/it]
+meningioma:  62%|██████▏   | 622/1000 [4:39:35<2:09:58, 20.63s/it]
+meningioma:  62%|██████▏   | 623/1000 [4:39:39<1:38:21, 15.65s/it]
+meningioma:  62%|██████▏   | 624/1000 [4:40:06<1:59:38, 19.09s/it]
+meningioma:  62%|██████▎   | 625/1000 [4:40:37<2:20:25, 22.47s/it]
+meningioma:  63%|██████▎   | 626/1000 [4:41:11<2:41:23, 25.89s/it]
+meningioma:  63%|██████▎   | 627/1000 [4:41:37<2:42:07, 26.08s/it]
+meningioma:  63%|██████▎   | 628/1000 [4:42:09<2:52:28, 27.82s/it]
+meningioma:  63%|██████▎   | 629/1000 [4:42:54<3:24:12, 33.03s/it]
+meningioma:  63%|██████▎   | 630/1000 [4:43:29<3:26:11, 33.44s/it]
+meningioma:  63%|██████▎   | 631/1000 [4:43:33<2:31:41, 24.67s/it]
+meningioma:  63%|██████▎   | 632/1000 [4:44:04<2:43:06, 26.59s/it]
+meningioma:  63%|██████▎   | 633/1000 [4:44:38<2:56:49, 28.91s/it]
+meningioma:  63%|██████▎   | 634/1000 [4:45:01<2:45:57, 27.21s/it]
+meningioma:  64%|██████▎   | 635/1000 [4:45:18<2:26:28, 24.08s/it]
+meningioma:  64%|██████▎   | 636/1000 [4:45:38<2:18:40, 22.86s/it]
+meningioma:  64%|██████▎   | 637/1000 [4:46:06<2:26:31, 24.22s/it]
+meningioma:  64%|██████▍   | 638/1000 [4:46:27<2:21:14, 23.41s/it]
+meningioma:  64%|██████▍   | 639/1000 [4:46:39<2:00:47, 20.08s/it]
+meningioma:  64%|██████▍   | 640/1000 [4:47:47<3:26:23, 34.40s/it]
+meningioma:  64%|██████▍   | 641/1000 [4:49:19<5:08:12, 51.51s/it]
+meningioma:  64%|██████▍   | 642/1000 [4:49:32<3:59:20, 40.11s/it]
+meningioma:  64%|██████▍   | 643/1000 [4:51:28<6:14:40, 62.97s/it]
+meningioma:  64%|██████▍   | 644/1000 [4:52:32<6:15:22, 63.27s/it]
+meningioma:  64%|██████▍   | 645/1000 [4:53:32<6:08:32, 62.29s/it]
+meningioma:  65%|██████▍   | 646/1000 [4:54:05<5:14:16, 53.27s/it]
+meningioma:  65%|██████▍   | 647/1000 [4:55:03<5:22:09, 54.76s/it]
+meningioma:  65%|██████▍   | 648/1000 [4:55:20<4:15:46, 43.60s/it]
+meningioma:  65%|██████▍   | 649/1000 [4:55:52<3:53:12, 39.86s/it]
+meningioma:  65%|██████▌   | 650/1000 [4:56:36<3:59:36, 41.08s/it]
+meningioma:  65%|██████▌   | 651/1000 [4:56:52<3:16:52, 33.85s/it]
+meningioma:  65%|██████▌   | 652/1000 [4:57:08<2:44:10, 28.30s/it]
+meningioma:  65%|██████▌   | 653/1000 [4:57:28<2:30:22, 26.00s/it]
+meningioma:  65%|██████▌   | 654/1000 [4:57:58<2:35:29, 26.96s/it]
+meningioma:  66%|██████▌   | 655/1000 [4:58:05<2:01:27, 21.12s/it]
+meningioma:  66%|██████▌   | 656/1000 [4:58:25<1:59:41, 20.88s/it]
+meningioma:  66%|██████▌   | 657/1000 [4:58:56<2:15:09, 23.64s/it]
+meningioma:  66%|██████▌   | 658/1000 [4:59:18<2:13:04, 23.35s/it]
+meningioma:  66%|██████▌   | 659/1000 [4:59:33<1:58:20, 20.82s/it]
+meningioma:  66%|██████▌   | 660/1000 [5:00:28<2:56:07, 31.08s/it]
+meningioma:  66%|██████▌   | 661/1000 [5:00:51<2:40:55, 28.48s/it]
+meningioma:  66%|██████▌   | 662/1000 [5:01:01<2:10:25, 23.15s/it]
+meningioma:  66%|██████▋   | 663/1000 [5:01:24<2:09:32, 23.06s/it]
+meningioma:  66%|██████▋   | 664/1000 [5:01:47<2:08:56, 23.03s/it]
+meningioma:  66%|██████▋   | 665/1000 [5:01:58<1:49:01, 19.53s/it]
+meningioma:  67%|██████▋   | 666/1000 [5:02:18<1:48:29, 19.49s/it]
+meningioma:  67%|██████▋   | 667/1000 [5:02:48<2:05:34, 22.63s/it]
+meningioma:  67%|██████▋   | 668/1000 [5:03:10<2:04:52, 22.57s/it]
+meningioma:  67%|██████▋   | 669/1000 [5:03:24<1:49:31, 19.85s/it]
+meningioma:  67%|██████▋   | 670/1000 [5:03:59<2:13:58, 24.36s/it]
+meningioma:  67%|██████▋   | 671/1000 [5:04:50<2:57:31, 32.38s/it]
+meningioma:  67%|██████▋   | 672/1000 [5:06:28<4:44:16, 52.00s/it]
+meningioma:  67%|██████▋   | 673/1000 [5:06:43<3:43:03, 40.93s/it]
+meningioma:  67%|██████▋   | 674/1000 [5:07:14<3:26:33, 38.02s/it]
+meningioma:  68%|██████▊   | 675/1000 [5:07:34<2:56:40, 32.62s/it]
+meningioma:  68%|██████▊   | 676/1000 [5:08:22<3:21:50, 37.38s/it]
+meningioma:  68%|██████▊   | 677/1000 [5:08:55<3:14:20, 36.10s/it]
+meningioma:  68%|██████▊   | 678/1000 [5:09:28<3:07:46, 34.99s/it]
+meningioma:  68%|██████▊   | 679/1000 [5:09:43<2:35:52, 29.13s/it]
+meningioma:  68%|██████▊   | 680/1000 [5:09:58<2:11:46, 24.71s/it]
+meningioma:  68%|██████▊   | 681/1000 [5:10:15<2:00:04, 22.58s/it]
+meningioma:  68%|██████▊   | 682/1000 [5:11:00<2:35:25, 29.33s/it]
+meningioma:  68%|██████▊   | 683/1000 [5:11:22<2:22:10, 26.91s/it]
+meningioma:  68%|██████▊   | 684/1000 [5:11:37<2:02:53, 23.34s/it]
+meningioma:  68%|██████▊   | 685/1000 [5:11:56<1:55:48, 22.06s/it]
+meningioma:  69%|██████▊   | 686/1000 [5:12:05<1:35:44, 18.30s/it]
+meningioma:  69%|██████▊   | 687/1000 [5:12:27<1:40:09, 19.20s/it]
+meningioma:  69%|██████▉   | 688/1000 [5:12:40<1:30:55, 17.48s/it]
+meningioma:  69%|██████▉   | 689/1000 [5:13:06<1:43:28, 19.96s/it]
+meningioma:  69%|██████▉   | 690/1000 [5:14:25<3:15:38, 37.86s/it]
+meningioma:  69%|██████▉   | 691/1000 [5:14:56<3:03:35, 35.65s/it]
+meningioma:  69%|██████▉   | 692/1000 [5:15:10<2:29:15, 29.08s/it]
+meningioma:  69%|██████▉   | 693/1000 [5:15:33<2:20:40, 27.49s/it]
+meningioma:  69%|██████▉   | 694/1000 [5:15:58<2:15:40, 26.60s/it]
+meningioma:  70%|██████▉   | 695/1000 [5:16:10<1:52:28, 22.13s/it]
+meningioma:  70%|██████▉   | 696/1000 [5:16:50<2:20:10, 27.67s/it]
+meningioma:  70%|██████▉   | 697/1000 [5:18:09<3:37:30, 43.07s/it]
+meningioma:  70%|██████▉   | 698/1000 [5:18:18<2:44:44, 32.73s/it]
+meningioma:  70%|██████▉   | 699/1000 [5:18:28<2:10:04, 25.93s/it]
+meningioma:  70%|███████   | 700/1000 [5:18:46<1:57:54, 23.58s/it]
+meningioma:  70%|███████   | 701/1000 [5:19:17<2:09:10, 25.92s/it]
+meningioma:  70%|███████   | 702/1000 [5:19:34<1:54:52, 23.13s/it]
+meningioma:  70%|███████   | 703/1000 [5:19:41<1:30:31, 18.29s/it]
+meningioma:  70%|███████   | 704/1000 [5:20:37<2:25:40, 29.53s/it]
+meningioma:  70%|███████   | 705/1000 [5:21:02<2:18:21, 28.14s/it]
+meningioma:  71%|███████   | 706/1000 [5:21:04<1:40:25, 20.49s/it]
+meningioma:  71%|███████   | 707/1000 [5:21:25<1:41:02, 20.69s/it]
+meningioma:  71%|███████   | 708/1000 [5:21:36<1:25:14, 17.52s/it]
+meningioma:  71%|███████   | 709/1000 [5:21:47<1:15:41, 15.61s/it]
+meningioma:  71%|███████   | 710/1000 [5:21:59<1:11:13, 14.74s/it]
+meningioma:  71%|███████   | 711/1000 [5:22:10<1:04:42, 13.43s/it]  [611/1000] BraTS-MEN-00891-000                      MENINGIOMA   [high]  ✓
+  [612/1000] BraTS-MEN-00894-000                      MENINGIOMA   [high]  ✓
+  [613/1000] BraTS-MEN-00895-000                      MENINGIOMA   [high]  ✓
+  [614/1000] BraTS-MEN-00896-000                      MENINGIOMA   [high]  ✓
+  [615/1000] BraTS-MEN-00897-000                      MENINGIOMA   [high]  ✓
+  [616/1000] BraTS-MEN-00898-000                      MENINGIOMA   [high]  ✓
+  [617/1000] BraTS-MEN-00899-000                      MENINGIOMA   [high]  ✓
+  [618/1000] BraTS-MEN-00902-000                      MENINGIOMA   [high]  ✓
+  [619/1000] BraTS-MEN-00903-000                      MENINGIOMA   [high]  ✓
+  [620/1000] BraTS-MEN-00904-000                      MENINGIOMA   [high]  ✓
+  [621/1000] BraTS-MEN-00905-000                      MENINGIOMA   [high]  ✓
+  [622/1000] BraTS-MEN-00906-000                      MENINGIOMA   [medium]  ✓
+  [623/1000] BraTS-MEN-00907-000                      MENINGIOMA   [high]  ✓
+  [624/1000] BraTS-MEN-00909-000                      MENINGIOMA   [high]  ✓
+  [625/1000] BraTS-MEN-00910-000                      MENINGIOMA   [high]  ✓
+  [626/1000] BraTS-MEN-00911-000                      GLIOMA       [medium]  ✗ → glioma
+  [627/1000] BraTS-MEN-00913-000                      GLIOMA       [medium]  ✗ → glioma
+  [628/1000] BraTS-MEN-00916-000                      MENINGIOMA   [medium]  ✓
+  [629/1000] BraTS-MEN-00918-000                      GLIOMA       [medium]  ✗ → glioma
+  [630/1000] BraTS-MEN-00920-000                      MENINGIOMA   [high]  ✓
+  [631/1000] BraTS-MEN-00921-000                      MENINGIOMA   [high]  ✓
+  [632/1000] BraTS-MEN-00922-000                      MENINGIOMA   [high]  ✓
+  [633/1000] BraTS-MEN-00923-000                      MENINGIOMA   [medium]  ✓
+  [634/1000] BraTS-MEN-00924-000                      MENINGIOMA   [high]  ✓
+  [635/1000] BraTS-MEN-00925-000                      MENINGIOMA   [high]  ✓
+  [636/1000] BraTS-MEN-00927-000                      MENINGIOMA   [high]  ✓
+  [637/1000] BraTS-MEN-00929-000                      MENINGIOMA   [high]  ✓
+  [638/1000] BraTS-MEN-00930-000                      GLIOMA       [medium]  ✗ → glioma
+  [639/1000] BraTS-MEN-00932-003                      MENINGIOMA   [high]  ✓
+  [640/1000] BraTS-MEN-00932-004                      MENINGIOMA   [high]  ✓
+  [641/1000] BraTS-MEN-00932-005                      MENINGIOMA   [high]  ✓
+  [642/1000] BraTS-MEN-00932-006                      MENINGIOMA   [high]  ✓
+  [643/1000] BraTS-MEN-00932-007                      MENINGIOMA   [high]  ✓
+  [644/1000] BraTS-MEN-00932-008                      MENINGIOMA   [high]  ✓
+  [645/1000] BraTS-MEN-00932-009                      MENINGIOMA   [medium]  ✓
+  [646/1000] BraTS-MEN-00932-010                      MENINGIOMA   [high]  ✓
+  [647/1000] BraTS-MEN-00935-000                      MENINGIOMA   [high]  ✓
+  [648/1000] BraTS-MEN-00936-000                      MENINGIOMA   [high]  ✓
+  [649/1000] BraTS-MEN-00940-000                      MENINGIOMA   [high]  ✓
+  [650/1000] BraTS-MEN-00941-000                      MENINGIOMA   [high]  ✓
+  [651/1000] BraTS-MEN-00942-000                      GLIOMA       [medium]  ✗ → glioma
+  [652/1000] BraTS-MEN-00945-000                      MENINGIOMA   [high]  ✓
+  [653/1000] BraTS-MEN-00946-000                      GLIOMA       [high]  ✗ → glioma
+  [654/1000] BraTS-MEN-00947-000                      MENINGIOMA   [high]  ✓
+  [655/1000] BraTS-MEN-00948-000                      MENINGIOMA   [high]  ✓
+  [656/1000] BraTS-MEN-00950-000                      MENINGIOMA   [high]  ✓
+  [657/1000] BraTS-MEN-00951-000                      MENINGIOMA   [high]  ✓
+  [658/1000] BraTS-MEN-00954-000                      MENINGIOMA   [high]  ✓
+  [659/1000] BraTS-MEN-00955-000                      MENINGIOMA   [medium]  ✓
+  [660/1000] BraTS-MEN-00957-000                      MENINGIOMA   [high]  ✓
+  [661/1000] BraTS-MEN-00959-000                      MENINGIOMA   [high]  ✓
+  [662/1000] BraTS-MEN-00960-000                      GLIOMA       [medium]  ✗ → glioma
+  [663/1000] BraTS-MEN-00962-000                      GLIOMA       [medium]  ✗ → glioma
+  [664/1000] BraTS-MEN-00963-000                      MENINGIOMA   [high]  ✓
+  [665/1000] BraTS-MEN-00964-000                      MENINGIOMA   [high]  ✓
+  [666/1000] BraTS-MEN-00965-000                      MENINGIOMA   [high]  ✓
+  [667/1000] BraTS-MEN-00966-000                      MENINGIOMA   [high]  ✓
+  [668/1000] BraTS-MEN-00967-000                      MENINGIOMA   [high]  ✓
+  [669/1000] BraTS-MEN-00970-000                      MENINGIOMA   [high]  ✓
+  [670/1000] BraTS-MEN-00971-000                      MENINGIOMA   [high]  ✓
+  [671/1000] BraTS-MEN-00973-000                      MENINGIOMA   [high]  ✓
+  [672/1000] BraTS-MEN-00974-000                      MENINGIOMA   [high]  ✓
+  [673/1000] BraTS-MEN-00977-000                      MENINGIOMA   [high]  ✓
+  [674/1000] BraTS-MEN-00981-000                      MENINGIOMA   [high]  ✓
+  [675/1000] BraTS-MEN-00982-000                      MENINGIOMA   [high]  ✓
+  [676/1000] BraTS-MEN-00983-006                      GLIOMA       [medium]  ✗ → glioma
+  [677/1000] BraTS-MEN-00983-007                      GLIOMA       [medium]  ✗ → glioma
+  [678/1000] BraTS-MEN-00983-008                      GLIOMA       [medium]  ✗ → glioma
+  [679/1000] BraTS-MEN-00983-009                      MENINGIOMA   [high]  ✓
+  [680/1000] BraTS-MEN-00983-010                      MENINGIOMA   [high]  ✓
+  [681/1000] BraTS-MEN-00984-000                      MENINGIOMA   [medium]  ✓
+  [682/1000] BraTS-MEN-00985-000                      GLIOMA       [medium]  ✗ → glioma
+  [683/1000] BraTS-MEN-00987-000                      MENINGIOMA   [high]  ✓
+  [684/1000] BraTS-MEN-00989-000                      MENINGIOMA   [high]  ✓
+  [685/1000] BraTS-MEN-00990-000                      MENINGIOMA   [high]  ✓
+  [686/1000] BraTS-MEN-00991-000                      MENINGIOMA   [high]  ✓
+  [687/1000] BraTS-MEN-00993-000                      MENINGIOMA   [high]  ✓
+  [688/1000] BraTS-MEN-00996-000                      MENINGIOMA   [high]  ✓
+  [689/1000] BraTS-MEN-00997-000                      MENINGIOMA   [high]  ✓
+  [690/1000] BraTS-MEN-00999-000                      MENINGIOMA   [high]  ✓
+  [691/1000] BraTS-MEN-00999-001                      MENINGIOMA   [high]  ✓
+  [692/1000] BraTS-MEN-01000-000                      MENINGIOMA   [high]  ✓
+  [693/1000] BraTS-MEN-01001-000                      MENINGIOMA   [high]  ✓
+  [694/1000] BraTS-MEN-01002-000                      MENINGIOMA   [high]  ✓
+  [695/1000] BraTS-MEN-01003-007                      MENINGIOMA   [high]  ✓
+  [696/1000] BraTS-MEN-01003-008                      GLIOMA       [high]  ✗ → glioma
+  [697/1000] BraTS-MEN-01003-009                      MENINGIOMA   [high]  ✓
+  [698/1000] BraTS-MEN-01003-010                      MENINGIOMA   [medium]  ✓
+  [699/1000] BraTS-MEN-01005-000                      MENINGIOMA   [high]  ✓
+  [700/1000] BraTS-MEN-01006-000                      MENINGIOMA   [high]  ✓
+  [701/1000] BraTS-MEN-01007-000                      MENINGIOMA   [high]  ✓
+  [702/1000] BraTS-MEN-01008-009                      MENINGIOMA   [high]  ✓
+  [703/1000] BraTS-MEN-01008-010                      MENINGIOMA   [high]  ✓
+  [704/1000] BraTS-MEN-01008-011                      MENINGIOMA   [high]  ✓
+  [705/1000] BraTS-MEN-01008-012                      MENINGIOMA   [high]  ✓
+  [706/1000] BraTS-MEN-01009-000                      MENINGIOMA   [high]  ✓
+  [707/1000] BraTS-MEN-01010-000                      MENINGIOMA   [high]  ✓
+  [708/1000] BraTS-MEN-01012-000                      MENINGIOMA   [high]  ✓
+  [709/1000] BraTS-MEN-01014-000                      MENINGIOMA   [medium]  ✓
+  [710/1000] BraTS-MEN-01015-000                      MENINGIOMA   [high]  ✓
+  [711/1000] BraTS-MEN-01016-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  71%|███████   | 712/1000 [5:22:30<1:13:41, 15.35s/it]
+meningioma:  71%|███████▏  | 713/1000 [5:22:47<1:16:26, 15.98s/it]
+meningioma:  71%|███████▏  | 714/1000 [5:23:03<1:16:42, 16.09s/it]
+meningioma:  72%|███████▏  | 715/1000 [5:23:40<1:45:30, 22.21s/it]
+meningioma:  72%|███████▏  | 716/1000 [5:23:54<1:33:47, 19.81s/it]
+meningioma:  72%|███████▏  | 717/1000 [5:24:17<1:37:30, 20.67s/it]
+meningioma:  72%|███████▏  | 718/1000 [5:24:30<1:26:23, 18.38s/it]
+meningioma:  72%|███████▏  | 719/1000 [5:24:48<1:25:26, 18.24s/it]
+meningioma:  72%|███████▏  | 720/1000 [5:24:55<1:10:04, 15.02s/it]
+meningioma:  72%|███████▏  | 721/1000 [5:25:52<2:08:23, 27.61s/it]
+meningioma:  72%|███████▏  | 722/1000 [5:27:04<3:09:32, 40.91s/it]
+meningioma:  72%|███████▏  | 723/1000 [5:27:11<2:22:00, 30.76s/it]
+meningioma:  72%|███████▏  | 724/1000 [5:27:21<1:52:31, 24.46s/it]
+meningioma:  72%|███████▎  | 725/1000 [5:27:48<1:55:54, 25.29s/it]
+meningioma:  73%|███████▎  | 726/1000 [5:28:02<1:39:35, 21.81s/it]
+meningioma:  73%|███████▎  | 727/1000 [5:28:31<1:48:55, 23.94s/it]
+meningioma:  73%|███████▎  | 728/1000 [5:28:42<1:30:49, 20.03s/it]
+meningioma:  73%|███████▎  | 729/1000 [5:29:35<2:15:37, 30.03s/it]
+meningioma:  73%|███████▎  | 730/1000 [5:29:39<1:40:20, 22.30s/it]
+meningioma:  73%|███████▎  | 731/1000 [5:30:07<1:47:33, 23.99s/it]
+meningioma:  73%|███████▎  | 732/1000 [5:30:49<2:10:19, 29.18s/it]
+meningioma:  73%|███████▎  | 733/1000 [5:31:24<2:18:13, 31.06s/it]
+meningioma:  73%|███████▎  | 734/1000 [5:31:34<1:49:06, 24.61s/it]
+meningioma:  74%|███████▎  | 735/1000 [5:32:07<2:00:52, 27.37s/it]
+meningioma:  74%|███████▎  | 736/1000 [5:32:13<1:31:10, 20.72s/it]
+meningioma:  74%|███████▎  | 737/1000 [5:32:42<1:41:37, 23.19s/it]
+meningioma:  74%|███████▍  | 738/1000 [5:33:07<1:43:49, 23.78s/it]
+meningioma:  74%|███████▍  | 739/1000 [5:33:18<1:26:25, 19.87s/it]
+meningioma:  74%|███████▍  | 740/1000 [5:33:31<1:18:11, 18.04s/it]
+meningioma:  74%|███████▍  | 741/1000 [5:33:45<1:11:51, 16.65s/it]
+meningioma:  74%|███████▍  | 742/1000 [5:34:18<1:33:09, 21.66s/it]
+meningioma:  74%|███████▍  | 743/1000 [5:35:22<2:27:22, 34.41s/it]
+meningioma:  74%|███████▍  | 744/1000 [5:35:33<1:55:57, 27.18s/it]
+meningioma:  74%|███████▍  | 745/1000 [5:35:49<1:41:14, 23.82s/it]
+meningioma:  75%|███████▍  | 746/1000 [5:36:18<1:48:35, 25.65s/it]
+meningioma:  75%|███████▍  | 747/1000 [5:36:35<1:36:16, 22.83s/it]
+meningioma:  75%|███████▍  | 748/1000 [5:37:13<1:54:54, 27.36s/it]
+meningioma:  75%|███████▍  | 749/1000 [5:37:30<1:41:40, 24.31s/it]
+meningioma:  75%|███████▌  | 750/1000 [5:37:42<1:26:01, 20.65s/it]
+meningioma:  75%|███████▌  | 751/1000 [5:38:45<2:18:02, 33.26s/it]
+meningioma:  75%|███████▌  | 752/1000 [5:38:55<1:49:25, 26.47s/it]
+meningioma:  75%|███████▌  | 753/1000 [5:39:25<1:53:15, 27.51s/it]
+meningioma:  75%|███████▌  | 754/1000 [5:39:37<1:33:41, 22.85s/it]
+meningioma:  76%|███████▌  | 755/1000 [5:39:52<1:23:59, 20.57s/it]
+meningioma:  76%|███████▌  | 756/1000 [5:40:46<2:03:53, 30.47s/it]
+meningioma:  76%|███████▌  | 757/1000 [5:41:00<1:43:51, 25.65s/it]
+meningioma:  76%|███████▌  | 758/1000 [5:41:18<1:34:02, 23.31s/it]
+meningioma:  76%|███████▌  | 759/1000 [5:42:09<2:06:39, 31.53s/it]
+meningioma:  76%|███████▌  | 760/1000 [5:42:27<1:49:38, 27.41s/it]
+meningioma:  76%|███████▌  | 761/1000 [5:42:55<1:50:02, 27.63s/it]
+meningioma:  76%|███████▌  | 762/1000 [5:43:07<1:31:27, 23.06s/it]
+meningioma:  76%|███████▋  | 763/1000 [5:43:51<1:55:24, 29.22s/it]
+meningioma:  76%|███████▋  | 764/1000 [5:44:06<1:38:12, 24.97s/it]
+meningioma:  76%|███████▋  | 765/1000 [5:44:15<1:18:43, 20.10s/it]
+meningioma:  77%|███████▋  | 766/1000 [5:44:34<1:17:23, 19.84s/it]
+meningioma:  77%|███████▋  | 767/1000 [5:44:53<1:16:03, 19.58s/it]
+meningioma:  77%|███████▋  | 768/1000 [5:44:59<1:00:19, 15.60s/it]
+meningioma:  77%|███████▋  | 769/1000 [5:45:15<1:00:11, 15.63s/it]
+meningioma:  77%|███████▋  | 770/1000 [5:45:31<1:00:21, 15.74s/it]
+meningioma:  77%|███████▋  | 771/1000 [5:45:55<1:09:20, 18.17s/it]
+meningioma:  77%|███████▋  | 772/1000 [5:46:09<1:05:06, 17.13s/it]
+meningioma:  77%|███████▋  | 773/1000 [5:46:38<1:18:06, 20.64s/it]
+meningioma:  77%|███████▋  | 774/1000 [5:46:58<1:16:30, 20.31s/it]
+meningioma:  78%|███████▊  | 775/1000 [5:47:34<1:34:01, 25.07s/it]
+meningioma:  78%|███████▊  | 776/1000 [5:48:38<2:17:32, 36.84s/it]
+meningioma:  78%|███████▊  | 777/1000 [5:49:04<2:04:34, 33.52s/it]
+meningioma:  78%|███████▊  | 778/1000 [5:49:20<1:44:44, 28.31s/it]
+meningioma:  78%|███████▊  | 779/1000 [5:49:41<1:36:25, 26.18s/it]
+meningioma:  78%|███████▊  | 780/1000 [5:50:06<1:33:56, 25.62s/it]
+meningioma:  78%|███████▊  | 781/1000 [5:50:16<1:16:14, 20.89s/it]
+meningioma:  78%|███████▊  | 782/1000 [5:50:32<1:11:16, 19.62s/it]
+meningioma:  78%|███████▊  | 783/1000 [5:50:50<1:08:42, 19.00s/it]
+meningioma:  78%|███████▊  | 784/1000 [5:51:30<1:31:07, 25.31s/it]
+meningioma:  78%|███████▊  | 785/1000 [5:53:13<2:54:09, 48.60s/it]
+meningioma:  79%|███████▊  | 786/1000 [5:54:04<2:56:11, 49.40s/it]
+meningioma:  79%|███████▊  | 787/1000 [5:55:00<3:02:30, 51.41s/it]
+meningioma:  79%|███████▉  | 788/1000 [5:55:10<2:17:31, 38.92s/it]
+meningioma:  79%|███████▉  | 789/1000 [5:55:28<1:55:00, 32.71s/it]
+meningioma:  79%|███████▉  | 790/1000 [5:55:39<1:31:38, 26.18s/it]
+meningioma:  79%|███████▉  | 791/1000 [5:55:46<1:11:06, 20.41s/it]
+meningioma:  79%|███████▉  | 792/1000 [5:56:22<1:26:53, 25.07s/it]
+meningioma:  79%|███████▉  | 793/1000 [5:56:33<1:11:38, 20.77s/it]
+meningioma:  79%|███████▉  | 794/1000 [5:56:43<1:00:35, 17.65s/it]
+meningioma:  80%|███████▉  | 795/1000 [5:57:12<1:12:13, 21.14s/it]
+meningioma:  80%|███████▉  | 796/1000 [5:57:29<1:07:08, 19.75s/it]
+meningioma:  80%|███████▉  | 797/1000 [5:57:47<1:05:00, 19.21s/it]
+meningioma:  80%|███████▉  | 798/1000 [5:58:02<1:00:52, 18.08s/it]
+meningioma:  80%|███████▉  | 799/1000 [5:58:34<1:14:39, 22.28s/it]
+meningioma:  80%|████████  | 800/1000 [5:59:05<1:22:43, 24.82s/it]
+meningioma:  80%|████████  | 801/1000 [5:59:43<1:34:56, 28.63s/it]
+meningioma:  80%|████████  | 802/1000 [6:00:16<1:39:23, 30.12s/it]
+meningioma:  80%|████████  | 803/1000 [6:00:31<1:23:46, 25.51s/it]
+meningioma:  80%|████████  | 804/1000 [6:00:58<1:25:06, 26.05s/it]
+meningioma:  80%|████████  | 805/1000 [6:01:07<1:07:40, 20.83s/it]
+meningioma:  81%|████████  | 806/1000 [6:01:18<58:18, 18.03s/it]  
+meningioma:  81%|████████  | 807/1000 [6:01:29<50:33, 15.72s/it]
+meningioma:  81%|████████  | 808/1000 [6:01:46<51:26, 16.07s/it]
+meningioma:  81%|████████  | 809/1000 [6:02:04<53:13, 16.72s/it]
+meningioma:  81%|████████  | 810/1000 [6:02:25<57:27, 18.14s/it]
+meningioma:  81%|████████  | 811/1000 [6:02:37<51:22, 16.31s/it]
+meningioma:  81%|████████  | 812/1000 [6:03:22<1:17:56, 24.88s/it]
+meningioma:  81%|████████▏ | 813/1000 [6:03:30<1:01:37, 19.77s/it]  [712/1000] BraTS-MEN-01017-000                      GLIOMA       [low]  ✗ → glioma
+  [713/1000] BraTS-MEN-01018-000                      MENINGIOMA   [high]  ✓
+  [714/1000] BraTS-MEN-01020-000                      MENINGIOMA   [high]  ✓
+  [715/1000] BraTS-MEN-01021-000                      MENINGIOMA   [high]  ✓
+  [716/1000] BraTS-MEN-01026-000                      MENINGIOMA   [high]  ✓
+  [717/1000] BraTS-MEN-01028-000                      MENINGIOMA   [high]  ✓
+  [718/1000] BraTS-MEN-01029-000                      GLIOMA       [high]  ✗ → glioma
+  [719/1000] BraTS-MEN-01030-000                      MENINGIOMA   [high]  ✓
+  [720/1000] BraTS-MEN-01031-000                      MENINGIOMA   [high]  ✓
+  [721/1000] BraTS-MEN-01032-000                      MENINGIOMA   [high]  ✓
+  [722/1000] BraTS-MEN-01033-000                      MENINGIOMA   [high]  ✓
+  [723/1000] BraTS-MEN-01034-000                      MENINGIOMA   [high]  ✓
+  [724/1000] BraTS-MEN-01035-000                      MENINGIOMA   [high]  ✓
+  [725/1000] BraTS-MEN-01036-000                      MENINGIOMA   [high]  ✓
+  [726/1000] BraTS-MEN-01038-000                      GLIOMA       [medium]  ✗ → glioma
+  [727/1000] BraTS-MEN-01039-000                      MENINGIOMA   [high]  ✓
+  [728/1000] BraTS-MEN-01040-000                      MENINGIOMA   [high]  ✓
+  [729/1000] BraTS-MEN-01041-000                      MENINGIOMA   [high]  ✓
+  [730/1000] BraTS-MEN-01042-000                      MENINGIOMA   [high]  ✓
+  [731/1000] BraTS-MEN-01044-000                      MENINGIOMA   [high]  ✓
+  [732/1000] BraTS-MEN-01046-000                      MENINGIOMA   [high]  ✓
+  [733/1000] BraTS-MEN-01047-000                      MENINGIOMA   [high]  ✓
+  [734/1000] BraTS-MEN-01048-000                      MENINGIOMA   [high]  ✓
+  [735/1000] BraTS-MEN-01050-000                      GLIOMA       [high]  ✗ → glioma
+  [736/1000] BraTS-MEN-01051-000                      MENINGIOMA   [high]  ✓
+  [737/1000] BraTS-MEN-01052-000                      MENINGIOMA   [high]  ✓
+  [738/1000] BraTS-MEN-01053-000                      GLIOMA       [medium]  ✗ → glioma
+  [739/1000] BraTS-MEN-01054-000                      MENINGIOMA   [high]  ✓
+  [740/1000] BraTS-MEN-01055-000                      MENINGIOMA   [high]  ✓
+  [741/1000] BraTS-MEN-01058-000                      MENINGIOMA   [medium]  ✓
+  [742/1000] BraTS-MEN-01059-000                      MENINGIOMA   [high]  ✓
+  [743/1000] BraTS-MEN-01060-000                      MENINGIOMA   [high]  ✓
+  [744/1000] BraTS-MEN-01061-000                      MENINGIOMA   [high]  ✓
+  [745/1000] BraTS-MEN-01062-000                      MENINGIOMA   [high]  ✓
+  [746/1000] BraTS-MEN-01063-000                      MENINGIOMA   [high]  ✓
+  [747/1000] BraTS-MEN-01065-000                      MENINGIOMA   [high]  ✓
+  [748/1000] BraTS-MEN-01066-000                      MENINGIOMA   [high]  ✓
+  [749/1000] BraTS-MEN-01067-000                      MENINGIOMA   [high]  ✓
+  [750/1000] BraTS-MEN-01069-000                      MENINGIOMA   [medium]  ✓
+  [751/1000] BraTS-MEN-01070-000                      MENINGIOMA   [high]  ✓
+  [752/1000] BraTS-MEN-01071-000                      MENINGIOMA   [medium]  ✓
+  [753/1000] BraTS-MEN-01073-000                      MENINGIOMA   [high]  ✓
+  [754/1000] BraTS-MEN-01074-000                      MENINGIOMA   [high]  ✓
+  [755/1000] BraTS-MEN-01075-000                      MENINGIOMA   [high]  ✓
+  [756/1000] BraTS-MEN-01076-000                      MENINGIOMA   [high]  ✓
+  [757/1000] BraTS-MEN-01077-000                      MENINGIOMA   [medium]  ✓
+  [758/1000] BraTS-MEN-01078-000                      MENINGIOMA   [high]  ✓
+  [759/1000] BraTS-MEN-01079-000                      MENINGIOMA   [high]  ✓
+  [760/1000] BraTS-MEN-01080-000                      MENINGIOMA   [high]  ✓
+  [761/1000] BraTS-MEN-01081-000                      MENINGIOMA   [high]  ✓
+  [762/1000] BraTS-MEN-01083-000                      MENINGIOMA   [high]  ✓
+  [763/1000] BraTS-MEN-01085-000                      MENINGIOMA   [high]  ✓
+  [764/1000] BraTS-MEN-01087-000                      MENINGIOMA   [high]  ✓
+  [765/1000] BraTS-MEN-01088-000                      MENINGIOMA   [high]  ✓
+  [766/1000] BraTS-MEN-01089-000                      MENINGIOMA   [high]  ✓
+  [767/1000] BraTS-MEN-01090-000                      MENINGIOMA   [high]  ✓
+  [768/1000] BraTS-MEN-01092-000                      MENINGIOMA   [high]  ✓
+  [769/1000] BraTS-MEN-01093-000                      MENINGIOMA   [high]  ✓
+  [770/1000] BraTS-MEN-01094-000                      MENINGIOMA   [high]  ✓
+  [771/1000] BraTS-MEN-01095-000                      MENINGIOMA   [medium]  ✓
+  [772/1000] BraTS-MEN-01096-000                      MENINGIOMA   [high]  ✓
+  [773/1000] BraTS-MEN-01099-000                      MENINGIOMA   [high]  ✓
+  [774/1000] BraTS-MEN-01100-000                      GLIOMA       [medium]  ✗ → glioma
+  [775/1000] BraTS-MEN-01101-000                      MENINGIOMA   [high]  ✓
+  [776/1000] BraTS-MEN-01102-000                      MENINGIOMA   [high]  ✓
+  [777/1000] BraTS-MEN-01103-000                      MENINGIOMA   [high]  ✓
+  [778/1000] BraTS-MEN-01104-000                      MENINGIOMA   [high]  ✓
+  [779/1000] BraTS-MEN-01105-000                      MENINGIOMA   [medium]  ✓
+  [780/1000] BraTS-MEN-01107-000                      MENINGIOMA   [high]  ✓
+  [781/1000] BraTS-MEN-01108-000                      MENINGIOMA   [high]  ✓
+  [782/1000] BraTS-MEN-01112-000                      MENINGIOMA   [high]  ✓
+  [783/1000] BraTS-MEN-01113-000                      MENINGIOMA   [high]  ✓
+  [784/1000] BraTS-MEN-01114-000                      MENINGIOMA   [high]  ✓
+  [785/1000] BraTS-MEN-01116-000                      MENINGIOMA   [high]  ✓
+  [786/1000] BraTS-MEN-01117-000                      MENINGIOMA   [high]  ✓
+  [787/1000] BraTS-MEN-01118-000                      MENINGIOMA   [high]  ✓
+  [788/1000] BraTS-MEN-01119-000                      MENINGIOMA   [high]  ✓
+  [789/1000] BraTS-MEN-01121-000                      MENINGIOMA   [high]  ✓
+  [790/1000] BraTS-MEN-01122-000                      MENINGIOMA   [high]  ✓
+  [791/1000] BraTS-MEN-01123-000                      MENINGIOMA   [high]  ✓
+  [792/1000] BraTS-MEN-01124-000                      MENINGIOMA   [high]  ✓
+  [793/1000] BraTS-MEN-01126-000                      MENINGIOMA   [high]  ✓
+  [794/1000] BraTS-MEN-01127-000                      MENINGIOMA   [high]  ✓
+  [795/1000] BraTS-MEN-01128-000                      GLIOMA       [medium]  ✗ → glioma
+  [796/1000] BraTS-MEN-01129-000                      MENINGIOMA   [medium]  ✓
+  [797/1000] BraTS-MEN-01130-000                      GLIOMA       [medium]  ✗ → glioma
+  [798/1000] BraTS-MEN-01132-000                      MENINGIOMA   [high]  ✓
+  [799/1000] BraTS-MEN-01134-000                      MENINGIOMA   [high]  ✓
+  [800/1000] BraTS-MEN-01135-000                      MENINGIOMA   [high]  ✓
+  [801/1000] BraTS-MEN-01136-000                      MENINGIOMA   [high]  ✓
+  [802/1000] BraTS-MEN-01137-000                      MENINGIOMA   [high]  ✓
+  [803/1000] BraTS-MEN-01138-000                      MENINGIOMA   [high]  ✓
+  [804/1000] BraTS-MEN-01140-000                      MENINGIOMA   [high]  ✓
+  [805/1000] BraTS-MEN-01141-000                      MENINGIOMA   [high]  ✓
+  [806/1000] BraTS-MEN-01143-000                      MENINGIOMA   [high]  ✓
+  [807/1000] BraTS-MEN-01144-000                      MENINGIOMA   [high]  ✓
+  [808/1000] BraTS-MEN-01147-000                      MENINGIOMA   [high]  ✓
+  [809/1000] BraTS-MEN-01148-000                      MENINGIOMA   [high]  ✓
+  [810/1000] BraTS-MEN-01151-000                      MENINGIOMA   [high]  ✓
+  [811/1000] BraTS-MEN-01152-000                      MENINGIOMA   [high]  ✓
+  [812/1000] BraTS-MEN-01153-000                      MENINGIOMA   [high]  ✓
+  [813/1000] BraTS-MEN-01154-000                      MENINGIOMA   [medium]  ✓
+
+meningioma:  81%|████████▏ | 814/1000 [6:03:48<59:17, 19.13s/it]  
+meningioma:  82%|████████▏ | 815/1000 [6:04:00<52:33, 17.04s/it]
+meningioma:  82%|████████▏ | 816/1000 [6:04:18<53:29, 17.45s/it]
+meningioma:  82%|████████▏ | 817/1000 [6:04:26<44:40, 14.65s/it]
+meningioma:  82%|████████▏ | 818/1000 [6:04:39<42:54, 14.15s/it]
+meningioma:  82%|████████▏ | 819/1000 [6:05:10<57:17, 18.99s/it]
+meningioma:  82%|████████▏ | 820/1000 [6:05:28<56:06, 18.70s/it]
+meningioma:  82%|████████▏ | 821/1000 [6:05:41<50:37, 16.97s/it]
+meningioma:  82%|████████▏ | 822/1000 [6:06:17<1:07:51, 22.88s/it]
+meningioma:  82%|████████▏ | 823/1000 [6:06:52<1:17:39, 26.33s/it]
+meningioma:  82%|████████▏ | 824/1000 [6:07:22<1:20:54, 27.58s/it]
+meningioma:  82%|████████▎ | 825/1000 [6:07:43<1:14:54, 25.68s/it]
+meningioma:  83%|████████▎ | 826/1000 [6:07:59<1:06:03, 22.78s/it]
+meningioma:  83%|████████▎ | 827/1000 [6:08:23<1:06:11, 22.96s/it]
+meningioma:  83%|████████▎ | 828/1000 [6:08:36<57:37, 20.10s/it]  
+meningioma:  83%|████████▎ | 829/1000 [6:09:15<1:13:36, 25.83s/it]
+meningioma:  83%|████████▎ | 830/1000 [6:09:35<1:07:35, 23.86s/it]
+meningioma:  83%|████████▎ | 831/1000 [6:10:05<1:12:32, 25.75s/it]
+meningioma:  83%|████████▎ | 832/1000 [6:10:13<57:04, 20.38s/it]  
+meningioma:  83%|████████▎ | 833/1000 [6:10:30<54:29, 19.58s/it]
+meningioma:  83%|████████▎ | 834/1000 [6:10:46<50:57, 18.42s/it]
+meningioma:  84%|████████▎ | 835/1000 [6:10:52<40:32, 14.74s/it]
+meningioma:  84%|████████▎ | 836/1000 [6:11:27<56:43, 20.76s/it]
+meningioma:  84%|████████▎ | 837/1000 [6:11:41<51:13, 18.86s/it]
+meningioma:  84%|████████▍ | 838/1000 [6:11:48<41:12, 15.26s/it]
+meningioma:  84%|████████▍ | 839/1000 [6:12:23<56:21, 21.00s/it]
+meningioma:  84%|████████▍ | 840/1000 [6:12:35<48:53, 18.34s/it]
+meningioma:  84%|████████▍ | 841/1000 [6:12:51<46:26, 17.53s/it]
+meningioma:  84%|████████▍ | 842/1000 [6:13:04<42:41, 16.21s/it]
+meningioma:  84%|████████▍ | 843/1000 [6:13:21<43:16, 16.54s/it]
+meningioma:  84%|████████▍ | 844/1000 [6:13:38<43:16, 16.64s/it]
+meningioma:  84%|████████▍ | 845/1000 [6:13:55<43:09, 16.71s/it]
+meningioma:  85%|████████▍ | 846/1000 [6:14:08<40:24, 15.74s/it]
+meningioma:  85%|████████▍ | 847/1000 [6:14:23<39:31, 15.50s/it]
+meningioma:  85%|████████▍ | 848/1000 [6:14:35<36:20, 14.34s/it]
+meningioma:  85%|████████▍ | 849/1000 [6:15:05<47:49, 19.00s/it]
+meningioma:  85%|████████▌ | 850/1000 [6:15:12<38:35, 15.44s/it]
+meningioma:  85%|████████▌ | 851/1000 [6:15:54<58:07, 23.41s/it]
+meningioma:  85%|████████▌ | 852/1000 [6:16:16<57:08, 23.16s/it]
+meningioma:  85%|████████▌ | 853/1000 [6:16:50<1:04:32, 26.34s/it]
+meningioma:  85%|████████▌ | 854/1000 [6:17:28<1:12:12, 29.68s/it]
+meningioma:  86%|████████▌ | 855/1000 [6:17:37<56:51, 23.53s/it]  
+meningioma:  86%|████████▌ | 856/1000 [6:18:14<1:06:24, 27.67s/it]
+meningioma:  86%|████████▌ | 857/1000 [6:18:36<1:01:42, 25.89s/it]
+meningioma:  86%|████████▌ | 858/1000 [6:18:47<50:49, 21.47s/it]  
+meningioma:  86%|████████▌ | 859/1000 [6:19:17<56:25, 24.01s/it]
+meningioma:  86%|████████▌ | 860/1000 [6:19:34<51:13, 21.95s/it]
+meningioma:  86%|████████▌ | 861/1000 [6:19:48<45:26, 19.62s/it]
+meningioma:  86%|████████▌ | 862/1000 [6:20:20<53:46, 23.38s/it]
+meningioma:  86%|████████▋ | 863/1000 [6:21:12<1:12:22, 31.70s/it]
+meningioma:  86%|████████▋ | 864/1000 [6:21:43<1:11:29, 31.54s/it]
+meningioma:  86%|████████▋ | 865/1000 [6:22:14<1:11:05, 31.60s/it]
+meningioma:  87%|████████▋ | 866/1000 [6:22:44<1:09:18, 31.04s/it]
+meningioma:  87%|████████▋ | 867/1000 [6:23:00<58:41, 26.48s/it]  
+meningioma:  87%|████████▋ | 868/1000 [6:23:10<47:33, 21.62s/it]
+meningioma:  87%|████████▋ | 869/1000 [6:23:18<38:08, 17.47s/it]
+meningioma:  87%|████████▋ | 870/1000 [6:23:45<43:59, 20.31s/it]
+meningioma:  87%|████████▋ | 871/1000 [6:23:58<39:14, 18.25s/it]
+meningioma:  87%|████████▋ | 872/1000 [6:24:18<39:33, 18.55s/it]
+meningioma:  87%|████████▋ | 873/1000 [6:24:42<42:59, 20.31s/it]
+meningioma:  87%|████████▋ | 874/1000 [6:25:07<45:36, 21.72s/it]
+meningioma:  88%|████████▊ | 875/1000 [6:25:59<1:03:54, 30.68s/it]
+meningioma:  88%|████████▊ | 876/1000 [6:26:36<1:07:41, 32.75s/it]
+meningioma:  88%|████████▊ | 877/1000 [6:26:52<56:24, 27.52s/it]  
+meningioma:  88%|████████▊ | 878/1000 [6:27:20<56:25, 27.75s/it]
+meningioma:  88%|████████▊ | 879/1000 [6:27:34<47:34, 23.59s/it]
+meningioma:  88%|████████▊ | 880/1000 [6:28:10<54:31, 27.27s/it]
+meningioma:  88%|████████▊ | 881/1000 [6:28:21<44:41, 22.53s/it]
+meningioma:  88%|████████▊ | 882/1000 [6:28:40<42:15, 21.49s/it]
+meningioma:  88%|████████▊ | 883/1000 [6:29:03<42:43, 21.91s/it]
+meningioma:  88%|████████▊ | 884/1000 [6:29:49<56:09, 29.05s/it]
+meningioma:  88%|████████▊ | 885/1000 [6:30:03<46:53, 24.47s/it]
+meningioma:  89%|████████▊ | 886/1000 [6:30:30<48:15, 25.40s/it]
+meningioma:  89%|████████▊ | 887/1000 [6:30:38<37:46, 20.06s/it]
+meningioma:  89%|████████▉ | 888/1000 [6:30:58<37:47, 20.24s/it]
+meningioma:  89%|████████▉ | 889/1000 [6:31:59<59:47, 32.32s/it]
+meningioma:  89%|████████▉ | 890/1000 [6:32:26<56:19, 30.72s/it]
+meningioma:  89%|████████▉ | 891/1000 [6:32:38<45:33, 25.08s/it]
+meningioma:  89%|████████▉ | 892/1000 [6:33:00<43:48, 24.34s/it]
+meningioma:  89%|████████▉ | 893/1000 [6:33:18<40:00, 22.44s/it]
+meningioma:  89%|████████▉ | 894/1000 [6:33:29<33:28, 18.95s/it]
+meningioma:  90%|████████▉ | 895/1000 [6:34:21<50:22, 28.79s/it]
+meningioma:  90%|████████▉ | 896/1000 [6:34:51<50:41, 29.25s/it]
+meningioma:  90%|████████▉ | 897/1000 [6:35:01<40:19, 23.49s/it]
+meningioma:  90%|████████▉ | 898/1000 [6:35:51<53:25, 31.43s/it]
+meningioma:  90%|████████▉ | 899/1000 [6:36:36<59:51, 35.56s/it]
+meningioma:  90%|█████████ | 900/1000 [6:36:53<49:55, 29.96s/it]
+meningioma:  90%|█████████ | 901/1000 [6:37:06<41:05, 24.90s/it]
+meningioma:  90%|█████████ | 902/1000 [6:37:14<32:05, 19.65s/it]
+meningioma:  90%|█████████ | 903/1000 [6:37:26<28:15, 17.48s/it]
+meningioma:  90%|█████████ | 904/1000 [6:37:54<33:06, 20.69s/it]
+meningioma:  90%|█████████ | 905/1000 [6:38:09<29:50, 18.85s/it]
+meningioma:  91%|█████████ | 906/1000 [6:38:20<25:44, 16.43s/it]
+meningioma:  91%|█████████ | 907/1000 [6:38:32<23:26, 15.12s/it]
+meningioma:  91%|█████████ | 908/1000 [6:38:50<24:25, 15.93s/it]
+meningioma:  91%|█████████ | 909/1000 [6:39:10<26:05, 17.20s/it]
+meningioma:  91%|█████████ | 910/1000 [6:39:39<30:59, 20.66s/it]
+meningioma:  91%|█████████ | 911/1000 [6:39:53<27:44, 18.70s/it]
+meningioma:  91%|█████████ | 912/1000 [6:40:03<23:38, 16.12s/it]
+meningioma:  91%|█████████▏| 913/1000 [6:40:16<22:03, 15.21s/it]
+meningioma:  91%|█████████▏| 914/1000 [6:41:43<52:50, 36.87s/it]  [814/1000] BraTS-MEN-01155-000                      MENINGIOMA   [high]  ✓
+  [815/1000] BraTS-MEN-01156-000                      MENINGIOMA   [high]  ✓
+  [816/1000] BraTS-MEN-01157-000                      GLIOMA       [medium]  ✗ → glioma
+  [817/1000] BraTS-MEN-01158-000                      GLIOMA       [medium]  ✗ → glioma
+  [818/1000] BraTS-MEN-01159-000                      MENINGIOMA   [high]  ✓
+  [819/1000] BraTS-MEN-01161-000                      MENINGIOMA   [high]  ✓
+  [820/1000] BraTS-MEN-01163-000                      MENINGIOMA   [high]  ✓
+  [821/1000] BraTS-MEN-01164-000                      MENINGIOMA   [high]  ✓
+  [822/1000] BraTS-MEN-01165-000                      MENINGIOMA   [high]  ✓
+  [823/1000] BraTS-MEN-01166-000                      MENINGIOMA   [high]  ✓
+  [824/1000] BraTS-MEN-01167-000                      MENINGIOMA   [high]  ✓
+  [825/1000] BraTS-MEN-01168-000                      MENINGIOMA   [high]  ✓
+  [826/1000] BraTS-MEN-01169-000                      GLIOMA       [high]  ✗ → glioma
+  [827/1000] BraTS-MEN-01170-000                      MENINGIOMA   [high]  ✓
+  [828/1000] BraTS-MEN-01171-000                      MENINGIOMA   [high]  ✓
+  [829/1000] BraTS-MEN-01172-000                      MENINGIOMA   [high]  ✓
+  [830/1000] BraTS-MEN-01173-000                      MENINGIOMA   [high]  ✓
+  [831/1000] BraTS-MEN-01176-000                      MENINGIOMA   [high]  ✓
+  [832/1000] BraTS-MEN-01178-000                      MENINGIOMA   [high]  ✓
+  [833/1000] BraTS-MEN-01179-000                      MENINGIOMA   [high]  ✓
+  [834/1000] BraTS-MEN-01181-000                      MENINGIOMA   [high]  ✓
+  [835/1000] BraTS-MEN-01183-000                      MENINGIOMA   [high]  ✓
+  [836/1000] BraTS-MEN-01184-000                      MENINGIOMA   [high]  ✓
+  [837/1000] BraTS-MEN-01185-000                      GLIOMA       [medium]  ✗ → glioma
+  [838/1000] BraTS-MEN-01187-000                      MENINGIOMA   [high]  ✓
+  [839/1000] BraTS-MEN-01189-000                      MENINGIOMA   [high]  ✓
+  [840/1000] BraTS-MEN-01191-000                      MENINGIOMA   [high]  ✓
+  [841/1000] BraTS-MEN-01192-000                      MENINGIOMA   [high]  ✓
+  [842/1000] BraTS-MEN-01194-000                      MENINGIOMA   [high]  ✓
+  [843/1000] BraTS-MEN-01198-004                      MENINGIOMA   [high]  ✓
+  [844/1000] BraTS-MEN-01198-007                      MENINGIOMA   [high]  ✓
+  [845/1000] BraTS-MEN-01198-008                      MENINGIOMA   [high]  ✓
+  [846/1000] BraTS-MEN-01198-011                      MENINGIOMA   [high]  ✓
+  [847/1000] BraTS-MEN-01198-013                      MENINGIOMA   [high]  ✓
+  [848/1000] BraTS-MEN-01199-000                      MENINGIOMA   [high]  ✓
+  [849/1000] BraTS-MEN-01200-000                      MENINGIOMA   [high]  ✓
+  [850/1000] BraTS-MEN-01202-000                      MENINGIOMA   [high]  ✓
+  [851/1000] BraTS-MEN-01203-000                      MENINGIOMA   [high]  ✓
+  [852/1000] BraTS-MEN-01205-000                      MENINGIOMA   [high]  ✓
+  [853/1000] BraTS-MEN-01206-000                      MENINGIOMA   [high]  ✓
+  [854/1000] BraTS-MEN-01208-000                      MENINGIOMA   [high]  ✓
+  [855/1000] BraTS-MEN-01214-000                      MENINGIOMA   [high]  ✓
+  [856/1000] BraTS-MEN-01215-000                      MENINGIOMA   [high]  ✓
+  [857/1000] BraTS-MEN-01216-000                      MENINGIOMA   [high]  ✓
+  [858/1000] BraTS-MEN-01218-000                      MENINGIOMA   [high]  ✓
+  [859/1000] BraTS-MEN-01220-000                      GLIOMA       [medium]  ✗ → glioma
+  [860/1000] BraTS-MEN-01221-000                      MENINGIOMA   [high]  ✓
+  [861/1000] BraTS-MEN-01222-000                      MENINGIOMA   [high]  ✓
+  [862/1000] BraTS-MEN-01224-000                      MENINGIOMA   [high]  ✓
+  [863/1000] BraTS-MEN-01225-000                      MENINGIOMA   [high]  ✓
+  [864/1000] BraTS-MEN-01226-000                      MENINGIOMA   [medium]  ✓
+  [865/1000] BraTS-MEN-01229-000                      MENINGIOMA   [high]  ✓
+  [866/1000] BraTS-MEN-01231-000                      MENINGIOMA   [high]  ✓
+  [867/1000] BraTS-MEN-01233-000                      MENINGIOMA   [high]  ✓
+  [868/1000] BraTS-MEN-01234-000                      MENINGIOMA   [high]  ✓
+  [869/1000] BraTS-MEN-01235-000                      MENINGIOMA   [high]  ✓
+  [870/1000] BraTS-MEN-01237-000                      MENINGIOMA   [high]  ✓
+  [871/1000] BraTS-MEN-01240-000                      MENINGIOMA   [high]  ✓
+  [872/1000] BraTS-MEN-01241-000                      MENINGIOMA   [high]  ✓
+  [873/1000] BraTS-MEN-01242-000                      MENINGIOMA   [high]  ✓
+  [874/1000] BraTS-MEN-01246-001                      GLIOMA       [medium]  ✗ → glioma
+  [875/1000] BraTS-MEN-01246-002                      GLIOMA       [medium]  ✗ → glioma
+  [876/1000] BraTS-MEN-01246-003                      GLIOMA       [medium]  ✗ → glioma
+  [877/1000] BraTS-MEN-01247-000                      MENINGIOMA   [high]  ✓
+  [878/1000] BraTS-MEN-01250-000                      MENINGIOMA   [high]  ✓
+  [879/1000] BraTS-MEN-01252-000                      MENINGIOMA   [high]  ✓
+  [880/1000] BraTS-MEN-01254-000                      GLIOMA       [high]  ✗ → glioma
+  [881/1000] BraTS-MEN-01256-000                      MENINGIOMA   [high]  ✓
+  [882/1000] BraTS-MEN-01257-000                      MENINGIOMA   [high]  ✓
+  [883/1000] BraTS-MEN-01259-000                      MENINGIOMA   [high]  ✓
+  [884/1000] BraTS-MEN-01261-000                      MENINGIOMA   [high]  ✓
+  [885/1000] BraTS-MEN-01264-000                      MENINGIOMA   [high]  ✓
+  [886/1000] BraTS-MEN-01266-000                      MENINGIOMA   [high]  ✓
+  [887/1000] BraTS-MEN-01268-000                      MENINGIOMA   [high]  ✓
+  [888/1000] BraTS-MEN-01271-000                      MENINGIOMA   [high]  ✓
+  [889/1000] BraTS-MEN-01272-000                      MENINGIOMA   [high]  ✓
+  [890/1000] BraTS-MEN-01274-000                      MENINGIOMA   [high]  ✓
+  [891/1000] BraTS-MEN-01275-000                      MENINGIOMA   [high]  ✓
+  [892/1000] BraTS-MEN-01278-000                      MENINGIOMA   [high]  ✓
+  [893/1000] BraTS-MEN-01279-000                      MENINGIOMA   [high]  ✓
+  [894/1000] BraTS-MEN-01279-002                      MENINGIOMA   [medium]  ✓
+  [895/1000] BraTS-MEN-01279-010                      MENINGIOMA   [medium]  ✓
+  [896/1000] BraTS-MEN-01280-000                      MENINGIOMA   [high]  ✓
+  [897/1000] BraTS-MEN-01281-000                      MENINGIOMA   [high]  ✓
+  [898/1000] BraTS-MEN-01282-000                      MENINGIOMA   [high]  ✓
+  [899/1000] BraTS-MEN-01283-000                      GLIOMA       [medium]  ✗ → glioma
+  [900/1000] BraTS-MEN-01284-000                      MENINGIOMA   [medium]  ✓
+  [901/1000] BraTS-MEN-01285-000                      MENINGIOMA   [high]  ✓
+  [902/1000] BraTS-MEN-01290-000                      MENINGIOMA   [high]  ✓
+  [903/1000] BraTS-MEN-01291-000                      GLIOMA       [medium]  ✗ → glioma
+  [904/1000] BraTS-MEN-01292-000                      GLIOMA       [medium]  ✗ → glioma
+  [905/1000] BraTS-MEN-01294-000                      MENINGIOMA   [high]  ✓
+  [906/1000] BraTS-MEN-01296-000                      MENINGIOMA   [high]  ✓
+  [907/1000] BraTS-MEN-01298-000                      MENINGIOMA   [high]  ✓
+  [908/1000] BraTS-MEN-01300-000                      MENINGIOMA   [high]  ✓
+  [909/1000] BraTS-MEN-01302-000                      MENINGIOMA   [high]  ✓
+  [910/1000] BraTS-MEN-01303-000                      MENINGIOMA   [high]  ✓
+  [911/1000] BraTS-MEN-01305-000                      MENINGIOMA   [high]  ✓
+  [912/1000] BraTS-MEN-01306-000                      MENINGIOMA   [high]  ✓
+  [913/1000] BraTS-MEN-01307-000                      MENINGIOMA   [high]  ✓
+  [914/1000] BraTS-MEN-01308-000                      MENINGIOMA   [high]  ✓
+
+meningioma:  92%|█████████▏| 915/1000 [6:42:30<56:13, 39.69s/it]
+meningioma:  92%|█████████▏| 916/1000 [6:42:57<50:35, 36.14s/it]
+meningioma:  92%|█████████▏| 917/1000 [6:43:12<41:00, 29.64s/it]
+meningioma:  92%|█████████▏| 918/1000 [6:44:09<51:57, 38.02s/it]
+meningioma:  92%|█████████▏| 919/1000 [6:44:32<45:10, 33.47s/it]
+meningioma:  92%|█████████▏| 920/1000 [6:44:38<33:34, 25.18s/it]
+meningioma:  92%|█████████▏| 921/1000 [6:44:58<31:04, 23.61s/it]
+meningioma:  92%|█████████▏| 922/1000 [6:45:29<33:35, 25.84s/it]
+meningioma:  92%|█████████▏| 923/1000 [6:45:58<34:10, 26.63s/it]
+meningioma:  92%|█████████▏| 924/1000 [6:47:00<47:29, 37.49s/it]
+meningioma:  92%|█████████▎| 925/1000 [6:47:23<41:09, 32.93s/it]
+meningioma:  93%|█████████▎| 926/1000 [6:48:15<47:40, 38.66s/it]
+meningioma:  93%|█████████▎| 927/1000 [6:48:36<40:42, 33.46s/it]
+meningioma:  93%|█████████▎| 928/1000 [6:49:14<41:53, 34.91s/it]
+meningioma:  93%|█████████▎| 929/1000 [6:50:06<47:23, 40.04s/it]
+meningioma:  93%|█████████▎| 930/1000 [6:50:42<45:02, 38.61s/it]
+meningioma:  93%|█████████▎| 931/1000 [6:50:52<34:45, 30.22s/it]
+meningioma:  93%|█████████▎| 932/1000 [6:51:11<30:24, 26.83s/it]
+meningioma:  93%|█████████▎| 933/1000 [6:51:20<23:48, 21.32s/it]
+meningioma:  93%|█████████▎| 934/1000 [6:51:45<24:41, 22.45s/it]
+meningioma:  94%|█████████▎| 935/1000 [6:52:11<25:31, 23.57s/it]
+meningioma:  94%|█████████▎| 936/1000 [6:52:24<21:50, 20.48s/it]
+meningioma:  94%|█████████▎| 937/1000 [6:52:37<19:00, 18.10s/it]
+meningioma:  94%|█████████▍| 938/1000 [6:52:58<19:47, 19.15s/it]
+meningioma:  94%|█████████▍| 939/1000 [6:53:08<16:35, 16.32s/it]
+meningioma:  94%|█████████▍| 940/1000 [6:53:48<23:21, 23.36s/it]
+meningioma:  94%|█████████▍| 941/1000 [6:53:57<18:47, 19.11s/it]
+meningioma:  94%|█████████▍| 942/1000 [6:54:16<18:21, 19.00s/it]
+meningioma:  94%|█████████▍| 943/1000 [6:54:32<17:10, 18.08s/it]
+meningioma:  94%|█████████▍| 944/1000 [6:55:22<26:00, 27.87s/it]
+meningioma:  94%|█████████▍| 945/1000 [6:55:45<23:59, 26.17s/it]
+meningioma:  95%|█████████▍| 946/1000 [6:55:54<18:57, 21.06s/it]
+meningioma:  95%|█████████▍| 947/1000 [6:56:14<18:24, 20.84s/it]
+meningioma:  95%|█████████▍| 948/1000 [6:56:26<15:49, 18.25s/it]
+meningioma:  95%|█████████▍| 949/1000 [6:57:06<20:54, 24.59s/it]
+meningioma:  95%|█████████▌| 950/1000 [6:57:57<27:02, 32.45s/it]
+meningioma:  95%|█████████▌| 951/1000 [6:58:19<24:05, 29.51s/it]
+meningioma:  95%|█████████▌| 952/1000 [6:59:28<32:59, 41.23s/it]
+meningioma:  95%|█████████▌| 953/1000 [7:00:22<35:20, 45.11s/it]
+meningioma:  95%|█████████▌| 954/1000 [7:00:38<27:51, 36.33s/it]
+meningioma:  96%|█████████▌| 955/1000 [7:00:48<21:29, 28.64s/it]
+meningioma:  96%|█████████▌| 956/1000 [7:01:02<17:34, 23.97s/it]
+meningioma:  96%|█████████▌| 957/1000 [7:01:15<14:52, 20.76s/it]
+meningioma:  96%|█████████▌| 958/1000 [7:01:58<19:14, 27.50s/it]
+meningioma:  96%|█████████▌| 959/1000 [7:02:22<17:58, 26.29s/it]
+meningioma:  96%|█████████▌| 960/1000 [7:02:47<17:27, 26.19s/it]
+meningioma:  96%|█████████▌| 961/1000 [7:03:01<14:37, 22.51s/it]
+meningioma:  96%|█████████▌| 962/1000 [7:03:13<12:10, 19.21s/it]
+meningioma:  96%|█████████▋| 963/1000 [7:03:25<10:36, 17.21s/it]
+meningioma:  96%|█████████▋| 964/1000 [7:04:30<18:53, 31.48s/it]
+meningioma:  96%|█████████▋| 965/1000 [7:05:03<18:39, 31.97s/it]
+meningioma:  97%|█████████▋| 966/1000 [7:06:45<29:59, 52.93s/it]
+meningioma:  97%|█████████▋| 967/1000 meningioma:  99%|█████████▉| 990/1000 [7:16:36<04:40, 28.07s/it]meningioma:  99%|█████████▉| 991/1000 [7:16:56<03:50, 25.66s/it]meningioma:  99%|█████████▉| 992/1000 [7:16:58<02:30, 18.78s/it]meningioma:  99%|█████████▉| 993/1000 [7:17:29<02:37, 22.49s/it]meningioma:  99%|█████████▉| 994/1000 [7:17:54<02:18, 23.03s/it]meningioma: 100%|█████████▉| 995/1000 [7:18:23<02:05, 25.03s/it]meningioma: 100%|█████████▉| 996/1000 [7:18:45<01:35, 23.93s/it]meningioma: 100%|█████████▉| 997/1000 [7:19:29<01:30, 30.00s/it]meningioma: 100%|█████████▉| 998/1000 [7:20:01<01:01, 30.58s/it]meningioma: 100%|█████████▉| 999/1000 [7:20:13<00:25, 25.09s/it]meningioma: 100%|██████████| 1000/1000 [7:20:37<00:00, 24.63s/it]meningioma: 100%|██████████| 1000/1000 [7:20:37<00:00, 26.44s/it]
+  [915/1000] BraTS-MEN-01309-000                      MENINGIOMA   [high]  ✓
+  [916/1000] BraTS-MEN-01310-000                      MENINGIOMA   [high]  ✓
+  [917/1000] BraTS-MEN-01312-000                      MENINGIOMA   [high]  ✓
+  [918/1000] BraTS-MEN-01314-000                      MENINGIOMA   [high]  ✓
+  [919/1000] BraTS-MEN-01315-000                      GLIOMA       [low]  ✗ → glioma
+  [920/1000] BraTS-MEN-01316-000                      MENINGIOMA   [high]  ✓
+  [921/1000] BraTS-MEN-01317-000                      MENINGIOMA   [high]  ✓
+  [922/1000] BraTS-MEN-01320-000                      GLIOMA       [medium]  ✗ → glioma
+  [923/1000] BraTS-MEN-01321-000                      MENINGIOMA   [high]  ✓
+  [924/1000] BraTS-MEN-01322-000                      MENINGIOMA   [high]  ✓
+  [925/1000] BraTS-MEN-01323-000                      MENINGIOMA   [high]  ✓
+  [926/1000] BraTS-MEN-01326-000                      GLIOMA       [medium]  ✗ → glioma
+  [927/1000] BraTS-MEN-01327-000                      MENINGIOMA   [medium]  ✓
+  [928/1000] BraTS-MEN-01329-000                      MENINGIOMA   [high]  ✓
+  [929/1000] BraTS-MEN-01330-000                      MENINGIOMA   [high]  ✓
+  [930/1000] BraTS-MEN-01331-000                      MENINGIOMA   [high]  ✓
+  [931/1000] BraTS-MEN-01333-000                      MENINGIOMA   [high]  ✓
+  [932/1000] BraTS-MEN-01334-000                      MENINGIOMA   [high]  ✓
+  [933/1000] BraTS-MEN-01335-000                      MENINGIOMA   [high]  ✓
+  [934/1000] BraTS-MEN-01336-000                      GLIOMA       [medium]  ✗ → glioma
+  [935/1000] BraTS-MEN-01338-000                      MENINGIOMA   [high]  ✓
+  [936/1000] BraTS-MEN-01339-000                      MENINGIOMA   [high]  ✓
+  [937/1000] BraTS-MEN-01340-000                      MENINGIOMA   [high]  ✓
+  [938/1000] BraTS-MEN-01342-000                      MENINGIOMA   [medium]  ✓
+  [939/1000] BraTS-MEN-01344-000                      MENINGIOMA   [high]  ✓
+  [940/1000] BraTS-MEN-01345-000                      MENINGIOMA   [high]  ✓
+  [941/1000] BraTS-MEN-01348-000                      MENINGIOMA   [high]  ✓
+  [942/1000] BraTS-MEN-01349-000                      GLIOMA       [high]  ✗ → glioma
+  [943/1000] BraTS-MEN-01350-000                      MENINGIOMA   [medium]  ✓
+  [944/1000] BraTS-MEN-01351-000                      MENINGIOMA   [high]  ✓
+  [945/1000] BraTS-MEN-01353-000                      MENINGIOMA   [high]  ✓
+  [946/1000] BraTS-MEN-01354-000                      MENINGIOMA   [high]  ✓
+  [947/1000] BraTS-MEN-01355-000                      MENINGIOMA   [high]  ✓
+  [948/1000] BraTS-MEN-01357-000                      MENINGIOMA   [high]  ✓
+  [949/1000] BraTS-MEN-01359-000                      MENINGIOMA   [high]  ✓
+  [950/1000] BraTS-MEN-01360-000                      MENINGIOMA   [high]  ✓
+  [951/1000] BraTS-MEN-01362-000                      GLIOMA       [high]  ✗ → glioma
+  [952/1000] BraTS-MEN-01363-000                      MENINGIOMA   [high]  ✓
+  [953/1000] BraTS-MEN-01365-000                      MENINGIOMA   [high]  ✓
+  [954/1000] BraTS-MEN-01366-000                      MENINGIOMA   [high]  ✓
+  [955/1000] BraTS-MEN-01367-000                      MENINGIOMA   [high]  ✓
+  [956/1000] BraTS-MEN-01368-000                      MENINGIOMA   [high]  ✓
+  [957/1000] BraTS-MEN-01370-000                      MENINGIOMA   [high]  ✓
+  [958/1000] BraTS-MEN-01371-000                      MENINGIOMA   [high]  ✓
+  [959/1000] BraTS-MEN-01375-000                      MENINGIOMA   [high]  ✓
+  [960/1000] BraTS-MEN-01380-000                      MENINGIOMA   [high]  ✓
+  [961/1000] BraTS-MEN-01382-000                      MENINGIOMA   [medium]  ✓
+  [962/1000] BraTS-MEN-01383-000                      MENINGIOMA   [high]  ✓
+  [963/1000] BraTS-MEN-01383-005                      MENINGIOMA   [high]  ✓
+  [964/1000] BraTS-MEN-01383-006                      MENINGIOMA   [high]  ✓
+  [965/1000] BraTS-MEN-01383-007                      GLIOMA       [low]  ✗ → glioma
+  [966/1000] BraTS-MEN-01383-009                      MENINGIOMA   [high]  ✓
+  [967/1000] BraTS-MEN-01383-010                      MENINGIOMA   [high]  ✓
+  [968/1000] BraTS-MEN-01384-000                      MENINGIOMA   [high]  ✓
+  [969/1000] BraTS-MEN-01385-000                      MENINGIOMA   [high]  ✓
+  [970/1000] BraTS-MEN-01388-000                      MENINGIOMA   [high]  ✓
+  [971/1000] BraTS-MEN-01389-000                      GLIOMA       [high]  ✗ → glioma
+  [972/1000] BraTS-MEN-01390-000                      MENINGIOMA   [high]  ✓
+  [973/1000] BraTS-MEN-01392-000                      MENINGIOMA   [medium]  ✓
+  [974/1000] BraTS-MEN-01396-000                      MENINGIOMA   [high]  ✓
+  [975/1000] BraTS-MEN-01399-000                      MENINGIOMA   [high]  ✓
+  [976/1000] BraTS-MEN-01401-000                      MENINGIOMA   [high]  ✓
+  [977/1000] BraTS-MEN-01403-000                      MENINGIOMA   [high]  ✓
+  [978/1000] BraTS-MEN-01404-000                      MENINGIOMA   [high]  ✓
+  [979/1000] BraTS-MEN-01407-000                      GLIOMA       [medium]  ✗ → glioma
+  [980/1000] BraTS-MEN-01408-000                      GLIOMA       [medium]  ✗ → glioma
+  [981/1000] BraTS-MEN-01409-000                      MENINGIOMA   [high]  ✓
+  [982/1000] BraTS-MEN-01411-000                      GLIOMA       [medium]  ✗ → glioma
+  [983/1000] BraTS-MEN-01414-000                      GLIOMA       [medium]  ✗ → glioma
+  [984/1000] BraTS-MEN-01416-000                      MENINGIOMA   [high]  ✓
+  [985/1000] BraTS-MEN-01417-000                      MENINGIOMA   [high]  ✓
+  [986/1000] BraTS-MEN-01419-000                      GLIOMA       [high]  ✗ → glioma
+  [987/1000] BraTS-MEN-01420-000                      MENINGIOMA   [high]  ✓
+  [988/1000] BraTS-MEN-01421-000                      MENINGIOMA   [high]  ✓
+  [989/1000] BraTS-MEN-01422-000                      MENINGIOMA   [high]  ✓
+  [990/1000] BraTS-MEN-01423-000                      MENINGIOMA   [high]  ✓
+  [991/1000] BraTS-MEN-01424-000                      MENINGIOMA   [high]  ✓
+  [992/1000] BraTS-MEN-01426-000                      MENINGIOMA   [high]  ✓
+  [993/1000] BraTS-MEN-01429-000                      MENINGIOMA   [high]  ✓
+  [994/1000] BraTS-MEN-01430-000                      GLIOMA       [high]  ✗ → glioma
+  [995/1000] BraTS-MEN-01431-000                      MENINGIOMA   [high]  ✓
+  [996/1000] BraTS-MEN-01432-000                      MENINGIOMA   [high]  ✓
+  [997/1000] BraTS-MEN-01433-000                      MENINGIOMA   [medium]  ✓
+  [998/1000] BraTS-MEN-01434-000                      MENINGIOMA   [high]  ✓
+  [999/1000] BraTS-MEN-01435-000                      MENINGIOMA   [high]  ✓
+  [1000/1000] BraTS-MEN-01435-001                      MENINGIOMA   [high]  ✓
+
+=======================================================
+  INFERENCE SUMMARY
+=======================================================
+  Total patients   : 1000
+  Predictions      : {'meningioma': 903, 'glioma': 97}
+  Correct          : 903/1000 = 90.3%
+  Saved to         : meningioma_inference_20260528_0914.csv
+=======================================================
+
